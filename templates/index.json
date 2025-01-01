@@ -12,7 +12,7 @@
     "hero": {
       "type": "section-hero",
       "settings": {
-        "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners_5.png",
+        "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners_4.png",
         "link": "",
         "width": "wrapper--full",
         "height": "screen-height-full",
@@ -1096,7 +1096,7 @@
         "description": "Tell your brand's story through images.",
         "text_font_size": "body-medium",
         "enable_quick_add": true,
-        "color_product_bg": "#F5F2EC",
+        "color_product_bg": "#f5f2ec",
         "color_product_text": "#212121",
         "width": "wrapper--full",
         "height": "screen-height-three-quarters",
