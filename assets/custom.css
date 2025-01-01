@@ -1,3 +1,8 @@
 :root {
     --FONT-STACK-HEADING: "Bellefair", serif!important;
 }
+
+.navlink--grandchild {
+    text-transform: none;
+    letter-spacing: 0px!important;
+}
