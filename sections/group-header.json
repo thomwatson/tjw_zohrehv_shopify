@@ -42,7 +42,7 @@
         "logo": "{{ shop.brand.logo }}",
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
-        "main_menu_linklist": "main-menu",
+        "main_menu_linklist": "new-main-menu",
         "mobile_menu_linklist": "",
         "enable_search": true,
         "show_social_icons": true,
