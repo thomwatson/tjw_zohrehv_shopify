@@ -12,10 +12,10 @@
     "hero": {
       "type": "section-hero",
       "settings": {
-        "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners_4.png",
+        "image_1": "shopify://shop_images/Diamond_Starburst_Ring_in_9_k_Gold.jpg",
         "link": "",
         "width": "wrapper--full",
-        "height": "screen-height-full",
+        "height": "sixty-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
         "mobile_height": "screen-height-full--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
