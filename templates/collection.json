@@ -40,7 +40,7 @@
         "text_alignment": "text-center",
         "layout": "",
         "width": "wrapper--full",
-        "height": "image-height",
+        "height": "four-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-1",
