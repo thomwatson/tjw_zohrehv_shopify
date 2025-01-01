@@ -97,7 +97,7 @@
       "settings": {
         "show_product_count": false,
         "title": "",
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-large",
         "text": "",
         "text_font_size": "body-medium",
         "layout": "inline",
