@@ -33,7 +33,7 @@
       "settings": {
         "header_sticky": true,
         "header_style": "logo_center_menu_left",
-        "show_separator_line": false,
+        "show_separator_line": true,
         "header_border_color": "",
         "separator_opacity": 50,
         "show_icons": true,
@@ -45,7 +45,7 @@
         "main_menu_linklist": "new-main-menu",
         "mobile_menu_linklist": "",
         "enable_search": true,
-        "show_social_icons": true,
+        "show_social_icons": false,
         "button_text": "",
         "button_link": "",
         "button_type": "btn--primary",
