@@ -64,9 +64,9 @@
             "link_text": "Shop All",
             "link": "shopify://collections/earrings",
             "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
           }
         },
         "collection-1": {
