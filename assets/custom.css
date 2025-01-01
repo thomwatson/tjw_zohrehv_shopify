@@ -9,5 +9,5 @@
 
 body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):not(:has([data-prevent-transparent-header])) [data-header-transparent]:not(.meganav--visible):not(.js__header__stuck) .theme__header.has-border {
     backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
 }
