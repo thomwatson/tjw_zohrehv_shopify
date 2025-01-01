@@ -87,12 +87,52 @@
             "button_style": "btn--solid",
             "show_arrow": true
           }
+        },
+        "collection_FV9rLT": {
+          "type": "collection",
+          "settings": {
+            "title": "Necklaces",
+            "featured_collection": "necklaces",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "<h3>{{ block.settings.featured_collection.title }}</h3>",
+            "color": "#fcfbf9",
+            "link_text": "Shop All",
+            "link": "shopify://collections/necklaces",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "collection_rpjXUm": {
+          "type": "collection",
+          "settings": {
+            "title": "Bracelets",
+            "featured_collection": "bracelets",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "<h3>{{ block.settings.featured_collection.title }}</h3>",
+            "color": "#fcfbf9",
+            "link_text": "Shop All",
+            "link": "shopify://collections/bracelets",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
         }
       },
       "block_order": [
         "collection_WTEqnT",
         "collection_qdGpDf",
-        "collection_KrPdQp"
+        "collection_KrPdQp",
+        "collection_FV9rLT",
+        "collection_rpjXUm"
       ],
       "settings": {
         "show_product_count": false,
