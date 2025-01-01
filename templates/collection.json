@@ -9,8 +9,49 @@
  */
 {
   "sections": {
+    "section_double_ThRhfx": {
+      "type": "section-double",
+      "blocks": {
+        "heading_BbXcAH": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_gxfqY7": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_BbXcAH",
+        "text_gxfqY7"
+      ],
+      "settings": {
+        "image_1": "{{ collection.image }}",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "hero": {
       "type": "collection-image-with-title",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "show_description": true,
@@ -58,6 +99,7 @@
     }
   },
   "order": [
+    "section_double_ThRhfx",
     "hero",
     "subcollections",
     "main"
