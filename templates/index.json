@@ -31,6 +31,25 @@
     "section-tab-collections": {
       "type": "section-tab-collections",
       "blocks": {
+        "collection_dVqQ4Y": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "most-popular",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -68,31 +87,12 @@
             "button_style": "btn--solid",
             "show_arrow": false
           }
-        },
-        "collection_dVqQ4Y": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "most-popular",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "description": "",
-            "color": "",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
         }
       },
       "block_order": [
+        "collection_dVqQ4Y",
         "collection-1",
-        "collection-3",
-        "collection_dVqQ4Y"
+        "collection-3"
       ],
       "settings": {
         "show_product_count": false,
@@ -103,12 +103,12 @@
         "layout": "inline",
         "layout_desktop": "slider",
         "layout_mobile": "2",
-        "product_limit": 7,
+        "product_limit": 12,
         "grid": 4,
         "rows": 3,
-        "color_scheme": "",
-        "padding_top": 62,
-        "padding_bottom": 62,
+        "color_scheme": "scheme-1",
+        "padding_top": 25,
+        "padding_bottom": 25,
         "heading_tag": "automatic"
       }
     },
