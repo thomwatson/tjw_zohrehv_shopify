@@ -11,3 +11,9 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(10px);
 }
+
+@media only screen and (min-width: 990px) {
+    .grid--slider {
+        --item-width: calc((70vw - var(--scrollbar-width) - var(--outer)* 2)* .28);
+    }
+}
