@@ -34,7 +34,7 @@
         "collection_dVqQ4Y": {
           "type": "collection",
           "settings": {
-            "title": "",
+            "title": "Most Loved",
             "featured_collection": "most-popular",
             "show_image": false,
             "align_with_product_images": false,
@@ -106,13 +106,33 @@
             "button_style": "btn--solid",
             "show_arrow": false
           }
+        },
+        "collection_BXXdkL": {
+          "type": "collection",
+          "settings": {
+            "title": "Pendants",
+            "featured_collection": "pendants",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
         }
       },
       "block_order": [
         "collection_dVqQ4Y",
         "collection_WTEqnT",
         "collection-1",
-        "collection-3"
+        "collection-3",
+        "collection_BXXdkL"
       ],
       "settings": {
         "show_product_count": false,
