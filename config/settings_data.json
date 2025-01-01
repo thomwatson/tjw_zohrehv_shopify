@@ -58,6 +58,7 @@
     "show_scroll_top_button": true,
     "instagram_link": "https://instagram.com/shopify",
     "tiktok_link": "https://tiktok.com/@shopify",
+    "product_grid_font_size": "body-small",
     "product_grid_center": true,
     "overlay_text": false,
     "image_hover_limit": 2,
