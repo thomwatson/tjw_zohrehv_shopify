@@ -62,7 +62,7 @@
     "product_grid_center": true,
     "overlay_text": false,
     "image_hover_limit": 2,
-    "product_grid_aspect_ratio": 1.1,
+    "product_grid_aspect_ratio": 1,
     "sale_bg_color": "{{ shop.brand.colors.primary[0].background }}",
     "sale_text_color": "#ffffff",
     "badge_bg_color": "#ffffff",
