@@ -28,329 +28,88 @@
         "show_placeholder": true
       }
     },
-    "text-with-products": {
-      "type": "section-text-with-products",
+    "section-tab-collections": {
+      "type": "section-tab-collections",
       "blocks": {
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "all",
-            "image_position": 3,
-            "aspect_ratio": 0.6,
-            "width": 120,
-            "mobile_aspect_ratio": 0.5,
-            "mobile_width": 100
+            "title": "",
+            "featured_collection": "rings",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white hero__btn",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
           }
         },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "image_position": 7,
-            "aspect_ratio": 0.6,
-            "width": 120,
-            "mobile_aspect_ratio": 0.5,
-            "mobile_width": 100
-          }
-        },
-        "collection-2": {
+        "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "rings",
-            "image_position": 9,
-            "aspect_ratio": 0.6,
-            "width": 120,
-            "mobile_aspect_ratio": 0.5,
-            "mobile_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "product",
-        "collection-2"
-      ],
-      "settings": {
-        "subheading": "",
-        "heading": "Highlight products, a collection or images alongside a brand message",
-        "width": "wrapper--full-padded",
-        "text_font_size_px_desktop": 40,
-        "text_align_desktop": "text-center",
-        "text_font_size_px_mobile": 24,
-        "text_align_mobile": "text-left--mobile",
-        "color_scheme": "",
-        "padding_top": 60,
-        "padding_bottom": 40
-      }
-    },
-    "columns-1": {
-      "type": "section-columns",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "title": "Modern Statement",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--secondary hero__btn",
+            "title": "",
+            "featured_collection": "necklaces",
+            "show_image": true,
+            "align_with_product_images": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white hero__btn",
             "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": true,
-            "image_aspect_ratio": 1.1,
-            "mobile_image_aspect_ratio": 1.2,
-            "heading_tag": "automatic"
+            "button_style": "btn--solid",
+            "show_arrow": false
           }
         },
-        "image-2": {
-          "type": "image",
+        "collection_dVqQ4Y": {
+          "type": "collection",
           "settings": {
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--secondary hero__btn",
+            "title": "",
+            "featured_collection": "most-popular",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
             "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": true,
-            "image_aspect_ratio": 1.1,
-            "mobile_image_aspect_ratio": 1.2,
-            "heading_tag": "automatic"
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "shopify://collections/all",
-            "button_type": "btn--secondary hero__btn",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": true,
-            "image_aspect_ratio": 1.1,
-            "mobile_image_aspect_ratio": 1.2,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2",
-        "image-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper--full-padded",
-        "align_columns": "flex-align-top",
-        "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "1",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 62,
-        "heading_tag": "automatic"
-      }
-    },
-    "announcement-1": {
-      "type": "section-announcement",
-      "blocks": {
-        "text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Make an announcement</strong> | More info</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "image_width": 130
-          }
-        },
-        "text-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Make an announcement</strong> | More info</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image_width": 110
-          }
-        },
-        "text-3": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Make an announcement</strong> | More info</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "image_width": 110
-          }
-        }
-      },
-      "block_order": [
-        "text-1",
-        "image-1",
-        "text-2",
-        "image-2",
-        "text-3",
-        "image-3"
-      ],
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "countdown-timer": {
-      "type": "section-countdown-timer",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Countdown is on"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Shop Before It Ends",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic"
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Shop now",
-            "button_url": "",
-            "button_type": "btn--white",
-            "button_size": "btn--large",
             "button_style": "btn--outline",
             "show_arrow": false
           }
         }
       },
       "block_order": [
-        "subheading",
-        "heading",
-        "buttons"
+        "collection-1",
+        "collection-3",
+        "collection_dVqQ4Y"
       ],
       "settings": {
-        "end_date": "2024-10-30",
-        "end_time": "11:59",
-        "period": "am",
-        "end_message": "<p>Offer has expired</p>",
-        "hide_on_complete": true,
-        "digits_font_size": "heading-x-large",
-        "text_font_size": "body-small",
-        "width": "wrapper",
-        "text_align": "text-left",
-        "height": "three-hundred-height-hero",
-        "mobile_height": "three-hundred-height-hero--mobile",
-        "text_align_mobile": "text-center--mobile",
+        "show_product_count": false,
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "layout_desktop": "slider",
+        "layout_mobile": "2",
+        "product_limit": 7,
+        "grid": 4,
+        "rows": 3,
         "color_scheme": "",
-        "digits_gradient": "",
-        "overlay_opacity": 0,
-        "show_overlay_text": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "double": {
-      "type": "section-double",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 6
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Image with text",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 24
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "show_collection_card": true,
-            "collection_1": "",
-            "button_text_1": "",
-            "collection_2": "",
-            "button_text_2": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "collection"
-      ],
-      "settings": {
-        "image_width": "one-half",
-        "text_alignment": "text-center",
-        "layout": "",
-        "width": "wrapper--full-padded",
-        "height": "sixty-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "",
-        "padding_top": 82,
-        "padding_bottom": 82,
-        "show_placeholder": true
+        "padding_top": 62,
+        "padding_bottom": 62,
+        "heading_tag": "automatic"
       }
     },
     "announcement-2": {
@@ -436,91 +195,6 @@
         "color_scheme": "",
         "padding_top": 14,
         "padding_bottom": 14
-      }
-    },
-    "section-tab-collections": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "rings",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 5,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white hero__btn",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white hero__btn",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "featured_collection": "necklaces",
-            "show_image": true,
-            "align_with_product_images": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "",
-            "color": "#ffffff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white hero__btn",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "show_product_count": false,
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "text": "",
-        "text_font_size": "body-medium",
-        "layout": "inline",
-        "layout_desktop": "slider",
-        "layout_mobile": "2",
-        "product_limit": 7,
-        "grid": 4,
-        "rows": 3,
-        "color_scheme": "",
-        "padding_top": 62,
-        "padding_bottom": 62,
-        "heading_tag": "automatic"
       }
     },
     "section-product": {
@@ -1441,13 +1115,8 @@
   },
   "order": [
     "hero",
-    "text-with-products",
-    "columns-1",
-    "announcement-1",
-    "countdown-timer",
-    "double",
-    "announcement-2",
     "section-tab-collections",
+    "announcement-2",
     "section-product",
     "rich-text-columns",
     "rich-text-1",
