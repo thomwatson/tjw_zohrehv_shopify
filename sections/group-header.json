@@ -30,34 +30,9 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "toolbar": {
-          "type": "toolbar",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Toolbar</p>",
-            "menu": "",
-            "show_border": false,
-            "border_color": "",
-            "border_opacity": 50,
-            "show_social_links": true,
-            "show_gift_card": true,
-            "show_locale_selector": true,
-            "show_country_selector": true,
-            "show_country_name": false,
-            "show_country_flag": true,
-            "color_scheme": "",
-            "padding_top": 0,
-            "padding_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "toolbar"
-      ],
       "settings": {
-        "header_sticky": false,
-        "header_style": "drawer",
+        "header_sticky": true,
+        "header_style": "logo_center_menu_left",
         "show_separator_line": false,
         "header_border_color": "",
         "separator_opacity": 50,
@@ -67,7 +42,7 @@
         "logo": "{{ shop.brand.logo }}",
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
-        "main_menu_linklist": "",
+        "main_menu_linklist": "main-menu",
         "mobile_menu_linklist": "",
         "enable_search": true,
         "show_social_icons": true,
@@ -75,12 +50,12 @@
         "button_link": "",
         "button_type": "btn--primary",
         "show_locale_selector": true,
-        "show_country_selector": true,
+        "show_country_selector": false,
         "show_country_name": false,
-        "show_country_flag": true,
+        "show_country_flag": false,
         "highlight_item": "Sale",
-        "highlight_item_color": "#D02E2E",
-        "transparent_home": false,
+        "highlight_item_color": "#d02e2e",
+        "transparent_home": true,
         "transparent_collection": false,
         "transparent_article": false,
         "transparent_page": false,
