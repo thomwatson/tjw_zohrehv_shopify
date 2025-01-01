@@ -37,7 +37,7 @@
       "settings": {
         "image_1": "{{ collection.image }}",
         "image_width": "one-half",
-        "text_alignment": "text-left",
+        "text_alignment": "text-center",
         "layout": "",
         "width": "wrapper--full",
         "height": "image-height",
