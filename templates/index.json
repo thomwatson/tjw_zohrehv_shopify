@@ -28,32 +28,6 @@
         "show_placeholder": true
       }
     },
-    "section_collection_meUh6E": {
-      "type": "section-collection",
-      "settings": {
-        "featured_collection": "most-popular",
-        "heading": "Best Sellers",
-        "heading_font_size": "heading-medium",
-        "description": "",
-        "text_font_size": "body-medium",
-        "layout": "inline",
-        "link_text": "Shop Now",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "layout_desktop": "slider",
-        "grid": 6,
-        "rows": 1,
-        "width": "wrapper",
-        "layout_mobile": "slider",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section-tab-collections": {
       "type": "section-tab-collections",
       "blocks": {
@@ -71,6 +45,25 @@
             "link_text": "View products",
             "link": "",
             "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_WTEqnT": {
+          "type": "collection",
+          "settings": {
+            "title": "Earrings",
+            "featured_collection": "earrings",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--outline",
             "show_arrow": false
@@ -117,6 +110,7 @@
       },
       "block_order": [
         "collection_dVqQ4Y",
+        "collection_WTEqnT",
         "collection-1",
         "collection-3"
       ],
@@ -1141,7 +1135,6 @@
   },
   "order": [
     "hero",
-    "section_collection_meUh6E",
     "section-tab-collections",
     "announcement-2",
     "section-product",
