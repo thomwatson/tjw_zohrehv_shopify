@@ -112,7 +112,7 @@
           "settings": {
             "title": "Pendants",
             "featured_collection": "pendants",
-            "show_image": true,
+            "show_image": false,
             "align_with_product_images": false,
             "overlay_opacity": 0,
             "overlay_color": "",
