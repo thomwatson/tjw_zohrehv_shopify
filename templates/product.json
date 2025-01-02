@@ -12,12 +12,13 @@
     "main": {
       "type": "product",
       "blocks": {
-        "title": {
-          "type": "title",
+        "text_FUpLWh": {
+          "type": "text",
           "settings": {
-            "subheading_option": "collection",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 8
+            "title": "",
+            "text": "<h1>{{ product.metafields.custom.display_name.value }}</h1><p>{{ product.metafields.custom.subtitle.value }}</p><p></p>",
+            "layout": "left",
+            "padding_bottom": 16
           }
         },
         "price": {
@@ -117,7 +118,7 @@
         }
       },
       "block_order": [
-        "title",
+        "text_FUpLWh",
         "price",
         "variants",
         "buttons",
