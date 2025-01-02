@@ -21,6 +21,13 @@
             "padding_bottom": 16
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-x-large",
+            "padding_bottom": 16
+          }
+        },
         "icon_1": {
           "type": "icon",
           "settings": {
@@ -54,13 +61,6 @@
             "text": "<p>12 Month Warranty</p>",
             "text_font_size": "body-small",
             "width": "full",
-            "padding_bottom": 16
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         },
@@ -154,10 +154,10 @@
       },
       "block_order": [
         "text_FUpLWh",
+        "price",
         "icon_1",
         "icon_bjpEbT",
         "icon_Mimtf8",
-        "price",
         "variants",
         "buttons",
         "description_7XC4NK",
