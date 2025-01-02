@@ -28,10 +28,6 @@
             "padding_bottom": 26
           }
         },
-        "wishlist_wishify_product_ajEzDd": {
-          "type": "shopify://apps/wishlist-wishify/blocks/product/e14a43b5-34c6-492d-b46f-3ad2eda08696",
-          "settings": {}
-        },
         "icon_1": {
           "type": "icon",
           "settings": {
@@ -90,6 +86,10 @@
             "padding_bottom": 16
           }
         },
+        "wishlist_wishify_product_ajEzDd": {
+          "type": "shopify://apps/wishlist-wishify/blocks/product/e14a43b5-34c6-492d-b46f-3ad2eda08696",
+          "settings": {}
+        },
         "description_7XC4NK": {
           "type": "description",
           "settings": {
@@ -144,12 +144,12 @@
       "block_order": [
         "text_FUpLWh",
         "price",
-        "wishlist_wishify_product_ajEzDd",
         "icon_1",
         "icon_bjpEbT",
         "icon_Mimtf8",
         "variants",
         "buttons",
+        "wishlist_wishify_product_ajEzDd",
         "description_7XC4NK",
         "accordion_xiUmaA",
         "accordion_QjY6Le",
