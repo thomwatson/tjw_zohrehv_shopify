@@ -112,21 +112,7 @@
             "default_open": false,
             "heading": "Good To Know",
             "text": "<p>{{ product.metafields.custom.know | metafield_tag }}</p>",
-            "padding_bottom": 0
-          }
-        },
-        "pickup": {
-          "type": "pickup",
-          "disabled": true,
-          "settings": {
-            "padding_bottom": 32
-          }
-        },
-        "divider_1": {
-          "type": "divider",
-          "settings": {
-            "show_line": true,
-            "padding_bottom": 16
+            "padding_bottom": 26
           }
         },
         "upsell": {
@@ -136,18 +122,6 @@
             "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
             "show_avaialable_upsell_only": true,
             "bg_color": "",
-            "padding_bottom": 16
-          }
-        },
-        "icon_2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-truck",
-            "icon_size": 20,
-            "icon_color": "",
-            "text": "<p>Title</p>",
-            "text_font_size": "body-medium",
-            "width": "full",
             "padding_bottom": 16
           }
         }
@@ -163,10 +137,7 @@
         "description_7XC4NK",
         "accordion_xiUmaA",
         "accordion_F8dzJ8",
-        "pickup",
-        "divider_1",
-        "upsell",
-        "icon_2"
+        "upsell"
       ],
       "settings": {
         "product_sticky_enable": true,
