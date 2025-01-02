@@ -139,6 +139,9 @@
         "accordion_F8dzJ8",
         "upsell"
       ],
+      "custom_css": [
+        ".product-upsell__holder__title {text-transform: capitalize;}"
+      ],
       "settings": {
         "product_sticky_enable": true,
         "variant_image_scroll": true,
