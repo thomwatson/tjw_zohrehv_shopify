@@ -85,7 +85,7 @@
           "type": "upsell",
           "settings": {
             "upsell_product": "",
-            "upsell_product_list": "{{ block.settings.upsell_product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
             "show_avaialable_upsell_only": false,
             "bg_color": "",
             "padding_bottom": 16
