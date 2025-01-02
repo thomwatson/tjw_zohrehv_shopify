@@ -50,29 +50,40 @@
             "padding_bottom": 32
           }
         },
+        "description_7XC4NK": {
+          "type": "description",
+          "settings": {
+            "show_read_more": true,
+            "padding_bottom": 0
+          }
+        },
+        "accordion_xiUmaA": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "Measurements",
+            "text": "<p>{{ product.metafields.custom.measurements | metafield_tag }}</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_F8dzJ8": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "Good To Know",
+            "text": "<p>{{ product.metafields.custom.know | metafield_tag }}</p>",
+            "padding_bottom": 0
+          }
+        },
         "pickup": {
           "type": "pickup",
           "disabled": true,
           "settings": {
             "padding_bottom": 32
-          }
-        },
-        "tabs": {
-          "type": "tab_richtext",
-          "settings": {
-            "show_description": true,
-            "show_read_more": false,
-            "title_1": "Tab",
-            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "title_2": "Info",
-            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
-            "title_3": "",
-            "raw_content_3": "",
-            "title_4": "",
-            "raw_content_4": "",
-            "title_5": "",
-            "raw_content_5": "",
-            "padding_bottom": 0
           }
         },
         "divider_1": {
@@ -122,8 +133,10 @@
         "price",
         "variants",
         "buttons",
+        "description_7XC4NK",
+        "accordion_xiUmaA",
+        "accordion_F8dzJ8",
         "pickup",
-        "tabs",
         "divider_1",
         "upsell",
         "icon_1",
