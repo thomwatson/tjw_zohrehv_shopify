@@ -290,7 +290,7 @@
         "limit": 5,
         "scrolling_styles": "vertical",
         "horizontal_scroll": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-6",
         "padding_top": 0,
         "padding_bottom": 0
       }
