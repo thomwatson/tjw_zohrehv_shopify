@@ -241,6 +241,23 @@
         "show_placeholder": true
       }
     },
+    "1735842924a3a84aad": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_EGXQD6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1920
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_EGXQD6"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
     "section_blog_LBErWp": {
       "type": "section-blog",
       "settings": {
@@ -264,21 +281,18 @@
         "title_tag": "automatic"
       }
     },
-    "1735842924a3a84aad": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_EGXQD6": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1920
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_EGXQD6"
-      ],
+    "section_product_EeQRed": {
+      "type": "section-product",
       "settings": {
-        "include_margins": false
+        "product": "celestial-white-sapphire-opal-band-ring-9k-gold",
+        "show_product_card": true,
+        "layout": "",
+        "limit": 5,
+        "scrolling_styles": "vertical",
+        "horizontal_scroll": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -287,7 +301,8 @@
     "section-tab-collections",
     "text-row",
     "hero-product",
+    "1735842924a3a84aad",
     "section_blog_LBErWp",
-    "1735842924a3a84aad"
+    "section_product_EeQRed"
   ]
 }
