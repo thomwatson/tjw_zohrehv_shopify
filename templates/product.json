@@ -274,56 +274,6 @@
         "padding_bottom": 0
       }
     },
-    "about": {
-      "type": "section-accordion",
-      "blocks": {
-        "about-0": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "aspect_ratio": 0.6
-          }
-        },
-        "about-1": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "aspect_ratio": 0.6
-          }
-        },
-        "about-2": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "aspect_ratio": 0.6
-          }
-        }
-      },
-      "block_order": [
-        "about-0",
-        "about-1",
-        "about-2"
-      ],
-      "settings": {
-        "default_open": false,
-        "title": "About us",
-        "heading_font_size": "heading-small",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "width": "wrapper",
-        "color_scheme": "",
-        "icon_color": "",
-        "padding_top": 0,
-        "padding_bottom": 30
-      }
-    },
     "custom": {
       "type": "section-custom-content",
       "blocks": {
@@ -493,7 +443,6 @@
     "main",
     "faq",
     "shipping",
-    "about",
     "custom",
     "imgtxt",
     "related"
