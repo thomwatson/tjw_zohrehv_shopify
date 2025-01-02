@@ -241,69 +241,12 @@
         "show_placeholder": true
       }
     },
-    "section_collection_XHfKcU": {
-      "type": "section-collection",
-      "settings": {
-        "featured_collection": "gold-chains",
-        "heading": "",
-        "heading_font_size": "heading-medium",
-        "description": "",
-        "text_font_size": "body-medium",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "layout_desktop": "slider",
-        "grid": 4,
-        "rows": 3,
-        "width": "wrapper",
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "heading_tag": "automatic"
-      }
-    },
     "section_divider_VqLUEw": {
       "type": "section-divider",
       "settings": {
         "show_line": true,
         "width": "wrapper--full",
         "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "1735842924a3a84aad": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_EGXQD6": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1920
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_EGXQD6"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "section_product_EeQRed": {
-      "type": "section-product",
-      "settings": {
-        "product": "celestial-diamond-band-ring-9k-gold",
-        "show_product_card": true,
-        "layout": "",
-        "limit": 2,
-        "scrolling_styles": "vertical",
-        "horizontal_scroll": false,
-        "color_scheme": "scheme-6",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -337,10 +280,7 @@
     "section-tab-collections",
     "text-row",
     "hero-product",
-    "section_collection_XHfKcU",
     "section_divider_VqLUEw",
-    "1735842924a3a84aad",
-    "section_product_EeQRed",
     "section_blog_LBErWp"
   ]
 }
