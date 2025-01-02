@@ -330,7 +330,7 @@
             "show_social_links": false,
             "text_columns": 1,
             "align_text": "text-left",
-            "bg_color": "#f7f7f7",
+            "bg_color": "#ededed",
             "color": "",
             "heading_tag": "automatic"
           }
@@ -372,7 +372,7 @@
             "show_social_links": false,
             "text_columns": 1,
             "align_text": "text-left",
-            "bg_color": "#f7f7f7",
+            "bg_color": "#ededed",
             "color": "",
             "heading_tag": "automatic"
           }
