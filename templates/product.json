@@ -396,10 +396,10 @@
         "imgtxt-0": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
-            "title": "Another feature",
+            "subheading": "Meet Our Founder",
+            "title": "Luisa Vasseghi",
             "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text": "<p>Founded by jewellery expert, Luisa Vasseghi, Zohreh V. creates timeless, sustainably crafted pieces that never fade or tarnish. </p><p>Named after Vasseghi's elegant Persian aunt, our London-designed jewellery combines traditional Persian influences with modern versatility, perfect for everyday layering. Our mission is simple: to create beautiful, lasting pieces you'll never want to take off.</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -418,6 +418,7 @@
         "imgtxt-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/LuisaPortrait5101_9c6d09a9-cf06-4618-b87a-837d7c0b8b94.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
