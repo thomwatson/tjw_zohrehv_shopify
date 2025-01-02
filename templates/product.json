@@ -25,7 +25,7 @@
           "type": "price",
           "settings": {
             "text_font_size": "body-x-large",
-            "padding_bottom": 16
+            "padding_bottom": 26
           }
         },
         "icon_1": {
@@ -61,7 +61,7 @@
             "text": "<p>12 Month Warranty</p>",
             "text_font_size": "body-small",
             "width": "full",
-            "padding_bottom": 16
+            "padding_bottom": 26
           }
         },
         "variants": {
