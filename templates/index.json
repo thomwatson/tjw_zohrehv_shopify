@@ -28,71 +28,6 @@
         "show_placeholder": true
       }
     },
-    "text-row": {
-      "type": "section-text-row",
-      "blocks": {
-        "icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-recycle",
-            "icon_size": 25,
-            "icon_color": "rgba(0,0,0,0)",
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "<p>We only use recycled solid metals so they are 100% waterproof and life proof and can be worn all day every day.</p>",
-            "text_font_size": "body-small",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-flare",
-            "icon_size": 25,
-            "icon_color": "rgba(0,0,0,0)",
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "<p>Luisa founded Zohreh V. as she was tired of spending money on jewellery that would not last. Lorem ipsum dolor sit amet.</p>",
-            "text_font_size": "body-small",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-donation",
-            "icon_size": 30,
-            "icon_color": "rgba(0,0,0,0)",
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "<p>All our pieces are designed in the UK by a team with a combined 50+ years in the jewellery industry. Lorem ipsum dolor.</p>",
-            "text_font_size": "body-small",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "icon-2",
-        "icon-1",
-        "icon-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-center",
-        "align_text": "text-center",
-        "icon_alignment": "icon--top",
-        "width": "wrapper",
-        "align_columns": "flex-align-top",
-        "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "1",
-        "color_scheme": "scheme-3",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section-tab-collections": {
       "type": "section-tab-collections",
       "blocks": {
@@ -217,6 +152,71 @@
         "heading_tag": "automatic"
       }
     },
+    "text-row": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_size": 25,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "<p>We only use recycled solid metals so they are 100% waterproof and life proof and can be worn all day every day.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 25,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "<p>Luisa founded Zohreh V. as she was tired of spending money on jewellery that would not last. Lorem ipsum dolor sit amet.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-donation",
+            "icon_size": 30,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "<p>All our pieces are designed in the UK by a team with a combined 50+ years in the jewellery industry. Lorem ipsum dolor.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon-2",
+        "icon-1",
+        "icon-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "scheme-3",
+        "padding_top": 75,
+        "padding_bottom": 75,
+        "heading_tag": "automatic"
+      }
+    },
     "hero-product": {
       "type": "section-hero-product",
       "settings": {
@@ -241,256 +241,6 @@
         "show_placeholder": true
       }
     },
-    "rich-text-2": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 6
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "subheading-2": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading-1",
-        "heading",
-        "subheading-2"
-      ],
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--full-padded",
-        "color_scheme": "",
-        "overlay_opacity": 0,
-        "show_overlay_text": false,
-        "padding_top": 100,
-        "padding_bottom": 32
-      }
-    },
-    "timeline": {
-      "type": "section-timeline",
-      "blocks": {
-        "timeline-1": {
-          "type": "timeline",
-          "settings": {
-            "subheading": "2010",
-            "title": "Launch day",
-            "heading_font_size": "heading-large",
-            "text": "<p>We celebrated our first step in the ecommerce world by selling our very first product.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--black",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "timeline-2": {
-          "type": "timeline",
-          "settings": {
-            "subheading": "2010",
-            "title": "Launch day",
-            "heading_font_size": "heading-large",
-            "text": "<p>We celebrated our first step in the ecommerce world by selling our very first product.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--black",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "timeline-3": {
-          "type": "timeline",
-          "settings": {
-            "subheading": "2010",
-            "title": "Launch day",
-            "heading_font_size": "heading-large",
-            "text": "<p>We celebrated our first step in the ecommerce world by selling our very first product.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--black",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "timeline-1",
-        "timeline-2",
-        "timeline-3"
-      ],
-      "settings": {
-        "show_images": true,
-        "title": "",
-        "heading_font_size": "heading-large",
-        "text": "",
-        "text_font_size": "body-medium",
-        "text_alignment": "text-left",
-        "width": "wrapper--full",
-        "mobile_height": "screen-height-one-half--mobile",
-        "color_scheme": "",
-        "dot_background": "",
-        "padding_top": 32,
-        "padding_bottom": 62,
-        "heading_tag": "automatic"
-      }
-    },
-    "rich-text-3": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 6
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading"
-      ],
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--full-padded",
-        "color_scheme": "",
-        "overlay_opacity": 0,
-        "show_overlay_text": false,
-        "padding_top": 32,
-        "padding_bottom": 0
-      }
-    },
-    "columns-2": {
-      "type": "section-columns",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--black hero__btn",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--black hero__btn",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--black hero__btn",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image-4": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2",
-        "image-3",
-        "image-4"
-      ],
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper--full-padded",
-        "align_columns": "flex-align-center",
-        "layout": "grid",
-        "grid": 4,
-        "layout_mobile": "2",
-        "color_scheme": "",
-        "padding_top": 15,
-        "padding_bottom": 60,
-        "heading_tag": "automatic"
-      }
-    },
     "press-logos": {
       "type": "section-press-logos",
       "disabled": true,
@@ -506,13 +256,9 @@
   },
   "order": [
     "hero",
-    "text-row",
     "section-tab-collections",
+    "text-row",
     "hero-product",
-    "rich-text-2",
-    "timeline",
-    "rich-text-3",
-    "columns-2",
     "press-logos"
   ]
 }
