@@ -111,7 +111,7 @@
             "show_read_more": false,
             "default_open": false,
             "heading": "Piercing Placement",
-            "text": "<p>How you wear your Zohreh V. pieces is up to you. We recommend the {{ product.metafields.custom.display_name.value }} for:</p><p></p>{{ product.metafields.custom.piercing | metafield_tag }}",
+            "text": "<p>How you wear your loved Zohreh V. pieces is up to you. We recommend the {{ product.metafields.custom.display_name.value }} for:</p><p></p>{{ product.metafields.custom.piercing | metafield_tag }}",
             "padding_bottom": 0
           }
         },
