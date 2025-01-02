@@ -34,7 +34,7 @@
         "icon-2": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-donation",
+            "icon_name": "icon-recycle",
             "icon_size": 30,
             "icon_color": "rgba(0,0,0,0)",
             "title": "",
@@ -60,7 +60,7 @@
         "icon-3": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-chat",
+            "icon_name": "icon-donation",
             "icon_size": 30,
             "icon_color": "rgba(0,0,0,0)",
             "title": "",
