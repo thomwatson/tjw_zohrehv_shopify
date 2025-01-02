@@ -28,6 +28,42 @@
             "padding_bottom": 16
           }
         },
+        "icon_1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 25,
+            "icon_color": "",
+            "text": "<p>Free UK Delivery Over £150</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
+        "icon_bjpEbT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-heart",
+            "icon_size": 25,
+            "icon_color": "",
+            "text": "<p>All Recycled & Solid Metals</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
+        "icon_Mimtf8": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 25,
+            "icon_color": "",
+            "text": "<p>Year Warranty</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
         "variants": {
           "type": "variants",
           "settings": {
@@ -103,18 +139,6 @@
             "padding_bottom": 16
           }
         },
-        "icon_1": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-email",
-            "icon_size": 20,
-            "icon_color": "",
-            "text": "<p>Title</p>",
-            "text_font_size": "body-medium",
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
         "icon_2": {
           "type": "icon",
           "settings": {
@@ -131,6 +155,9 @@
       "block_order": [
         "text_FUpLWh",
         "price",
+        "icon_1",
+        "icon_bjpEbT",
+        "icon_Mimtf8",
         "variants",
         "buttons",
         "description_7XC4NK",
@@ -139,7 +166,6 @@
         "pickup",
         "divider_1",
         "upsell",
-        "icon_1",
         "icon_2"
       ],
       "settings": {
