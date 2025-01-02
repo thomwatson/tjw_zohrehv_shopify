@@ -51,7 +51,7 @@
     "dots_style": "line",
     "icon_style": "1",
     "show_gray_bg": false,
-    "parallax_enable": true,
+    "parallax_enable": false,
     "parallax_strength": 20,
     "product_grid_outline": false,
     "enable_superscript": true,
