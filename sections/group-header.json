@@ -42,8 +42,8 @@
         "text_font_size": "body-small",
         "color_scheme": "scheme-2",
         "border_color": "",
-        "padding_top": 7,
-        "padding_bottom": 7
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "header": {
