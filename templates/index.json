@@ -19,7 +19,7 @@
         "flex_align_desktop": "align--middle-center-desktop",
         "mobile_height": "screen-height-full--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "show_text_background": false,
         "overlay_opacity": 60,
         "show_overlay_text": true,
