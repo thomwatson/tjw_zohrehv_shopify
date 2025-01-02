@@ -13,6 +13,24 @@
   "sections": {
     "announcement": {
       "type": "announcement",
+      "blocks": {
+        "message_GDtqma": {
+          "type": "message",
+          "settings": {
+            "show_wheel": false,
+            "message": "You are ||amount|| away from free shipping.",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "message_GDtqma"
+      ],
       "settings": {
         "show_border": false,
         "layout": "slider",
