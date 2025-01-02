@@ -85,8 +85,8 @@
           "type": "upsell",
           "settings": {
             "upsell_product": "",
-            "upsell_product_list": [],
-            "show_avaialable_upsell_only": false,
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
+            "show_avaialable_upsell_only": true,
             "bg_color": "",
             "padding_bottom": 16
           }
