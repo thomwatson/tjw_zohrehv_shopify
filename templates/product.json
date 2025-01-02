@@ -104,6 +104,17 @@
             "padding_bottom": 0
           }
         },
+        "accordion_QjY6Le": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "Piercing Placement",
+            "text": "<p>How you wear your Zohreh V. pieces is up to you. We recommend the {{ product.metafields.custom.display_name.value }} for:</p><p></p>{{ product.metafields.custom.piercing | metafield_tag }}",
+            "padding_bottom": 0
+          }
+        },
         "accordion_F8dzJ8": {
           "type": "accordion",
           "settings": {
@@ -136,6 +147,7 @@
         "buttons",
         "description_7XC4NK",
         "accordion_xiUmaA",
+        "accordion_QjY6Le",
         "accordion_F8dzJ8",
         "upsell"
       ],
