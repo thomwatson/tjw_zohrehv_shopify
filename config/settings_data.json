@@ -175,9 +175,9 @@
       },
       "scheme-5": {
         "settings": {
-          "section_text": "#d8d2b3",
-          "section_bg": "#868154",
-          "section_bg_light": "#f5f2ec",
+          "section_text": "#ffffff",
+          "section_bg": "#bfad88",
+          "section_bg_light": "rgba(0,0,0,0)",
           "section_bg_gradient": "",
           "btn_primary_bg": "#212121",
           "btn_primary_text": "#ffffff",
