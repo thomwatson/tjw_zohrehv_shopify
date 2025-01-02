@@ -61,7 +61,7 @@
             "text": "<p>12 Month Warranty</p>",
             "text_font_size": "body-small",
             "width": "full",
-            "padding_bottom": 26
+            "padding_bottom": 32
           }
         },
         "variants": {
@@ -149,7 +149,7 @@
         "image_size": "normal",
         "mobile_image_style": "thumbs",
         "color_scheme": "",
-        "padding_top": 90,
+        "padding_top": 30,
         "padding_bottom": 30
       }
     },
