@@ -52,6 +52,18 @@
             "padding_bottom": 8
           }
         },
+        "icon_HLXCGU": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-tree",
+            "icon_size": 25,
+            "icon_color": "",
+            "text": "<p>Designed in London</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
         "icon_Mimtf8": {
           "type": "icon",
           "settings": {
@@ -142,6 +154,7 @@
         "price",
         "icon_1",
         "icon_bjpEbT",
+        "icon_HLXCGU",
         "icon_Mimtf8",
         "variants",
         "buttons",
