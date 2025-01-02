@@ -17,3 +17,7 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
         --item-width: calc((70vw - var(--scrollbar-width) - var(--outer)* 2)* .28)!important;
     }
 }
+
+.navlink--cart--icon .header__cart__status {
+    color: white;
+}
