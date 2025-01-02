@@ -19,5 +19,5 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 }
 
 .navlink--cart--icon .header__cart__status {
-    color: white;
+    color: white!important;
 }
