@@ -664,6 +664,9 @@
           {%- else -%}
             {{ title | default: default_title }}
           {%- endif -%}</p>
+          {%- if product.metafields.custom.subtitle != blank -%}
+            <subtitle>{{ product.metafields.custom.subtitle }}</subtitle>
+          {%- endif -%}
 
           <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
             {%- if any_sibling_cutline or product_item_cutline != blank -%}

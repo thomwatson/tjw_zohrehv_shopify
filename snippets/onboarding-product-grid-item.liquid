@@ -81,6 +81,9 @@
     {{ title | default: default_title }}
   {%- endif -%}
 </p>
+{%- if product.metafields.custom.subtitle != blank -%}
+  <subtitle>{{ product.metafields.custom.subtitle }}</subtitle>
+{%- endif -%}
       <span class="price">{{ onboarding_price }}</span>
     </a>
   </div>

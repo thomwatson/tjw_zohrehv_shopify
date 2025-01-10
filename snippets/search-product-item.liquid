@@ -109,6 +109,9 @@
               {{ title | default: default_title }}
             {%- endif -%}
           </p>
+          {%- if product.metafields.custom.subtitle != blank -%}
+            <subtitle>{{ product.metafields.custom.subtitle }}</subtitle>
+          {%- endif -%}
 
           {%- render 'product-grid-price' product: product, current_variant: current_variant -%}
           </div>
