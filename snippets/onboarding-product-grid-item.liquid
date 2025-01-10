@@ -74,7 +74,13 @@
       data-aos-duration="{{ aos_duration }}"
       data-aos-anchor="{{ aos_anchor }}">
       {%- assign default_title = 'home_page.onboarding.product_title' | t -%}
-      <p class="product-item__title">{{ title | default: default_title }}</p>
+      <p class="product-item__title">
+  {%- if product.metafields.custom.display_name != blank -%}
+    {{ product.metafields.custom.display_name }}
+  {%- else -%}
+    {{ title | default: default_title }}
+  {%- endif -%}
+</p>
       <span class="price">{{ onboarding_price }}</span>
     </a>
   </div>
