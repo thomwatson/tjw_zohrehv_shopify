@@ -659,7 +659,11 @@
       data-product-information>
       <div class="product-item__info {{ settings.product_grid_font_size }}">
         <a class="product-link" href="{{ product_url }}" data-product-link="{{ product_url }}">
-          <p class="product-item__title">{{ product.title | strip_html | escape }}</p>
+          <p class="product-item__title">  {%- if product.metafields.custom.display_name != blank -%}
+            {{ product.metafields.custom.display_name }}
+          {%- else -%}
+            {{ title | default: default_title }}
+          {%- endif -%}</p>
 
           <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
             {%- if any_sibling_cutline or product_item_cutline != blank -%}
