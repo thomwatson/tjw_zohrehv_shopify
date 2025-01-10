@@ -662,7 +662,7 @@
           <p class="product-item__title">  {%- if product.metafields.custom.display_name != blank -%}
             {{ product.metafields.custom.display_name }}
           {%- else -%}
-           TEST
+            {{ title | default: default_title }}
           {%- endif -%}</p>
 
           <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
