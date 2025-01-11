@@ -96,12 +96,10 @@
             "padding_bottom": 16
           }
         },
-        "text_Pzz3Ni": {
-          "type": "text",
+        "code_xeeqze": {
+          "type": "code",
           "settings": {
-            "title": "",
-            "text": "<p><strong>The </strong><strong>{{ product.metafields.custom.display_name.value }}</strong><strong> is available to pre-order and will be dispatched on </strong><strong>{{ product.metafields.custom.preorder_date | metafield_tag }}</strong><strong>.</strong></p>",
-            "layout": "left",
+            "code": "The {{ product.metafields.custom.display_name.value }} is available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | metafield_tag }}.",
             "padding_bottom": 16
           }
         },
@@ -165,7 +163,7 @@
         "price",
         "variants",
         "buttons",
-        "text_Pzz3Ni",
+        "code_xeeqze",
         "description_7XC4NK",
         "accordion_xiUmaA",
         "accordion_QjY6Le",
