@@ -662,7 +662,7 @@
           <p class="product-item__title">  {%- if product.metafields.custom.display_name != blank -%}
             {{ product.metafields.custom.display_name }}
           {%- else -%}
-            {{ title | default: default_title }}
+            {{ product.title }}
           {%- endif -%}</p>
           {%- if product.metafields.custom.subtitle != blank -%}
             <subtitle>{{ product.metafields.custom.subtitle }}</subtitle>

@@ -73,12 +73,12 @@
       data-aos-delay="{{ aos_delay }}"
       data-aos-duration="{{ aos_duration }}"
       data-aos-anchor="{{ aos_anchor }}">
-      {%- assign default_title = 'home_page.onboarding.product_title' | t -%}
+    
       <p class="product-item__title">
   {%- if product.metafields.custom.display_name != blank -%}
     {{ product.metafields.custom.display_name }}
   {%- else -%}
-    {{ title | default: default_title }}
+    {{ product.title }}
   {%- endif -%}
 </p>
 {%- if product.metafields.custom.subtitle != blank -%}
