@@ -21,3 +21,16 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 .navlink--cart--icon .header__cart__status {
     color: white!important;
 }
+
+.product-item__title {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top:5px;
+}
+
+.product-link subtitle {
+    opacity: 0.5;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 4px;
+}
