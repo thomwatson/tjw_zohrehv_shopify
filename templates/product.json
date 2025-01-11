@@ -19,13 +19,6 @@
             "padding_bottom": 24
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "text_font_size": "body-large",
-            "padding_bottom": 26
-          }
-        },
         "icon_1": {
           "type": "icon",
           "settings": {
@@ -72,6 +65,13 @@
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 32
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-large",
+            "padding_bottom": 26
           }
         },
         "variants": {
@@ -158,11 +158,11 @@
       },
       "block_order": [
         "code_y4VCV4",
-        "price",
         "icon_1",
         "icon_bjpEbT",
         "icon_HLXCGU",
         "icon_Mimtf8",
+        "price",
         "variants",
         "buttons",
         "text_Pzz3Ni",
