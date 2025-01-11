@@ -103,6 +103,13 @@
             "padding_bottom": 16
           }
         },
+        "code_ji8NqK": {
+          "type": "code",
+          "settings": {
+            "code": "{%- if product.metafields.custom.integer_field == 1 -%}\n  Sold as single\n{%- elsif product.metafields.custom.integer_field == 2 -%}\n  Sold as double\n{%- elsif product.metafields.custom.integer_field == 3 -%}\n  Sold as triple\n{%- elsif product.metafields.custom.integer_field >= 4 -%}\n  Sold as set of {{ product.metafields.custom.integer_field }}\n{%- endif -%}",
+            "padding_bottom": 16
+          }
+        },
         "description_7XC4NK": {
           "type": "description",
           "settings": {
@@ -164,6 +171,7 @@
         "variants",
         "buttons",
         "code_xeeqze",
+        "code_ji8NqK",
         "description_7XC4NK",
         "accordion_xiUmaA",
         "accordion_QjY6Le",
