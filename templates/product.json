@@ -71,7 +71,14 @@
           "type": "price",
           "settings": {
             "text_font_size": "body-large",
-            "padding_bottom": 26
+            "padding_bottom": 8
+          }
+        },
+        "code_ji8NqK": {
+          "type": "code",
+          "settings": {
+            "code": "<div class=\"sold-as-count\">\n  {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n    Sold as single\n  {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n    Sold as double\n  {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n    Sold as triple\n  {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n    Sold as set of {{ product.metafields.custom.sold_as_quantity }}\n  {%- endif -%}\n</div>",
+            "padding_bottom": 32
           }
         },
         "variants": {
@@ -100,13 +107,6 @@
           "type": "code",
           "settings": {
             "code": "{%- if product.metafields.custom.preorder_date != blank -%}\n  <p>The {{ product.metafields.custom.display_name.value }} is available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | metafield_tag }}.</p>\n{%- endif -%}",
-            "padding_bottom": 16
-          }
-        },
-        "code_ji8NqK": {
-          "type": "code",
-          "settings": {
-            "code": "<div class=\"sold-as-count\">\n  {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n    Sold as single\n  {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n    Sold as double\n  {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n    Sold as triple\n  {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n    Sold as set of {{ product.metafields.custom.sold_as_quantity }}\n  {%- endif -%}\n</div>",
             "padding_bottom": 16
           }
         },
@@ -168,10 +168,10 @@
         "icon_HLXCGU",
         "icon_Mimtf8",
         "price",
+        "code_ji8NqK",
         "variants",
         "buttons",
         "code_xeeqze",
-        "code_ji8NqK",
         "description_7XC4NK",
         "accordion_xiUmaA",
         "accordion_QjY6Le",
