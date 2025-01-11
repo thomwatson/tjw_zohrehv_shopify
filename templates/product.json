@@ -99,7 +99,7 @@
         "code_xeeqze": {
           "type": "code",
           "settings": {
-            "code": "The {{ product.metafields.custom.display_name.value }} is available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | metafield_tag }}.",
+            "code": "{%- if product.metafields.custom.preorder_date != blank -%}\n  <p>The {{ product.metafields.custom.display_name.value }} is available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | metafield_tag }}.</p>\n{%- endif -%}",
             "padding_bottom": 16
           }
         },
