@@ -13,11 +13,13 @@
 
 
 .sold-as-count {
-    display: flex;
-    align-items: center;
+    display: block;
     font-size: var(--font-body-x-small);
-    color: var(--COLOR-SALE);
-  }
+    color: var(--BTN-PRIMARY-TEXT);
+    background-color: var(--BTN-SECONDARY-BG);
+    width: fit-content;
+    padding: 10px 15px;
+}
   
 .navlink--grandchild {
     text-transform: none;
