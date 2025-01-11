@@ -7,6 +7,10 @@
     letter-spacing: 0.1em!important;
 }
 
+.product__block subtitle {
+    opacity: 0.6;
+}
+
 .navlink--grandchild {
     text-transform: none;
     letter-spacing: 0px!important;
