@@ -12,12 +12,10 @@
     "main": {
       "type": "product",
       "blocks": {
-        "text_FUpLWh": {
-          "type": "text",
+        "code_y4VCV4": {
+          "type": "code",
           "settings": {
-            "title": "",
-            "text": "<h1>{{ product.metafields.custom.display_name.value }}</h1><p>{{ product.metafields.custom.subtitle.value }}</p><p></p>",
-            "layout": "left",
+            "code": "{%- if product.metafields.custom.display_name != blank -%}\n    <h1>{{ product.metafields.custom.display_name }}</h1>\n  {%- else -%}\n    <h1>{{ product.title }}</h1>\n  {%- endif -%}\n</p>\n{%- if product.metafields.custom.subtitle != blank -%}\n  <subtitle>{{ product.metafields.custom.subtitle }}</subtitle>\n{%- endif -%}",
             "padding_bottom": 16
           }
         },
@@ -159,7 +157,7 @@
         }
       },
       "block_order": [
-        "text_FUpLWh",
+        "code_y4VCV4",
         "price",
         "icon_1",
         "icon_bjpEbT",
