@@ -106,7 +106,7 @@
         "code_ji8NqK": {
           "type": "code",
           "settings": {
-            "code": "{%- if product.metafields.custom.integer_field == 1 -%}\n  Sold as single\n{%- elsif product.metafields.custom.integer_field == 2 -%}\n  Sold as double\n{%- elsif product.metafields.custom.integer_field == 3 -%}\n  Sold as triple\n{%- elsif product.metafields.custom.integer_field >= 4 -%}\n  Sold as set of {{ product.metafields.custom.integer_field }}\n{%- endif -%}",
+            "code": "<div class=\"sold-as-count\">\n  {%- if product.metafields.custom.integer_field == 1 -%}\n    Sold as single\n  {%- elsif product.metafields.custom.integer_field == 2 -%}\n    Sold as double\n  {%- elsif product.metafields.custom.integer_field == 3 -%}\n    Sold as triple\n  {%- elsif product.metafields.custom.integer_field >= 4 -%}\n    Sold as set of {{ product.metafields.custom.integer_field }}\n  {%- endif -%}\n</div>",
             "padding_bottom": 16
           }
         },
