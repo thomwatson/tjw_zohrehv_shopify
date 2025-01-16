@@ -14,18 +14,18 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Cart"
+          }
+        },
         "cart-message": {
           "type": "cart-message",
           "settings": {
             "cart_custom_message_text": "<p>Use coupon code <strong>HELLOFRIEND</strong> for 10% off your first order.</p>",
             "cart_custom_message_color": "",
             "pin_to_bottom": false
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "title": "Cart"
           }
         },
         "free-shipping": {
@@ -72,14 +72,17 @@
         }
       },
       "block_order": [
-        "cart-message",
         "title",
+        "cart-message",
         "free-shipping",
         "products",
         "upsell-products",
         "order-note",
         "gift-note",
         "checkout-buttons"
+      ],
+      "custom_css": [
+        "* {font-size: 13px;}"
       ],
       "settings": {
         "color_scheme": ""
