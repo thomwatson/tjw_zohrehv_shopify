@@ -23,7 +23,7 @@
         "text_AnCbte": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. roin efficitur pharetra libero sit amet iaculis. Donec pretium, eros at dapibus porta</p>",
             "text_font_size": "body-small"
           }
         },
