@@ -15,7 +15,7 @@
         "code_y4VCV4": {
           "type": "code",
           "settings": {
-            "code": "{%- if product.metafields.custom.display_name != blank -%}\n    <h1 style=\"font-size: var(--font-heading-medium);\">{{ product.metafields.custom.display_name }}</h1>\n  {%- else -%}\n    <h1>{{ product.title }}</h1>\n  {%- endif -%}\n\n{%- if product.metafields.custom.subtitle != blank -%}\n  <subtitle>{{ product.metafields.custom.subtitle }}</subtitle>\n{%- endif -%}",
+            "code": "{%- if product.metafields.custom.display_name != blank -%}\n    <h1 style=\"font-size: var(--font-heading-medium);\">{{ product.metafields.custom.display_name }}</h1>\n  {%- else -%}\n    <h1 style=\"font-size: var(--font-heading-medium);\"> {{ product.title }}</h1>\n  {%- endif -%}\n\n{%- if product.metafields.custom.subtitle != blank -%}\n  <subtitle>{{ product.metafields.custom.subtitle }}</subtitle>\n{%- endif -%}",
             "padding_bottom": 24
           }
         },
