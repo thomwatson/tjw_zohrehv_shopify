@@ -293,6 +293,59 @@
         "show_placeholder": true
       }
     },
+    "section_products_image_WtaGYf": {
+      "type": "section-products-image",
+      "blocks": {
+        "image_RyUU6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pink_Tourmaline_Diamond_Moonstone_Earring_Charm_solid_9k_Gold.jpg",
+            "mobile_height": "screen-height-one-half--mobile",
+            "title": "Earring Charms",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur pharetra libero sit amet iaculis. Donec pretium, eros at dapibus porta, nibh eros ullamcorper diam, quis lacinia magna nunc at dui.</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "show_overlay_text": true,
+            "link_text": "discover more",
+            "link": "shopify://collections/earring-charms",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "heading_tag": "automatic"
+          }
+        },
+        "products_tzdcd8": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "amethyst-trillion-earring-charm-sterling-silver",
+              "baroque-pearl-earring-charm-sterling-silver",
+              "australian-opal-white-sapphire-detail-diamond-earring-charm-sterling-silver",
+              "copper-turquoise-earring-charm-9k-gold"
+            ],
+            "layout_mobile": "slider"
+          }
+        }
+      },
+      "block_order": [
+        "image_RyUU6d",
+        "products_tzdcd8"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_divider_VqLUEw": {
       "type": "section-divider",
       "settings": {
@@ -350,6 +403,7 @@
     "text-row",
     "section_products_image_8eUpAT",
     "hero-product",
+    "section_products_image_WtaGYf",
     "section_divider_VqLUEw",
     "section_blog_LBErWp",
     "1737068764ea90cc81"
