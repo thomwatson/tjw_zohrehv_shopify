@@ -11,15 +11,48 @@
   "sections": {
     "hero": {
       "type": "section-hero",
+      "blocks": {
+        "heading_T6QRCc": {
+          "type": "heading",
+          "settings": {
+            "title": "Timeless Pieces",
+            "heading_font_size": "heading-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_AnCbte": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "text_font_size": "body-medium"
+          }
+        },
+        "button_tYRCMX": {
+          "type": "button",
+          "settings": {
+            "link_text": "Explore Rings",
+            "link": "shopify://collections/rings",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_T6QRCc",
+        "text_AnCbte",
+        "button_tYRCMX"
+      ],
       "settings": {
         "image_1": "shopify://shop_images/Diamond_Starburst_Ring_in_9_k_Gold.jpg",
         "link": "",
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
-        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_desktop": "align--bottom-right-desktop",
         "mobile_height": "screen-height-full--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "show_text_background": false,
         "overlay_opacity": 60,
         "show_overlay_text": true,
