@@ -147,7 +147,7 @@
         "grid": 4,
         "rows": 3,
         "color_scheme": "scheme-1",
-        "padding_top": 50,
+        "padding_top": 30,
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
