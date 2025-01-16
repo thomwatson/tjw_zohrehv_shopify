@@ -106,7 +106,7 @@
         "code_xeeqze": {
           "type": "code",
           "settings": {
-            "code": "{%- if product.metafields.custom.preorder_date != blank -%}\n  <p>The {{ product.metafields.custom.display_name.value }} is available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | metafield_tag }}.</p>\n{%- endif -%}",
+            "code": "{%- if product.metafields.custom.preorder_date != blank -%}\n  <p>The {{ product.metafields.custom.display_name.value }} is available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | metafield_tag }}.</p>\n{%- endif -%}\n\n{%- if product.type == 'Ring' -%}\n  <div class=\"ring-sizer-link\">\n    <a href=\"https://zohrehv.com/pages/ring-size-chart\" class=\"size-guide-link\">\n      Find Your Ring Size →\n    </a>\n  </div>\n{%- endif -%}",
             "padding_bottom": 16
           }
         },
