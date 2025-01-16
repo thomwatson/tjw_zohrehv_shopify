@@ -265,7 +265,7 @@
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
-        "padding_top": 0,
+        "padding_top": 30,
         "padding_bottom": 0
       }
     },
@@ -332,7 +332,7 @@
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 50,
-        "padding_bottom": 0
+        "padding_bottom": 20
       }
     },
     "related": {
