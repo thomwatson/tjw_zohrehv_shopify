@@ -33,9 +33,9 @@
             "link_text": "Explore Rings",
             "link": "shopify://collections/rings",
             "button_type": "btn--white",
-            "button_size": "",
+            "button_size": "btn--small",
             "button_style": "btn--outline",
-            "show_arrow": false
+            "show_arrow": true
           }
         }
       },
