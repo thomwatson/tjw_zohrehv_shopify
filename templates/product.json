@@ -145,7 +145,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "Good To Know",
+            "heading": "Details",
             "text": "<p>{{ product.metafields.custom.know | metafield_tag }}</p>",
             "padding_bottom": 26
           }
