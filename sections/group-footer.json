@@ -11,16 +11,6 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
-    "section_divider_XxUEnp": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full-padded",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 30
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -87,7 +77,6 @@
     }
   },
   "order": [
-    "section_divider_XxUEnp",
     "footer",
     "supporting-menu"
   ]
