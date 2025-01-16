@@ -110,6 +110,10 @@
             "padding_bottom": 16
           }
         },
+        "wrapin_gift_wrap_options_app_block_wgVyzi": {
+          "type": "shopify://apps/wrapin-gift-wrap-options/blocks/app-block/31c9fd89-9221-4847-aeee-86a226a0a620",
+          "settings": {}
+        },
         "code_xeeqze": {
           "type": "code",
           "settings": {
@@ -179,6 +183,7 @@
         "code_hErWJC",
         "variants",
         "buttons",
+        "wrapin_gift_wrap_options_app_block_wgVyzi",
         "code_xeeqze",
         "description_7XC4NK",
         "accordion_xiUmaA",
