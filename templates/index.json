@@ -408,9 +408,9 @@
       "settings": {
         "blog_name": "news",
         "aspect_ratio": 1,
-        "title": "Our Latest Updates",
+        "title": "The Zohreh V. Journal",
         "heading_font_size": "heading-mini",
-        "title_font_size": "heading-x-small",
+        "title_font_size": "heading-mini",
         "show_tags": false,
         "show_author": false,
         "show_date": true,
