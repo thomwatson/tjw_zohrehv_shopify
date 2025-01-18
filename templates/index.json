@@ -267,13 +267,6 @@
     "section_double_LWTjxX": {
       "type": "section-double",
       "blocks": {
-        "divider_rdd9Fa": {
-          "type": "divider",
-          "settings": {
-            "show_line": true,
-            "padding_bottom": 20
-          }
-        },
         "subheading_6b6DhQ": {
           "type": "subheading",
           "settings": {
@@ -312,7 +305,6 @@
         }
       },
       "block_order": [
-        "divider_rdd9Fa",
         "subheading_6b6DhQ",
         "heading_cim8Qi",
         "text_QTPBRX",
