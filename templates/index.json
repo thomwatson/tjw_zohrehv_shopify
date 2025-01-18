@@ -126,20 +126,20 @@
         "collection_qdGpDf": {
           "type": "collection",
           "settings": {
-            "title": "Most Loved",
-            "featured_collection": "most-popular",
+            "title": "huggies",
+            "featured_collection": "huggie-earrings",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
             "overlay_color": "",
-            "description": "<h3>{{ block.settings.featured_collection.title }}</h3>",
+            "description": "<h5>{{ block.settings.featured_collection.title }}</h5>",
             "color": "#fcfbf9",
             "link_text": "Shop All",
-            "link": "shopify://collections/earrings",
+            "link": "shopify://collections/huggie-earrings",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--solid",
-            "show_arrow": true
+            "button_style": "btn--text",
+            "show_arrow": false
           }
         },
         "collection_KrPdQp": {
@@ -797,72 +797,6 @@
         "padding_bottom": 0,
         "heading_tag": "automatic"
       }
-    },
-    "section_sidebar_mVN3RQ": {
-      "type": "section-sidebar",
-      "blocks": {
-        "header_gqtKKk": {
-          "type": "header",
-          "settings": {
-            "title": "Shipping & Returns"
-          }
-        },
-        "accordion_aJdyb9": {
-          "type": "accordion",
-          "settings": {
-            "title": "How much is shipping?",
-            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
-          }
-        },
-        "accordion_URPXaL": {
-          "type": "accordion",
-          "settings": {
-            "title": "What is your return policy?",
-            "content": "<p>We accept returns within 30 days of the purchase date.</p>"
-          }
-        },
-        "header_k6xxhY": {
-          "type": "header",
-          "settings": {
-            "title": "Discount"
-          }
-        },
-        "accordion_6fUw6j": {
-          "type": "accordion",
-          "settings": {
-            "title": "Can I use more than one discount code?",
-            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.</p>"
-          }
-        },
-        "header_hXUPpU": {
-          "type": "header",
-          "settings": {
-            "title": "Contact"
-          }
-        },
-        "text_rRTF8m": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "header_gqtKKk",
-        "accordion_aJdyb9",
-        "accordion_URPXaL",
-        "header_k6xxhY",
-        "accordion_6fUw6j",
-        "header_hXUPpU",
-        "text_rRTF8m"
-      ],
-      "settings": {
-        "heading_font_size": "heading-small",
-        "width": "wrapper--full-padded",
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -882,7 +816,6 @@
     "1737068764ea90cc81",
     "1737069629fd809822",
     "section_accordion_group_nfYneH",
-    "section_look_8t7a9D",
-    "section_sidebar_mVN3RQ"
+    "section_look_8t7a9D"
   ]
 }
