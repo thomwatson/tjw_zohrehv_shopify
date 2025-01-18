@@ -201,6 +201,19 @@
             "heading_tag": "automatic"
           }
         },
+        "icon_jNHap4": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "Piercing Specialists",
+            "heading_font_size": "heading-mini",
+            "text": "<p>Hypoallergenic, Nickel free and Internally threaded our piercing jewellery meets the safe piercing guidelines.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
         "icon-1": {
           "type": "icon",
           "settings": {
@@ -230,6 +243,7 @@
       },
       "block_order": [
         "icon-2",
+        "icon_jNHap4",
         "icon-1",
         "icon-3"
       ],
