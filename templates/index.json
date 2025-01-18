@@ -175,7 +175,7 @@
         "text_font_size": "body-medium",
         "layout": "inline",
         "layout_desktop": "slider",
-        "layout_mobile": "2",
+        "layout_mobile": "slider",
         "product_limit": 5,
         "grid": 2,
         "rows": 2,
@@ -183,6 +183,60 @@
         "padding_top": 30,
         "padding_bottom": 50,
         "heading_tag": "automatic"
+      }
+    },
+    "section_hero_wGTkP6": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_PiEAFU": {
+          "type": "heading",
+          "settings": {
+            "title": "unique style for meaningful moments",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_W47yEj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><em>Unique style for meaningful moments</em></p>",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "button_x66DAK": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PiEAFU",
+        "text_W47yEj",
+        "button_x66DAK"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Zohreh_V._February_0743_low_res.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 15,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "text-row": {
@@ -196,7 +250,7 @@
             "icon_color": "rgba(0,0,0,0)",
             "title": "recycled solid metals",
             "heading_font_size": "heading-mini",
-            "text": "<p>We only use recycled solid metals so they are 100% waterproof and life proof and can be worn all day every day.</p>",
+            "text": "<p>We only use sustainably sourced recycled solid metals so they are 100% waterproof and life proof and can be worn all day every day.</p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
@@ -262,60 +316,6 @@
         "padding_top": 75,
         "padding_bottom": 75,
         "heading_tag": "automatic"
-      }
-    },
-    "section_hero_wGTkP6": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_PiEAFU": {
-          "type": "heading",
-          "settings": {
-            "title": "unique style for meaningful moments",
-            "heading_font_size": "heading-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "text_W47yEj": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><em>Unique style for meaningful moments</em></p>",
-            "text_font_size": "body-x-large"
-          }
-        },
-        "button_x66DAK": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_PiEAFU",
-        "text_W47yEj",
-        "button_x66DAK"
-      ],
-      "settings": {
-        "image_1": "shopify://shop_images/Zohreh_V._February_0743_low_res.jpg",
-        "link": "",
-        "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "scheme-2",
-        "show_text_background": false,
-        "overlay_opacity": 15,
-        "show_overlay_text": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
       }
     },
     "section_divider_FbzQU3": {
@@ -543,9 +543,9 @@
         "show_button": true,
         "show_comments": false,
         "width": "wrapper--full-padded",
-        "grid": 3,
+        "grid": 1,
         "rows": 1,
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "padding_top": 32,
         "padding_bottom": 0,
         "heading_tag": "automatic",
@@ -815,8 +815,8 @@
   "order": [
     "hero",
     "section-tab-collections",
-    "text-row",
     "section_hero_wGTkP6",
+    "text-row",
     "section_divider_FbzQU3",
     "section_double_LWTjxX",
     "section_products_image_8eUpAT",
