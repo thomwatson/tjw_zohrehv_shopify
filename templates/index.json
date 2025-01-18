@@ -222,7 +222,7 @@
             "icon_color": "rgba(0,0,0,0)",
             "title": "",
             "heading_font_size": "heading-small",
-            "text": "<p>Luisa founded Zohreh V. as she was tired of spending money on jewellery that would not last. Lorem ipsum dolor sit amet.</p>",
+            "text": "<p>Luisa founded Zohreh V. as she was tired of spending money on jewellery that would not last. </p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
@@ -256,7 +256,7 @@
         "width": "wrapper",
         "align_columns": "flex-align-top",
         "layout": "grid",
-        "grid": 3,
+        "grid": 4,
         "layout_mobile": "1",
         "color_scheme": "scheme-3",
         "padding_top": 75,
