@@ -217,7 +217,7 @@
         "icon-1": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-flare",
+            "icon_name": "icon-heart",
             "icon_size": 30,
             "icon_color": "rgba(0,0,0,0)",
             "title": "",
