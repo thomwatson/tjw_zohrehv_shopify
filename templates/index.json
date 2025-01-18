@@ -61,32 +61,72 @@
         "show_placeholder": true
       }
     },
+    "section_collections_list_hpLcXN": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_c66YXA": {
+          "type": "collection",
+          "settings": {
+            "collection": "earrings",
+            "title": ""
+          }
+        },
+        "collection_9FcPQp": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalised-gifting",
+            "title": "Personalised"
+          }
+        },
+        "collection_QF9NNy": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "title": ""
+          }
+        },
+        "collection_jm9gt8": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracelets",
+            "title": "Bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "collection_c66YXA",
+        "collection_9FcPQp",
+        "collection_QF9NNy",
+        "collection_jm9gt8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
     "section-tab-collections": {
       "type": "section-tab-collections",
       "blocks": {
-        "collection_WTEqnT": {
-          "type": "collection",
-          "settings": {
-            "title": "Most Loved",
-            "featured_collection": "most-popular",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "description": "<h3>{{ block.settings.featured_collection.title }}</h3>",
-            "color": "#fcfbf9",
-            "link_text": "Shop All",
-            "link": "shopify://collections/most-popular",
-            "button_type": "btn--white",
-            "button_size": "btn--small",
-            "button_style": "btn--solid",
-            "show_arrow": true
-          }
-        },
         "collection_qdGpDf": {
           "type": "collection",
           "settings": {
-            "title": "Earrings",
+            "title": "Most Loved",
             "featured_collection": "earrings",
             "show_image": true,
             "align_with_product_images": false,
@@ -161,7 +201,6 @@
         }
       },
       "block_order": [
-        "collection_WTEqnT",
         "collection_qdGpDf",
         "collection_KrPdQp",
         "collection_FV9rLT",
@@ -173,7 +212,7 @@
         "heading_font_size": "heading-large",
         "text": "",
         "text_font_size": "body-medium",
-        "layout": "inline",
+        "layout": "stacked",
         "layout_desktop": "slider",
         "layout_mobile": "slider",
         "product_limit": 5,
@@ -814,6 +853,7 @@
   },
   "order": [
     "hero",
+    "section_collections_list_hpLcXN",
     "section-tab-collections",
     "section_hero_wGTkP6",
     "text-row",
