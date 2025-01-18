@@ -207,9 +207,9 @@
             "icon_name": "icon-heart",
             "icon_size": 30,
             "icon_color": "rgba(0,0,0,0)",
-            "title": "",
-            "heading_font_size": "heading-small",
-            "text": "<p>Luisa founded Zohreh V. as she was tired of spending money on jewellery that would not last. </p>",
+            "title": "3 year warranty",
+            "heading_font_size": "heading-mini",
+            "text": "<p>For your peace of mind. Quality is important to us.</p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
