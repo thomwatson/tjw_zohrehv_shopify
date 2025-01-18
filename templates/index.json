@@ -145,20 +145,20 @@
         "collection_KrPdQp": {
           "type": "collection",
           "settings": {
-            "title": "Charms",
+            "title": "Earrings Charms",
             "featured_collection": "earring-charms",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
             "overlay_color": "",
-            "description": "<h3>{{ block.settings.featured_collection.title }}</h3>",
+            "description": "<h5>{{ block.settings.featured_collection.title }}</h5>",
             "color": "#fcfbf9",
             "link_text": "Shop All",
             "link": "shopify://collections/earring-charms",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--solid",
-            "show_arrow": true
+            "button_style": "btn--text",
+            "show_arrow": false
           }
         },
         "collection_FV9rLT": {
