@@ -22,7 +22,7 @@
             "heading_font_size": "heading-medium",
             "text": "",
             "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
+            "flex_align": "align--bottom-center",
             "show_text_background": false,
             "bg_color": "#d9cfc5",
             "color": "#ffffff",
