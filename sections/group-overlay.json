@@ -31,7 +31,7 @@
         "free-shipping": {
           "type": "free-shipping",
           "settings": {
-            "message": "You are ||amount|| away from free shipping.",
+            "message": "You are ||amount|| away from free delivery.",
             "free_shipping_gradient": "linear-gradient(228deg, rgba(27, 33, 68, 1) 14%, rgba(27, 33, 68, 1) 83%)",
             "pin_to_bottom": false
           }
