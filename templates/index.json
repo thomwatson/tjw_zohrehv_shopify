@@ -214,32 +214,6 @@
             "heading_tag": "automatic"
           }
         },
-        "icon_iXBr44": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Title",
-            "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_p6pUmg": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Title",
-            "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
         "icon-3": {
           "type": "icon",
           "settings": {
@@ -256,7 +230,7 @@
         "icon_jNHap4": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-flare",
+            "icon_name": "icon-lightning",
             "icon_size": 30,
             "icon_color": "",
             "title": "Piercing Specialists",
@@ -270,8 +244,6 @@
       "block_order": [
         "icon-2",
         "icon-1",
-        "icon_iXBr44",
-        "icon_p6pUmg",
         "icon-3",
         "icon_jNHap4"
       ],
