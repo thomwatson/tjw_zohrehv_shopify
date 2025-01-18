@@ -108,7 +108,7 @@
         "button_url": "shopify://collections",
         "button_type": "btn--primary",
         "button_size": "",
-        "button_style": "btn--solid",
+        "button_style": "btn--outline",
         "show_arrow": false,
         "aspect_ratio": 1,
         "layout": "grid",
@@ -164,39 +164,39 @@
         "collection_FV9rLT": {
           "type": "collection",
           "settings": {
-            "title": "Necklaces",
-            "featured_collection": "necklaces",
+            "title": "flat back earrings",
+            "featured_collection": "flat-back-earrings",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
             "overlay_color": "",
-            "description": "<h3>{{ block.settings.featured_collection.title }}</h3>",
+            "description": "<h5>{{ block.settings.featured_collection.title }}</h5>",
             "color": "#fcfbf9",
             "link_text": "Shop All",
             "link": "shopify://collections/necklaces",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--solid",
-            "show_arrow": true
+            "button_style": "btn--text",
+            "show_arrow": false
           }
         },
         "collection_rpjXUm": {
           "type": "collection",
           "settings": {
-            "title": "Rings",
-            "featured_collection": "rings",
+            "title": "daith earrings",
+            "featured_collection": "daith-piercings",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
             "overlay_color": "",
-            "description": "<h3>{{ block.settings.featured_collection.title }}</h3>",
+            "description": "<h5>{{ block.settings.featured_collection.title }}</h5>",
             "color": "#fcfbf9",
             "link_text": "Shop All",
             "link": "shopify://collections/bracelets",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--solid",
-            "show_arrow": true
+            "button_style": "btn--text",
+            "show_arrow": false
           }
         }
       },
