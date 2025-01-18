@@ -264,6 +264,74 @@
         "heading_tag": "automatic"
       }
     },
+    "section_double_LWTjxX": {
+      "type": "section-double",
+      "blocks": {
+        "divider_rdd9Fa": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "subheading_6b6DhQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_cim8Qi": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_QTPBRX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_bgWzBG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "divider_rdd9Fa",
+        "subheading_6b6DhQ",
+        "heading_cim8Qi",
+        "text_QTPBRX",
+        "buttons_bgWzBG"
+      ],
+      "settings": {
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_products_image_8eUpAT": {
       "type": "section-products-image",
       "blocks": {
@@ -308,9 +376,20 @@
         "products_RGLHJc",
         "image_TFyMwJ"
       ],
+      "disabled": true,
       "settings": {
         "width": "wrapper--full-padded",
         "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_HrtK8B": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
@@ -393,16 +472,6 @@
         "padding_bottom": 50
       }
     },
-    "section_divider_VqLUEw": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_blog_LBErWp": {
       "type": "section-blog",
       "settings": {
@@ -464,18 +533,243 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "section_accordion_group_nfYneH": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_hDUcEL": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "question_KUjXKW": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_JLC4Hy": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_gmNz9n": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_hDUcEL",
+        "question_KUjXKW",
+        "question_JLC4Hy",
+        "question_gmNz9n"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_press_logos_xiX83E": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_header_My7gLd": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo_width": 100,
+            "link": "",
+            "text": "Include a brief quote from a brand that loves your products",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_header_Bzchmw": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo_width": 100,
+            "link": "",
+            "text": "Include a brief quote from a brand that loves your products",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_header_trApf6": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo_width": 100,
+            "link": "",
+            "text": "Include a brief quote from a brand that loves your products",
+            "heading_font_size": "heading-small"
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_header_My7gLd",
+        "logo_item_header_Bzchmw",
+        "logo_item_header_trApf6"
+      ],
+      "settings": {
+        "enable_heading_slider": true,
+        "logo_opacity": 60,
+        "title": "As seen in",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_look_8t7a9D": {
+      "type": "section-look",
+      "blocks": {
+        "product_HCCCLB": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "show_product_card": true,
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "product_TtXQ4g": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "show_product_card": true,
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "product_HCCCLB",
+        "product_TtXQ4g"
+      ],
+      "settings": {
+        "layout": "",
+        "title": "Shop the look",
+        "heading": "",
+        "heading_font_size": "heading-large",
+        "show_dots": true,
+        "products_per_row": "1",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--outline",
+        "show_arrow": false,
+        "enable_aspect_ratio": true,
+        "image_aspect_ratio": 1,
+        "color_scheme": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_sidebar_mVN3RQ": {
+      "type": "section-sidebar",
+      "blocks": {
+        "header_gqtKKk": {
+          "type": "header",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "accordion_aJdyb9": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much is shipping?",
+            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
+          }
+        },
+        "accordion_URPXaL": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of the purchase date.</p>"
+          }
+        },
+        "header_k6xxhY": {
+          "type": "header",
+          "settings": {
+            "title": "Discount"
+          }
+        },
+        "accordion_6fUw6j": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I use more than one discount code?",
+            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.</p>"
+          }
+        },
+        "header_hXUPpU": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "text_rRTF8m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "header_gqtKKk",
+        "accordion_aJdyb9",
+        "accordion_URPXaL",
+        "header_k6xxhY",
+        "accordion_6fUw6j",
+        "header_hXUPpU",
+        "text_rRTF8m"
+      ],
+      "settings": {
+        "heading_font_size": "heading-small",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "hero",
     "section-tab-collections",
     "text-row",
+    "section_double_LWTjxX",
     "section_products_image_8eUpAT",
+    "section_divider_HrtK8B",
     "hero-product",
     "section_products_image_WtaGYf",
-    "section_divider_VqLUEw",
     "section_blog_LBErWp",
     "1737068764ea90cc81",
-    "1737069629fd809822"
+    "1737069629fd809822",
+    "section_accordion_group_nfYneH",
+    "section_press_logos_xiX83E",
+    "section_look_8t7a9D",
+    "section_sidebar_mVN3RQ"
   ]
 }
