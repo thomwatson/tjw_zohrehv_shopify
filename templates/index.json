@@ -334,15 +334,15 @@
         "subheading_6b6DhQ": {
           "type": "subheading",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "Founder & Designer",
             "padding_bottom": 16
           }
         },
         "heading_cim8Qi": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
-            "heading_font_size": "heading-large",
+            "title": "Luisa Vasseghi",
+            "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -350,7 +350,7 @@
         "text_QTPBRX": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>I started Zohreh V. in 2019 pre-Covid because I couldn’t find what I wanted to<br/>wear at an accessible price point in solid gold. I have always been passionate about jewellery from a young age, and it has always held sentimental value to me, whether that is buying a piece to commemorate someone<br/>I have lost or marking a special moment in my life. </p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -358,8 +358,8 @@
         "buttons_bgWzBG": {
           "type": "buttons",
           "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
+            "button_text": "Read more",
+            "button_url": "shopify://pages/about-us",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -375,6 +375,7 @@
         "buttons_bgWzBG"
       ],
       "settings": {
+        "image_1": "shopify://shop_images/IMG_7687c_79c27b9f-25a2-4b92-a715-3ee2b713fb95.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
