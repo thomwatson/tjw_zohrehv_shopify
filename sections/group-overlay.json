@@ -17,7 +17,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "title": "Cart"
+            "title": "basket"
           }
         },
         "cart-message": {
