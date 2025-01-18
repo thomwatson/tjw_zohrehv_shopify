@@ -631,7 +631,7 @@
       "type": "section-blog",
       "settings": {
         "blog_name": "news",
-        "aspect_ratio": 1,
+        "aspect_ratio": 0.5,
         "title": "The Zohreh V. Journal",
         "heading_font_size": "heading-mini",
         "title_font_size": "heading-mini",
