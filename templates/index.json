@@ -114,7 +114,7 @@
         "layout": "grid",
         "grid": 4,
         "layout_mobile": "2",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "padding_top": 32,
         "padding_bottom": 32,
         "heading_tag": "automatic"
@@ -127,7 +127,7 @@
           "type": "collection",
           "settings": {
             "title": "Most Loved",
-            "featured_collection": "earrings",
+            "featured_collection": "most-popular",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
