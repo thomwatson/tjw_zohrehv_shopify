@@ -745,12 +745,23 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "section_divider_FbzQU3": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
     "hero",
     "section-tab-collections",
     "text-row",
+    "section_divider_FbzQU3",
     "section_double_LWTjxX",
     "section_products_image_8eUpAT",
     "section_divider_HrtK8B",
