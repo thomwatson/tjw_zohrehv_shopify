@@ -483,7 +483,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Pink_Tourmaline_Diamond_Moonstone_Earring_Charm_solid_9k_Gold.jpg",
-            "mobile_height": "screen-height-one-half--mobile",
+            "mobile_height": "screen-height-one-third--mobile",
             "title": "Earring Charms",
             "heading_font_size": "heading-medium",
             "text": "<p>Luisa created Earring Charms as an affordable way to switch up your look. No longer do you need to buy a whole new pair of hoops, sold separately these enable you to curate your own personal style. </p>",
@@ -513,7 +513,7 @@
               "moonstone-white-sapphire-sunburst-earring-charm-sterling-silver",
               "pink-tourmaline-diamond-moonstone-earring-charm-9k-gold"
             ],
-            "layout_mobile": "slider"
+            "layout_mobile": "2"
           }
         }
       },
