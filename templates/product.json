@@ -34,7 +34,7 @@
         "icon_bjpEbT": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-heart",
+            "icon_name": "icon-recycle",
             "icon_size": 25,
             "icon_color": "",
             "text": "<p>All Recycled & Solid Metals</p>",
@@ -46,7 +46,7 @@
         "icon_HLXCGU": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-tree",
+            "icon_name": "icon-heart",
             "icon_size": 25,
             "icon_color": "",
             "text": "<p>Designed in London</p>",
