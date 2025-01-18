@@ -143,8 +143,8 @@
         "collection_rpjXUm": {
           "type": "collection",
           "settings": {
-            "title": "Bracelets",
-            "featured_collection": "bracelets",
+            "title": "Rings",
+            "featured_collection": "rings",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
