@@ -231,7 +231,7 @@
           "type": "heading",
           "settings": {
             "title": "unique style for meaningful moments",
-            "heading_font_size": "heading-x-small",
+            "heading_font_size": "heading-small",
             "heading_tag": "automatic"
           }
         },
