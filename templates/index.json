@@ -238,7 +238,7 @@
         "heading_font_size": "heading-x-small",
         "text": "",
         "text_font_size": "body-medium",
-        "layout": "left",
+        "layout": "inline",
         "layout_desktop": "slider",
         "layout_mobile": "slider",
         "product_limit": 5,
@@ -256,7 +256,7 @@
         "heading_PiEAFU": {
           "type": "heading",
           "settings": {
-            "title": "unique style for meaningful moments",
+            "title": "Meaningful Moments",
             "heading_font_size": "heading-small",
             "heading_tag": "automatic"
           }
