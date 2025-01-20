@@ -339,7 +339,7 @@
             "icon_color": "rgba(0,0,0,0)",
             "title": "recycled solid metals",
             "heading_font_size": "heading-mini",
-            "text": "<p>We only use sustainably sourced recycled solid metals so they are 100% waterproof and life proof and can be worn all day every day.</p>",
+            "text": "<p>Sustainably sourced recycled solid metals. 100% waterproof and life proof. To be worn all day, every day.</p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
@@ -393,8 +393,8 @@
       "settings": {
         "title": "",
         "heading_font_size": "heading-medium",
-        "align_heading": "text-center",
-        "align_text": "text-center",
+        "align_heading": "text-left",
+        "align_text": "text-left",
         "icon_alignment": "icon--top",
         "width": "wrapper--full-padded",
         "align_columns": "flex-align-top",
@@ -402,8 +402,8 @@
         "grid": 4,
         "layout_mobile": "2",
         "color_scheme": "scheme-3",
-        "padding_top": 75,
-        "padding_bottom": 75,
+        "padding_top": 45,
+        "padding_bottom": 61,
         "heading_tag": "automatic"
       }
     },
@@ -601,8 +601,8 @@
         "text_alignment": "text-left",
         "layout": "",
         "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-3",
         "padding_top": 0,
