@@ -208,9 +208,9 @@
       ],
       "settings": {
         "show_product_count": false,
-        "title": "curate your ear style",
+        "title": "Curate Your Ear",
         "heading_font_size": "heading-medium",
-        "text": "<p>Choose your hoop, then your charm and work your way up to cartilage piercings...</p>",
+        "text": "",
         "text_font_size": "body-medium",
         "layout": "left",
         "layout_desktop": "slider",
@@ -218,8 +218,8 @@
         "product_limit": 5,
         "grid": 2,
         "rows": 2,
-        "color_scheme": "scheme-1",
-        "padding_top": 30,
+        "color_scheme": "scheme-3",
+        "padding_top": 40,
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
