@@ -146,7 +146,7 @@
             "show_read_more": false,
             "default_open": false,
             "heading": "Details",
-            "text": "<p>{{ product.metafields.custom.know | metafield_tag }}</p>{{ product.metafields.custom.piercing | metafield_tag }}",
+            "text": "<p>{{ product.metafields.custom.know | metafield_tag }}</p>",
             "padding_bottom": 26
           }
         },
