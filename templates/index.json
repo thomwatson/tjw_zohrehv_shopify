@@ -139,7 +139,7 @@
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": true
           }
         },
         "collection_KrPdQp": {
