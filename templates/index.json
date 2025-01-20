@@ -584,7 +584,7 @@
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false,
+            "show_arrow": true,
             "padding_bottom": 16
           }
         }
@@ -602,7 +602,7 @@
         "layout": "",
         "width": "wrapper--full",
         "height": "five-fifty-height-hero",
-        "mobile_height": "four-fifty-height-hero--mobile",
+        "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-3",
         "padding_top": 0,
