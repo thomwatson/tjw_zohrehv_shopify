@@ -11,9 +11,9 @@
   "current": {
     "color_scheme": "scheme-1",
     "menu_bg_color": "#d9cfc5",
-    "header_link": "#212121",
-    "submenu_bg_color": "#212121",
-    "submenu_link_color": "#212121",
+    "header_link": "#000000",
+    "submenu_bg_color": "#d9cfc5",
+    "submenu_link_color": "#000000",
     "menu_transparent_color": "#fafafa",
     "sale_color": "#212121",
     "type_nav_font": "futura_n4",
