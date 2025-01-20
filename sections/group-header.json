@@ -74,6 +74,7 @@
         "show_country_flag": false,
         "highlight_item": "Sale",
         "highlight_item_color": "#1b2144",
+        "transparent_logo": "shopify://shop_images/Zohreh_Logo_font_only_WHITE_FOR_WEB_5f65fa53-7355-448c-803c-6f3ea556ae83.png",
         "transparent_home": true,
         "transparent_collection": false,
         "transparent_article": false,
