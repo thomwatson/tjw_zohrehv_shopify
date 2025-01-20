@@ -116,7 +116,7 @@
         "layout_mobile": "2",
         "color_scheme": "scheme-1",
         "padding_top": 50,
-        "padding_bottom": 15,
+        "padding_bottom": 30,
         "heading_tag": "automatic"
       }
     },
@@ -125,16 +125,16 @@
       "settings": {
         "featured_collection": "most-popular",
         "heading": "most loved",
-        "heading_font_size": "heading-small",
+        "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
         "layout": "inline",
         "link_text": "",
-        "link_url": "",
+        "link_url": "shopify://collections/bestsellers-1",
         "button_type": "btn--primary",
         "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
+        "button_style": "btn--outline",
+        "show_arrow": true,
         "layout_desktop": "slider",
         "grid": 4,
         "rows": 3,
@@ -142,7 +142,7 @@
         "layout_mobile": "slider",
         "color_scheme": "scheme-3",
         "padding_top": 35,
-        "padding_bottom": 50,
+        "padding_bottom": 22,
         "heading_tag": "automatic"
       }
     },
