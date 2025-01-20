@@ -793,18 +793,6 @@
         "include_margins": false
       }
     },
-    "section_accordion_group_nfYneH": {
-      "type": "section-accordion-group",
-      "settings": {
-        "heading_font_size": "heading-medium",
-        "question_font_size": "heading-small",
-        "width": "wrapper",
-        "columns": "1",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "section_double_LWTjxX": {
       "type": "section-double",
       "blocks": {
@@ -989,7 +977,6 @@
     "section_products_image_WtaGYf",
     "section_blog_LBErWp",
     "1737068764ea90cc81",
-    "section_accordion_group_nfYneH",
     "section_double_LWTjxX",
     "section_look_8t7a9D",
     "section_reviews_iTrDNX"
