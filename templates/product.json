@@ -84,7 +84,7 @@
         "code_hErWJC": {
           "type": "code",
           "settings": {
-            "code": "{%- if product.type == 'Ring' -%}\n  <div class=\"ring-sizer-link\">\n    <a href=\"https://zohrehv.com/pages/ring-size-chart\" class=\"size-guide-link\">\n      Find Your Ring Size →\n    </a>\n  </div>\n{%- endif -%}",
+            "code": "{%- if product.type == 'Ring' -%}\n  <div class=\"ring-sizer-link\">\n    <a href=\"{{ pages[23936434227].url }}\" class=\"size-guide-link\">\n      Find Your Ring Size →\n    </a>\n  </div>\n{%- endif -%}",
             "padding_bottom": 16
           }
         },
