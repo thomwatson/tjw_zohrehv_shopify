@@ -1785,5 +1785,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".product-item__info.body-small {padding-left: 0px; padding-right: 0;}"
+    ]
   }
 }
