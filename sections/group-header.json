@@ -46,7 +46,7 @@
       ],
       "settings": {
         "show_border": false,
-        "layout": "marquee",
+        "layout": "slider",
         "slider_speed": 5,
         "text_alignment": "center",
         "show_arrows": true,
