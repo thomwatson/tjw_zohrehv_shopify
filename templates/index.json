@@ -209,7 +209,7 @@
       "settings": {
         "show_product_count": false,
         "title": "Curate Your Ear",
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-x-small",
         "text": "",
         "text_font_size": "body-medium",
         "layout": "left",
