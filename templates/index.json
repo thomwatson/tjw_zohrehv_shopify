@@ -418,7 +418,7 @@
         "logo_item_header_xgYpCH"
       ],
       "settings": {
-        "enable_heading_slider": false,
+        "enable_heading_slider": true,
         "logo_opacity": 100,
         "title": "As seen in",
         "color_scheme": "",
