@@ -390,6 +390,15 @@
             "heading_font_size": "heading-small"
           }
         },
+        "logo_item_text_Wngybx": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo_width": 100,
+            "link": "",
+            "text": "",
+            "text_font_size": "body-x-large"
+          }
+        },
         "logo_item_header_xgYpCH": {
           "type": "logo-item-header",
           "settings": {
@@ -405,11 +414,12 @@
         "logo_item_header_My7gLd",
         "logo_item_header_Bzchmw",
         "logo_item_header_trApf6",
+        "logo_item_text_Wngybx",
         "logo_item_header_xgYpCH"
       ],
       "settings": {
-        "enable_heading_slider": true,
-        "logo_opacity": 60,
+        "enable_heading_slider": false,
+        "logo_opacity": 100,
         "title": "As seen in",
         "color_scheme": "",
         "padding_top": 50,
@@ -788,56 +798,6 @@
     },
     "section_accordion_group_nfYneH": {
       "type": "section-accordion-group",
-      "blocks": {
-        "heading_hDUcEL": {
-          "type": "heading",
-          "settings": {
-            "title": "FAQ"
-          }
-        },
-        "question_KUjXKW": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_JLC4Hy": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_gmNz9n": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_hDUcEL",
-        "question_KUjXKW",
-        "question_JLC4Hy",
-        "question_gmNz9n"
-      ],
       "settings": {
         "heading_font_size": "heading-medium",
         "question_font_size": "heading-small",
@@ -902,93 +862,6 @@
         "dot_background": "",
         "padding_top": 0,
         "padding_bottom": 0,
-        "heading_tag": "automatic"
-      }
-    },
-    "section_highlights_6NHMmx": {
-      "type": "section-highlights",
-      "blocks": {
-        "highlight_YXja4c": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Tops",
-            "url": "",
-            "color": "",
-            "bg_color": "",
-            "border_color": ""
-          }
-        },
-        "highlight_BRDpkW": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Bottoms",
-            "url": "",
-            "color": "",
-            "bg_color": "",
-            "border_color": ""
-          }
-        },
-        "highlight_TekaVb": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Dresses",
-            "url": "",
-            "color": "",
-            "bg_color": "",
-            "border_color": ""
-          }
-        },
-        "highlight_nz7KPW": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Socks",
-            "url": "",
-            "color": "",
-            "bg_color": "",
-            "border_color": ""
-          }
-        },
-        "highlight_qfYWPi": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Sales",
-            "url": "",
-            "color": "",
-            "bg_color": "",
-            "border_color": ""
-          }
-        },
-        "highlight_bM3WgL": {
-          "type": "highlight",
-          "settings": {
-            "heading": "New Arrivals",
-            "url": "",
-            "color": "",
-            "bg_color": "",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_YXja4c",
-        "highlight_BRDpkW",
-        "highlight_TekaVb",
-        "highlight_nz7KPW",
-        "highlight_qfYWPi",
-        "highlight_bM3WgL"
-      ],
-      "settings": {
-        "style": "circle",
-        "grid": 6,
-        "heading": "Highlights",
-        "heading_position": "text-center",
-        "heading_font_size": "heading-large",
-        "text_font_size": "body-medium",
-        "width": "wrapper--full-padded",
-        "layout_mobile": "2",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
         "heading_tag": "automatic"
       }
     },
@@ -1060,7 +933,6 @@
     "1737069629fd809822",
     "section_accordion_group_nfYneH",
     "section_look_8t7a9D",
-    "section_highlights_6NHMmx",
     "section_reviews_iTrDNX"
   ]
 }
