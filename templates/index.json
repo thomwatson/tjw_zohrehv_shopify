@@ -388,7 +388,7 @@
           "type": "logo-item-header",
           "settings": {
             "logo": "shopify://shop_images/ELLE-logo_e8663127-7d76-4316-8ee1-751b3c84915c.png",
-            "logo_width": 100,
+            "logo_width": 130,
             "link": "",
             "text": "",
             "heading_font_size": "heading-small"
@@ -398,7 +398,7 @@
           "type": "logo-item-header",
           "settings": {
             "logo": "shopify://shop_images/cosmopolitan_logo_9488bef8-db0e-45f6-a4c4-dfcdf23b1a3a.png",
-            "logo_width": 100,
+            "logo_width": 130,
             "link": "",
             "text": "",
             "heading_font_size": "heading-small"
@@ -408,7 +408,7 @@
           "type": "logo-item-header",
           "settings": {
             "logo": "shopify://shop_images/red_3e79f4db-1732-4949-bb3f-115321b061f0.jpg",
-            "logo_width": 100,
+            "logo_width": 130,
             "link": "",
             "text": "",
             "heading_font_size": "heading-small"
@@ -417,7 +417,8 @@
         "logo_item_text_Wngybx": {
           "type": "logo-item-text",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/refinery_1ee71350-9e78-422c-a588-2b8ef0ba7eb6.png",
+            "logo_width": 130,
             "link": "",
             "text": "",
             "text_font_size": "body-x-large"
@@ -427,7 +428,7 @@
           "type": "logo-item-header",
           "settings": {
             "logo": "shopify://shop_images/refinery_1ee71350-9e78-422c-a588-2b8ef0ba7eb6.png",
-            "logo_width": 100,
+            "logo_width": 130,
             "link": "",
             "text": "",
             "heading_font_size": "heading-small"
