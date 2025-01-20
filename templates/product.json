@@ -192,7 +192,8 @@
         "upsell"
       ],
       "custom_css": [
-        ".product-upsell__holder__title {text-transform: capitalize;}"
+        ".product-upsell__holder__title {text-transform: capitalize;}",
+        "#ptw-wrapin .ptw-app-wrapper {padding: 0px; border: 0px; font-weight: bold; margin: 10px 0px;}"
       ],
       "settings": {
         "product_sticky_enable": true,
