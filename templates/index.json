@@ -451,6 +451,58 @@
         "padding_bottom": 50
       }
     },
+    "section_products_image_mpkXJx": {
+      "type": "section-products-image",
+      "blocks": {
+        "image_VDGPKC": {
+          "type": "image",
+          "settings": {
+            "mobile_height": "screen-height-one-half--mobile",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "products_YcepEn": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "hammered-band-ring-9k-white-gold",
+              "hammered-band-9k-gold",
+              "labradorite-kite-ring-sterling-silver-1",
+              "chrysoprase-moonstone-ring-9k-gold"
+            ],
+            "layout_mobile": "slider"
+          }
+        }
+      },
+      "block_order": [
+        "image_VDGPKC",
+        "products_YcepEn"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_double_LWTjxX": {
       "type": "section-double",
       "blocks": {
@@ -947,6 +999,7 @@
     "section_collection_cgF7UT",
     "text-row",
     "section_press_logos_xiX83E",
+    "section_products_image_mpkXJx",
     "section_double_LWTjxX",
     "section_columns_Ughj8R",
     "section_products_image_8eUpAT",
