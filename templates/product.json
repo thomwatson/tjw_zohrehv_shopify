@@ -70,7 +70,7 @@
         "code_ji8NqK": {
           "type": "code",
           "settings": {
-            "code": "{%- if product.metafields.custom.sold_as_quantity != blank -%}<div class=\"sold-as-count\" style=\"margin-bottom:18px;\">\n  {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n    Sold as a single\n  {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n    Sold as a double\n  {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n    Sold as s Triple\n  {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n    Sold as set of {{ product.metafields.custom.sold_as_quantity }}\n  {%- endif -%}\n</div>{%- endif -%}",
+            "code": "{%- if product.metafields.custom.sold_as_quantity != blank -%}<div class=\"sold-as-count\" style=\"margin-bottom:30px;\">\n  {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n    Sold as a single\n  {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n    Sold as a double\n  {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n    Sold as s Triple\n  {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n    Sold as set of {{ product.metafields.custom.sold_as_quantity }}\n  {%- endif -%}\n</div>{%- endif -%}",
             "padding_bottom": 0
           }
         },
