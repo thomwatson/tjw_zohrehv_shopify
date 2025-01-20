@@ -73,7 +73,7 @@
         "cart_icon_family": "bag",
         "logo": "shopify://shop_images/Zohreh_Logo_font_only_BLACK_FOR_WEB_1238280a-6547-44c1-bec3-4453625edbfb.png",
         "logo_max_limit": 120,
-        "logo_max_limit_mobile": 120,
+        "logo_max_limit_mobile": 85,
         "main_menu_linklist": "new-main-menu",
         "mobile_menu_linklist": "",
         "enable_search": true,
