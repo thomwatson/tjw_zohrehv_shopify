@@ -26,20 +26,32 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
+        },
+        "text_wfAVmj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New customers save 10% with code <strong>GET10</strong></p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
         }
       },
       "block_order": [
-        "message_GDtqma"
+        "message_GDtqma",
+        "text_wfAVmj"
       ],
-      "disabled": true,
       "settings": {
         "show_border": false,
-        "layout": "slider",
-        "slider_speed": 7,
+        "layout": "marquee",
+        "slider_speed": 5,
         "text_alignment": "center",
-        "show_arrows": false,
-        "marquee_speed": 100,
-        "message_spacing": 5,
+        "show_arrows": true,
+        "marquee_speed": 50,
+        "message_spacing": 10,
         "text_font_size": "body-small",
         "color_scheme": "scheme-2",
         "border_color": "",
