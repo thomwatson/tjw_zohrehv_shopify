@@ -66,11 +66,12 @@
         "image_Ee7pXq",
         "newsletter_MqexY7"
       ],
+      "disabled": true,
       "settings": {
         "width": "wrapper--full",
         "height": "three-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "padding_top": 0,
         "padding_bottom": 0
       }
