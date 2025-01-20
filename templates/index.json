@@ -442,6 +442,7 @@
         "logo_item_text_Wngybx",
         "logo_item_header_xgYpCH"
       ],
+      "disabled": true,
       "settings": {
         "enable_heading_slider": true,
         "logo_opacity": 100,
@@ -502,67 +503,6 @@
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
-      }
-    },
-    "section_double_LWTjxX": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_6b6DhQ": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Founder & Designer",
-            "padding_bottom": 16
-          }
-        },
-        "heading_cim8Qi": {
-          "type": "heading",
-          "settings": {
-            "title": "Luisa Vasseghi",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_QTPBRX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>I started Zohreh V. in 2019 pre-Covid because I couldn’t find what I wanted to wear at an accessible price point in solid gold. I have always been passionate about jewellery from a young age, and it has always held sentimental value to me, whether that is buying a piece to commemorate someone I have lost or marking a special moment in my life. </p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_bgWzBG": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Read more",
-            "button_url": "shopify://pages/about-us",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_6b6DhQ",
-        "heading_cim8Qi",
-        "text_QTPBRX",
-        "buttons_bgWzBG"
-      ],
-      "settings": {
-        "image_1": "shopify://shop_images/IMG_7687c_79c27b9f-25a2-4b92-a715-3ee2b713fb95.jpg",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-3",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
       }
     },
     "section_columns_Ughj8R": {
@@ -886,6 +826,67 @@
         "padding_bottom": 50
       }
     },
+    "section_double_LWTjxX": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_6b6DhQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Founder & Designer",
+            "padding_bottom": 16
+          }
+        },
+        "heading_cim8Qi": {
+          "type": "heading",
+          "settings": {
+            "title": "Luisa Vasseghi",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_QTPBRX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I started Zohreh V. in 2019 pre-Covid because I couldn’t find what I wanted to wear at an accessible price point in solid gold. I have always been passionate about jewellery from a young age, and it has always held sentimental value to me, whether that is buying a piece to commemorate someone I have lost or marking a special moment in my life. </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_bgWzBG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Read more",
+            "button_url": "shopify://pages/about-us",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6b6DhQ",
+        "heading_cim8Qi",
+        "text_QTPBRX",
+        "buttons_bgWzBG"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/LuisaPortrait5101_9c6d09a9-cf06-4618-b87a-837d7c0b8b94.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_look_8t7a9D": {
       "type": "section-look",
       "blocks": {
@@ -1001,7 +1002,6 @@
     "text-row",
     "section_press_logos_xiX83E",
     "section_products_image_mpkXJx",
-    "section_double_LWTjxX",
     "section_columns_Ughj8R",
     "section_products_image_8eUpAT",
     "section_divider_HrtK8B",
@@ -1012,6 +1012,7 @@
     "1737068764ea90cc81",
     "1737069629fd809822",
     "section_accordion_group_nfYneH",
+    "section_double_LWTjxX",
     "section_look_8t7a9D",
     "section_reviews_iTrDNX"
   ]
