@@ -380,6 +380,19 @@
             "heading_tag": "automatic"
           }
         },
+        "icon_jNHap4": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-donation",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "RESPONSIBILITY",
+            "heading_font_size": "heading-mini",
+            "text": "<p>All our makers are certified by the <a href=\"https://www.responsiblejewellery.com/\" title=\"https://www.responsiblejewellery.com/\">Responsible Jewellery Council,</a> upholding the highest ethical standards.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
         "icon-1": {
           "type": "icon",
           "settings": {
@@ -405,26 +418,13 @@
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
-        },
-        "icon_jNHap4": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-donation",
-            "icon_size": 30,
-            "icon_color": "",
-            "title": "RESPONSIBILITY",
-            "heading_font_size": "heading-mini",
-            "text": "<p>All our makers are certified by the <a href=\"https://www.responsiblejewellery.com/\" title=\"https://www.responsiblejewellery.com/\">Responsible Jewellery Council,</a> upholding the highest ethical standards.</p>",
-            "text_font_size": "body-small",
-            "heading_tag": "automatic"
-          }
         }
       },
       "block_order": [
         "icon-2",
+        "icon_jNHap4",
         "icon-1",
-        "icon-3",
-        "icon_jNHap4"
+        "icon-3"
       ],
       "settings": {
         "title": "",
@@ -471,7 +471,7 @@
             "mobile_height": "screen-height-one-half--mobile",
             "title": "Rings",
             "heading_font_size": "heading-medium",
-            "text": "<p>Discover our range of beautiful solid metal rings in solid solver and 9k gold.</p>",
+            "text": "<p>Discover our collection of beautiful solid gold and sterling silver rings</p>",
             "text_font_size": "body-medium",
             "flex_align": "align--bottom-left",
             "overlay_opacity": 40,
