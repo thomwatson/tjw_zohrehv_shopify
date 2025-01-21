@@ -196,11 +196,11 @@
             "overlay_color": "#000000",
             "description": "<h5>{{ block.settings.featured_collection.title }}</h5>",
             "color": "#fcfbf9",
-            "link_text": "discover more",
+            "link_text": "shop all",
             "link": "shopify://collections/huggie-earrings",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--outline",
+            "button_style": "btn--text",
             "show_arrow": true
           }
         },
@@ -220,7 +220,7 @@
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": true
           }
         },
         "collection_FV9rLT": {
@@ -239,7 +239,7 @@
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": true
           }
         },
         "collection_rpjXUm": {
@@ -258,7 +258,7 @@
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": true
           }
         }
       },
