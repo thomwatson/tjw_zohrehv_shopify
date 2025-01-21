@@ -30,7 +30,19 @@
         "text_wfAVmj": {
           "type": "text",
           "settings": {
-            "text": "<p>New customers save 10% with code <strong>GET10</strong></p>",
+            "text": "<p>Sign up to our newsletter to get 10% off your first full price order</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_AzAbin": {
+          "type": "text",
+          "settings": {
+            "text": "<p>EU Customers - Taxes & Duties now included in final price. No additional charges after purchase.</p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
@@ -42,7 +54,8 @@
       },
       "block_order": [
         "message_GDtqma",
-        "text_wfAVmj"
+        "text_wfAVmj",
+        "text_AzAbin"
       ],
       "settings": {
         "show_border": false,
