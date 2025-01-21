@@ -99,6 +99,7 @@
           "type": "collection",
           "settings": {
             "collection": "earrings",
+            "collection_image": "shopify://shop_images/ZVJ_-_Dec_Sale35591_1.jpg",
             "title": "Earrings"
           }
         },
@@ -106,6 +107,7 @@
           "type": "collection",
           "settings": {
             "collection": "personalised-gifting",
+            "collection_image": "shopify://shop_images/ZVJ_-_Winter_Shoot23375_2_1_a.jpg",
             "title": "Personalised"
           }
         },
@@ -113,6 +115,7 @@
           "type": "collection",
           "settings": {
             "collection": "rings",
+            "collection_image": "shopify://shop_images/ZVJ_-_Dec_Sale35468_1.jpg",
             "title": ""
           }
         },
@@ -120,6 +123,7 @@
           "type": "collection",
           "settings": {
             "collection": "bracelets",
+            "collection_image": "shopify://shop_images/ZVJ_-_Winter_Shoot23072_1_a.jpg",
             "title": "Bracelets"
           }
         }
