@@ -407,77 +407,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_press_logos_xiX83E": {
-      "type": "section-press-logos",
-      "blocks": {
-        "logo_item_header_My7gLd": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/ELLE-logo_e8663127-7d76-4316-8ee1-751b3c84915c.png",
-            "logo_width": 130,
-            "link": "",
-            "text": "",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo_item_header_Bzchmw": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/cosmopolitan_logo_9488bef8-db0e-45f6-a4c4-dfcdf23b1a3a.png",
-            "logo_width": 130,
-            "link": "",
-            "text": "",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo_item_header_trApf6": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/red_3e79f4db-1732-4949-bb3f-115321b061f0.jpg",
-            "logo_width": 130,
-            "link": "",
-            "text": "",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo_item_text_Wngybx": {
-          "type": "logo-item-text",
-          "settings": {
-            "logo": "shopify://shop_images/refinery_1ee71350-9e78-422c-a588-2b8ef0ba7eb6.png",
-            "logo_width": 130,
-            "link": "",
-            "text": "",
-            "text_font_size": "body-x-large"
-          }
-        },
-        "logo_item_header_xgYpCH": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/refinery_1ee71350-9e78-422c-a588-2b8ef0ba7eb6.png",
-            "logo_width": 130,
-            "link": "",
-            "text": "",
-            "heading_font_size": "heading-small"
-          }
-        }
-      },
-      "block_order": [
-        "logo_item_header_My7gLd",
-        "logo_item_header_Bzchmw",
-        "logo_item_header_trApf6",
-        "logo_item_text_Wngybx",
-        "logo_item_header_xgYpCH"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_heading_slider": true,
-        "logo_opacity": 100,
-        "title": "As seen in",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "1737068764ea90cc81": {
       "type": "apps",
       "blocks": {
@@ -609,6 +538,76 @@
         "padding_bottom": 0,
         "show_placeholder": true
       }
+    },
+    "section_press_logos_xiX83E": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_header_My7gLd": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/1_eaa29985-6d66-4813-add0-5cf2a13898d6.png",
+            "logo_width": 130,
+            "link": "",
+            "text": "",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_header_Bzchmw": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/3_16fad611-ce5d-4417-b494-2286f413e8d0.png",
+            "logo_width": 130,
+            "link": "",
+            "text": "",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_header_trApf6": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/2_c6713f68-8b66-479a-941b-5e6d78e8475b.png",
+            "logo_width": 130,
+            "link": "",
+            "text": "",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_text_Wngybx": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/4_6eff7a73-4991-44a2-ac46-7846fbfee5d3.png",
+            "logo_width": 130,
+            "link": "",
+            "text": "",
+            "text_font_size": "body-x-large"
+          }
+        },
+        "logo_item_header_xgYpCH": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/refinery_1ee71350-9e78-422c-a588-2b8ef0ba7eb6.png",
+            "logo_width": 130,
+            "link": "",
+            "text": "",
+            "heading_font_size": "heading-small"
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_header_My7gLd",
+        "logo_item_header_Bzchmw",
+        "logo_item_header_trApf6",
+        "logo_item_text_Wngybx",
+        "logo_item_header_xgYpCH"
+      ],
+      "settings": {
+        "enable_heading_slider": true,
+        "logo_opacity": 100,
+        "title": "As seen in",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -619,9 +618,9 @@
     "section_hero_wGTkP6",
     "section_collection_cgF7UT",
     "text-row",
-    "section_press_logos_xiX83E",
     "1737068764ea90cc81",
     "section_products_image_mpkXJx",
-    "section_double_LWTjxX"
+    "section_double_LWTjxX",
+    "section_press_logos_xiX83E"
   ]
 }
