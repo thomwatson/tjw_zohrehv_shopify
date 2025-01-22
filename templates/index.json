@@ -467,7 +467,7 @@
         "image_VDGPKC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Diamond_Starburst_Ring_in_9_k_Gold.jpg",
+            "image": "shopify://shop_images/ZVJ_-_Winter_Shoot23000_edited_1_1_1.png",
             "mobile_height": "screen-height-one-half--mobile",
             "title": "Rings",
             "heading_font_size": "heading-medium",
@@ -536,7 +536,7 @@
         "text_QTPBRX": {
           "type": "text",
           "settings": {
-            "text": "<p>I founded Zohreh V. in 2019 to create beautiful, unique, solid gold designs at an accessible price after growing tired of plated jewellery changing colour. Jewellery has always been my passion and holds deep sentimental value, marking special moments and memories. I’m especially obsessed with ear piercings and have 17 (and counting)!</p>",
+            "text": "<p>I founded Zohreh V. in 2019 to create beautiful, unique, solid gold designs at an accessible price after growing tired of plated jewellery changing colour. </p><p>'Jewellery has always been my passion and holds deep sentimental value, marking special moments and memories. I’m especially obsessed with ear piercings and have 17 (and counting)!'</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
