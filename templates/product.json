@@ -70,7 +70,7 @@
         "code_ji8NqK": {
           "type": "code",
           "settings": {
-            "code": "{%- if product.metafields.custom.sold_as_quantity != blank -%}\n  <div class=\"sold-as-count\" style=\"margin-bottom:30px;\">\n    {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n      Sold as a single\n    {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n      Sold as a double\n    {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n      Sold as a Triple\n    {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n      Sold as set of {{ product.metafields.custom.sold_as_quantity }}\n    {%- endif -%}\n  </div>\n{%- endif -%}\n\n{%- if product.metafields.custom.lead_weeks != blank -%}\n  <div class=\"badge made-to-order\">\n    Made to Order\n  </div>\n{%- endif -%}",
+            "code": "{%- if product.metafields.custom.sold_as_quantity != blank -%}\n  <div class=\"sold-as-count\" style=\"margin-bottom:30px;\">\n    {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n      Sold as a single\n    {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n      Sold as a pair\n    {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n      Sold as a triple\n    {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n      Sold as a set of {{ product.metafields.custom.sold_as_quantity }}\n    {%- endif -%}\n  </div>\n{%- endif -%}\n\n{%- if product.metafields.custom.lead_weeks != blank -%}\n  <div class=\"badge made-to-order\">\n    Made to Order\n  </div>\n{%- endif -%}",
             "padding_bottom": 0
           }
         },
