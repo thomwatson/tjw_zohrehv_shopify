@@ -77,7 +77,7 @@
       "custom_css": [],
       "settings": {
         "header_sticky": true,
-        "header_style": "drawer",
+        "header_style": "logo_beside",
         "show_separator_line": false,
         "header_border_color": "",
         "separator_opacity": 50,
