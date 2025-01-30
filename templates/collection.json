@@ -70,6 +70,9 @@
     },
     "subcollections": {
       "type": "subcollections",
+      "custom_css": [
+        ".subcollection__title.h4 {font-size: 20px;}"
+      ],
       "settings": {
         "subcollection_layout": "slider",
         "subcollection_description": false,
@@ -78,7 +81,7 @@
         "color": "#ffffff",
         "bg_color": "",
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 42
       }
     },
     "main": {
