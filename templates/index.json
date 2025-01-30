@@ -618,24 +618,13 @@
             "text": "",
             "text_font_size": "body-x-large"
           }
-        },
-        "logo_item_header_xgYpCH": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/refinery_1ee71350-9e78-422c-a588-2b8ef0ba7eb6.png",
-            "logo_width": 130,
-            "link": "",
-            "text": "",
-            "heading_font_size": "heading-small"
-          }
         }
       },
       "block_order": [
         "logo_item_header_My7gLd",
         "logo_item_header_Bzchmw",
         "logo_item_header_trApf6",
-        "logo_item_text_Wngybx",
-        "logo_item_header_xgYpCH"
+        "logo_item_text_Wngybx"
       ],
       "settings": {
         "enable_heading_slider": true,
