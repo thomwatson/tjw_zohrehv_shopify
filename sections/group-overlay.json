@@ -45,7 +45,7 @@
         "upsell-products": {
           "type": "upsell-products",
           "settings": {
-            "upsell_auto_open": false,
+            "upsell_auto_open": true,
             "pin_to_bottom": false
           }
         },
