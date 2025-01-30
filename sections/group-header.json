@@ -30,7 +30,7 @@
         "text_wfAVmj": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up to our newsletter to get 10% off your first full price order</p>",
+            "text": "<p>Sign up to our newsletter for 10% off</p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
