@@ -12,5 +12,15 @@
   "context": {
     "market": "gb"
   },
-  "sections": {}
+  "sections": {
+    "announcement": {
+      "settings": {},
+      "blocks": {
+        "text_AzAbin": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    }
+  }
 }
