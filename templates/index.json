@@ -27,7 +27,7 @@
         "button_style": "btn--outline",
         "show_arrow": true,
         "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "four-fifty-height-hero--mobile",
+        "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full",
         "color_scheme": "scheme-2",
         "show_text_background": false,
