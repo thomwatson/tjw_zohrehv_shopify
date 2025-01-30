@@ -62,13 +62,13 @@
         "layout": "slider",
         "slider_speed": 5,
         "text_alignment": "center",
-        "show_arrows": true,
+        "show_arrows": false,
         "marquee_speed": 50,
         "message_spacing": 30,
         "text_font_size": "body-small",
         "color_scheme": "scheme-76fba63a-19e0-4857-8616-90e7f5b70528",
         "border_color": "",
-        "padding_top": 8,
+        "padding_top": 10,
         "padding_bottom": 10
       }
     },
