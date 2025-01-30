@@ -609,6 +609,16 @@
             "heading_font_size": "heading-small"
           }
         },
+        "logo_item_text_PypQx8": {
+          "type": "logo-item-text",
+          "settings": {
+            "logo": "shopify://shop_images/Press_Logos_on_grey_1.png",
+            "logo_width": 100,
+            "link": "",
+            "text": "",
+            "text_font_size": "body-x-large"
+          }
+        },
         "logo_item_text_Wngybx": {
           "type": "logo-item-text",
           "settings": {
@@ -624,6 +634,7 @@
         "logo_item_header_My7gLd",
         "logo_item_header_Bzchmw",
         "logo_item_header_trApf6",
+        "logo_item_text_PypQx8",
         "logo_item_text_Wngybx"
       ],
       "settings": {
