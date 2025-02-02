@@ -1849,7 +1849,7 @@
     "custom_css": [
       ".product-item__info.body-small {padding-left: 0px; padding-right: 0;}",
       "@media only screen and (max-width: 749px) {.grid--mobile-slider .grid-item {width: calc(75% - 50px); }}",
-      "@media only screen and (min-width: 750px) {.quick-add__button {--btn-size: 36px; --btn-offset: 5px; position: absolute; bottom: var(--btn-offset); left: var(--btn-offset); display: flex; align-items: center; justify-content: center; width: var(--btn-size); height: var(--btn-size); border-radius: var(--radius); background: var(--bg); pointer-events: auto; font-size: 0; z-index: 1; } .supports-touch .quick-add__holder, .supports-touch hover-images:after {display: none; } .supports-touch hover-images:after {bottom: -1px; }}"
+      "@media only screen and (min-width: 750px) {.supports-touch .quick-add__holder, .supports-touch hover-images:after {display: none; } .supports-touch hover-images:after {bottom: -1px; }}"
     ]
   }
 }
