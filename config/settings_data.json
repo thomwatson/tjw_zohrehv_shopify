@@ -1849,7 +1849,7 @@
     "custom_css": [
       ".product-item__info.body-small {padding-left: 0px; padding-right: 0;}",
       "@media only screen and (max-width: 749px) {.grid--mobile-slider .grid-item {width: calc(75% - 50px); }}",
-      "@media only screen and (min-width: 750px) {.quick-add__holder {display:none; }}"
+      "@media only screen and (min-width: 750px) {.supports-touch .quick-add__holder {display: none; }}"
     ]
   }
 }
