@@ -14,7 +14,7 @@
 
 .sold-as-count {
     display: inline-block;
-  margin-right:10px;
+  margin-right:5px;
   margin-bottom:5px;
     font-size: var(--font-body-x-small);
     color: var(--BTN-PRIMARY-TEXT);
