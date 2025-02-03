@@ -132,6 +132,13 @@
           "type": "shopify://apps/wrapin-gift-wrap-options/blocks/app-block/31c9fd89-9221-4847-aeee-86a226a0a620",
           "settings": {}
         },
+        "divider_LbVbpq": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 20
+          }
+        },
         "code_xeeqze": {
           "type": "code",
           "settings": {
@@ -193,6 +200,7 @@
         "buttons",
         "klarna_on_site_messaging_app_block_Kb6J8B",
         "wrapin_gift_wrap_options_app_block_wgVyzi",
+        "divider_LbVbpq",
         "code_xeeqze",
         "description_7XC4NK",
         "accordion_xiUmaA",
