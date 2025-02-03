@@ -75,3 +75,10 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 .supports-touch hover-images:after {
   bottom: -1px !important;
 }
+
+
+@media only screen and (max-width: 749px) {
+    .grid--mobile-slider {
+       margin-left:0px;
+    }
+}
