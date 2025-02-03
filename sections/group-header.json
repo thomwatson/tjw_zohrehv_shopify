@@ -111,10 +111,21 @@
         "padding_top": 15,
         "padding_bottom": 15
       }
+    },
+    "section_custom_code_3WEAza": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<style>\n.product-item__info.body-small {\n  padding-left: 0px;\n  padding-right: 0;\n}\n@media only screen and (max-width: 749px) {\n  .grid--mobile-slider .grid-item {\n    width: calc(75% - 50px);\n  }\n}\n@media only screen and (min-width: 750px) {\n  .supports-touch .quick-add__holder,\n  .supports-touch hover-images:after {\n    display: none;\n  }\n}\n.supports-touch hover-images:after {\n  bottom: -1px !important;\n}</style>",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "announcement",
-    "header"
+    "header",
+    "section_custom_code_3WEAza"
   ]
 }
