@@ -74,20 +74,6 @@
             "padding_bottom": 16
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        },
-        "code_hErWJC": {
-          "type": "code",
-          "settings": {
-            "code": "{%- if product.type == 'Ring' -%}\n  <div class=\"ring-sizer-link\">\n    <a href=\"{{ pages[23936434227].url }}\" class=\"size-guide-link\">\n      Find Your Ring Size →\n    </a>\n  </div>\n{%- endif -%}",
-            "padding_bottom": 16
-          }
-        },
         "zepto_product_personalizer_product_personalizer_page_J8X8qF": {
           "type": "shopify://apps/zepto-product-personalizer/blocks/product_personalizer_page/7411210d-7b32-4c09-9455-e129e3be4729",
           "settings": {
@@ -97,10 +83,25 @@
         "variants": {
           "type": "variants",
           "settings": {
-            "info_page": "",
+            "info_page": "ring-size-chart",
             "size_chart_style": "text",
             "subscriptions_enable_selectors": false,
             "padding_bottom": 16
+          }
+        },
+        "code_hErWJC": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "{%- if product.type == 'Ring' -%}\n  <div class=\"ring-sizer-link\">\n    <a href=\"{{ pages[23936434227].url }}\" class=\"size-guide-link\">\n      Find Your Ring Size →\n    </a>\n  </div>\n{%- endif -%}",
+            "padding_bottom": 16
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-large",
+            "padding_bottom": 8
           }
         },
         "buttons": {
@@ -193,10 +194,10 @@
         "icon_HLXCGU",
         "icon_Mimtf8",
         "code_ji8NqK",
-        "price",
-        "code_hErWJC",
         "zepto_product_personalizer_product_personalizer_page_J8X8qF",
         "variants",
+        "code_hErWJC",
+        "price",
         "buttons",
         "klarna_on_site_messaging_app_block_Kb6J8B",
         "wrapin_gift_wrap_options_app_block_wgVyzi",
