@@ -52,7 +52,7 @@
             "page": "footer-signup",
             "title": "Newsletter",
             "heading_font_size": "heading-mini",
-            "column_width": 22,
+            "column_width": 23,
             "enable_accordion": false
           }
         }
