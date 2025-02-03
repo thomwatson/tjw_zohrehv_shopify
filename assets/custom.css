@@ -13,7 +13,9 @@
 
 
 .sold-as-count {
-    display: block;
+    display: inline-block;
+  margin-right:10px;
+  margin-bottom:5px;
     font-size: var(--font-body-x-small);
     color: var(--BTN-PRIMARY-TEXT);
     background-color: var(--BTN-SECONDARY-BG);
