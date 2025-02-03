@@ -19,6 +19,13 @@
             "padding_bottom": 24
           }
         },
+        "code_ji8NqK": {
+          "type": "code",
+          "settings": {
+            "code": "<div class=\"badge-container\">\n  {%- if product.metafields.custom.sold_as_quantity != blank -%}\n    <span class=\"sold-as-count\">\n      {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n        Sold as Single\n      {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n        Sold as Pair\n      {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n        Sold as Triple\n      {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n        Sold as Set of {{ product.metafields.custom.sold_as_quantity }}\n      {%- endif -%}\n    </span>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.sold_with_chain != blank -%}\n    <span class=\"sold-as-count\">\n      {%- if product.metafields.custom.sold_with_chain -%}\n        Chain Included\n      {%- else -%}\n        Pendant Only\n      {%- endif -%}\n    </span>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.lead_weeks != blank -%}\n    <span class=\"sold-as-count\">Made to Order</span>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.preorder_date != blank -%}\n    <span class=\"sold-as-count\">Available from {{ product.metafields.custom.preorder_date | date: \"%d.%m.%Y\" }}</span>\n  {%- endif -%}\n</div>",
+            "padding_bottom": 16
+          }
+        },
         "icon_1": {
           "type": "icon",
           "settings": {
@@ -67,13 +74,6 @@
             "padding_bottom": 32
           }
         },
-        "code_ji8NqK": {
-          "type": "code",
-          "settings": {
-            "code": "<div class=\"badge-container\">\n  {%- if product.metafields.custom.sold_as_quantity != blank -%}\n    <span class=\"sold-as-count\">\n      {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n        Sold as Single\n      {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n        Sold as Pair\n      {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n        Sold as Triple\n      {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n        Sold as Set of {{ product.metafields.custom.sold_as_quantity }}\n      {%- endif -%}\n    </span>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.sold_with_chain != blank -%}\n    <span class=\"sold-as-count\">\n      {%- if product.metafields.custom.sold_with_chain -%}\n        Chain Included\n      {%- else -%}\n        Pendant Only\n      {%- endif -%}\n    </span>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.lead_weeks != blank -%}\n    <span class=\"sold-as-count\">Made to Order</span>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.preorder_date != blank -%}\n    <span class=\"sold-as-count\">Available from {{ product.metafields.custom.preorder_date | date: \"%d.%m.%Y\" }}</span>\n  {%- endif -%}\n</div>",
-            "padding_bottom": 16
-          }
-        },
         "zepto_product_personalizer_product_personalizer_page_J8X8qF": {
           "type": "shopify://apps/zepto-product-personalizer/blocks/product_personalizer_page/7411210d-7b32-4c09-9455-e129e3be4729",
           "settings": {
@@ -83,7 +83,7 @@
         "variants": {
           "type": "variants",
           "settings": {
-            "info_page": "ring-size-chart",
+            "info_page": "",
             "size_chart_style": "text",
             "subscriptions_enable_selectors": false,
             "padding_bottom": 26
@@ -91,7 +91,6 @@
         },
         "code_hErWJC": {
           "type": "code",
-          "disabled": true,
           "settings": {
             "code": "{%- if product.type == 'Ring' -%}\n  <div class=\"ring-sizer-link\">\n    <a href=\"{{ pages[23936434227].url }}\" class=\"size-guide-link\">\n      Find Your Ring Size →\n    </a>\n  </div>\n{%- endif -%}",
             "padding_bottom": 16
@@ -189,11 +188,11 @@
       },
       "block_order": [
         "code_y4VCV4",
+        "code_ji8NqK",
         "icon_1",
         "icon_bjpEbT",
         "icon_HLXCGU",
         "icon_Mimtf8",
-        "code_ji8NqK",
         "zepto_product_personalizer_product_personalizer_page_J8X8qF",
         "variants",
         "code_hErWJC",
