@@ -9,6 +9,32 @@
  */
 {
   "sections": {
+    "section_rich_text_wbjTzq": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_fypaEw": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ page.title }}",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fypaEw"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -46,6 +72,7 @@
     }
   },
   "order": [
+    "section_rich_text_wbjTzq",
     "main",
     "17385828585034c710"
   ]
