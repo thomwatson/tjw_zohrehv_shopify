@@ -82,3 +82,10 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
        margin-left:0px;
     }
 }
+
+.radio__legend__link {
+    padding-bottom: 0px;
+    bottom: -2px;
+    display: block;
+    position: relative;
+}
