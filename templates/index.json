@@ -645,28 +645,6 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
-    },
-    "17374537772e94d0b0": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_wdLbYG": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "alignment": "center",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_wdLbYG"
-      ],
-      "settings": {
-        "include_margins": false
-      }
     }
   },
   "order": [
@@ -681,7 +659,6 @@
     "1737068764ea90cc81",
     "section_products_image_mpkXJx",
     "section_double_LWTjxX",
-    "section_press_logos_xiX83E",
-    "17374537772e94d0b0"
+    "section_press_logos_xiX83E"
   ]
 }
