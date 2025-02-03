@@ -139,17 +139,17 @@
             "padding_bottom": 20
           }
         },
-        "code_xeeqze": {
-          "type": "code",
-          "settings": {
-            "code": "{%- if product.metafields.custom.preorder_date != blank -%}\n  <p>The {{ product.metafields.custom.display_name.value }} is available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | date: \"%d.%m.%Y\" }}.</p>\n{%- endif -%}\n\n{%- if product.metafields.custom.lead_weeks != blank -%}\n  <p>The {{ product.metafields.custom.display_name.value }} is made to order and will take {{ product.metafields.custom.lead_weeks }} weeks to create.</p>\n{%- endif -%}\n\n{%- if product.metafields.custom.sold_as_quantity != blank -%}\n  <p>\n    {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n      This item is sold as a single piece\n    {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n      This item is sold as a pair\n    {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n      This item is sold as a set of three pieces\n    {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n      This item is sold as a set of {{ product.metafields.custom.sold_as_quantity }} pieces\n    {%- endif -%}\n  </p>\n{%- endif -%}\n\n{%- if product.metafields.custom.sold_with_chain != blank -%}\n  <p>\n    {%- if product.metafields.custom.sold_with_chain -%}\n      A chain is included with this item\n    {%- else -%}\n      This item is sold without a chain\n    {%- endif -%}\n  </p>\n{%- endif -%}",
-            "padding_bottom": 16
-          }
-        },
         "description_7XC4NK": {
           "type": "description",
           "settings": {
             "show_read_more": true,
+            "padding_bottom": 16
+          }
+        },
+        "code_xeeqze": {
+          "type": "code",
+          "settings": {
+            "code": "<ul class=\"product-details\">\n  {%- if product.metafields.custom.preorder_date != blank -%}\n    <li>Available to pre-order and will be dispatched on {{ product.metafields.custom.preorder_date | date: \"%d.%m.%Y\" }}</li>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.sold_as_quantity != blank -%}\n    <li>\n      {%- if product.metafields.custom.sold_as_quantity == 1 -%}\n        Sold as a single piece\n      {%- elsif product.metafields.custom.sold_as_quantity == 2 -%}\n        Sold as a pair\n      {%- elsif product.metafields.custom.sold_as_quantity == 3 -%}\n        Sold as a set of three\n      {%- elsif product.metafields.custom.sold_as_quantity >= 4 -%}\n        Sold as a set of {{ product.metafields.custom.sold_as_quantity }}\n      {%- endif -%}\n    </li>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.sold_with_chain != blank -%}\n    <li>\n      {%- if product.metafields.custom.sold_with_chain -%}\n        Comes with a 16\" chain\n      {%- else -%}\n        Chain not included\n      {%- endif -%}\n    </li>\n  {%- endif -%}\n\n  {%- if product.metafields.custom.lead_weeks != blank -%}\n    <li>Made to order and will be with you within {{ product.metafields.custom.lead_weeks }} weeks</li>\n  {%- endif -%}\n</ul>",
             "padding_bottom": 16
           }
         },
@@ -201,8 +201,8 @@
         "klarna_on_site_messaging_app_block_Kb6J8B",
         "wrapin_gift_wrap_options_app_block_wgVyzi",
         "divider_LbVbpq",
-        "code_xeeqze",
         "description_7XC4NK",
+        "code_xeeqze",
         "accordion_xiUmaA",
         "accordion_F8dzJ8",
         "upsell"
