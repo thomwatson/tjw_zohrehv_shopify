@@ -22,7 +22,7 @@
             "title": "",
             "heading_font_size": "heading-medium",
             "text": "<p>Zohreh V. is all about beautiful, everyday jewellery that you never have to take off. We specialise in recycled solid gold and sterling silver with diamonds and semi-precious stones. All our pieces are designed in London and ethically sourced and produced.</p><p></p><p>For further info or any questions please email: info@zohrehv.com</p><p></p><p>Zohreh V. Jewellery, Units 1, 2 & 3, Vestry Road, Sevenoaks, TN14 5EL</p>",
-            "column_width": 25,
+            "column_width": 23,
             "enable_accordion": false
           }
         },
@@ -32,7 +32,7 @@
             "linklist": "footer",
             "title": "",
             "heading_font_size": "heading-mini",
-            "column_width": 25,
+            "column_width": 23,
             "enable_accordion": true
           }
         },
@@ -42,7 +42,7 @@
             "linklist": "jewellery-info",
             "title": "",
             "heading_font_size": "heading-mini",
-            "column_width": 25,
+            "column_width": 23,
             "enable_accordion": true
           }
         },
