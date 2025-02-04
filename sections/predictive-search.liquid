@@ -123,7 +123,7 @@
             <p class="predictive-search__heading" id="predictive-search-products">{{ 'general.search.products' | t }}</p>
             <div class="predictive-search__products__list grid-outer" role="listbox" aria-labelledby="predictive-search-products" data-search-results>
               <div class="grid">
-                {%- for product in predictive_search.resources.products -%}
+                {%- for product in predictive_search.resources.products -%} {% if product.type == 'PPLR_HIDDEN_PRODUCT' %}{% continue %}{% endif %}
                   {%- render 'search-product-item',
                     product: product,
                     animation_delay: animation_delay,
