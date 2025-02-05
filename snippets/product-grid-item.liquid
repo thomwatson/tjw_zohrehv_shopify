@@ -660,6 +660,11 @@
       <div class="product-item__info {{ settings.product_grid_font_size }}">
         <a class="product-link" href="{{ product_url }}" data-product-link="{{ product_url }}">
           <p class="product-item__title">  {%- if product.metafields.custom.display_name != blank -%}
+<!-- Start of Judge.me code -->
+  <div class='jdgm-widget jdgm-preview-badge'>
+    {{ product.metafields.judgeme.badge }}
+  </div>
+<!-- End of Judge.me code -->
             {{ product.metafields.custom.display_name }}
           {%- else -%}
             {{ product.title }}
