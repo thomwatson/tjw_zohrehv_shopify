@@ -44,8 +44,7 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 }
 
 .product-item__title {
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+
     margin-top:5px;
 }
 
