@@ -18,7 +18,7 @@
           "type": "message",
           "settings": {
             "show_wheel": false,
-            "message": "Spend ||amount|| for",
+            "message": "Spend ||amount|| for free shipping.",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
@@ -74,7 +74,9 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        ".aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); /* For Safari support */ background-color: #0000000f;}"
+      ],
       "settings": {
         "header_sticky": true,
         "header_style": "logo_center_menu_left",
