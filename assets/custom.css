@@ -2,7 +2,7 @@
     --FONT-STACK-HEADING: "Futura", serif!important;
 }
 
-.aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {
+.header__wrapper .aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px); /* For Safari support */
     background-color: #0000000f;
