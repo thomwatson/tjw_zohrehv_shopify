@@ -2,6 +2,12 @@
     --FONT-STACK-HEADING: "Futura", serif!important;
 }
 
+.aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); /* For Safari support */
+    background-color: #0000000f;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog-section .article__image .article__tags {
 
     letter-spacing: 0.1em!important;
