@@ -30,7 +30,7 @@
     "subheading_size_mobile": 15,
     "type_header_font": "futura_n4",
     "heading_letter_spacing": -25,
-    "type_header_uppercase": false,
+    "type_header_uppercase": true,
     "heading_mini": 16,
     "heading_x_small": 20,
     "heading_small": 24,
