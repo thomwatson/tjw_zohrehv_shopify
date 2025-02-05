@@ -45,7 +45,7 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 
 .product-item__title, .cart__item__title {
 margin-block: 5px;
-font-size: calc( var(--FONT-SIZE-BASE) * 1);
+font-size: calc( var(--FONT-SIZE-BASE) * 1)!important;
     margin-top:5px;
 }
 
