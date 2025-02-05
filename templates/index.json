@@ -21,7 +21,7 @@
         "text_font_size": "body-small",
         "flex_align": "align--bottom-right",
         "link_text": "Discover More",
-        "link": "",
+        "link": "shopify://collections/zohreh-vintage-jewellery",
         "button_type": "btn--white",
         "button_size": "btn--small",
         "button_style": "btn--outline",
@@ -76,7 +76,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image_1": "shopify://shop_images/Diamond_Starburst_Ring_in_9_k_Gold.jpg",
+        "image_1": "shopify://shop_images/9kt_Turquoise_and_Pearl_Vintage_Ring.png",
         "link": "",
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
