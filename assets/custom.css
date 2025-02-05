@@ -43,7 +43,7 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
     color: white!important;
 }
 
-.product-item__title {
+.product-item__title, .cart__item__title {
 margin-block: 5px;
 font-size: calc( var(--FONT-SIZE-BASE) * 1);
     margin-top:5px;
