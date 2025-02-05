@@ -47,7 +47,7 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 margin-block: 5px;
 font-size: calc( var(--FONT-SIZE-BASE) * 1)!important;
     margin-top:5px;
-  text-transform:inherit!important;
+  text-transform:none!important;
 }
 
 .product-link subtitle {
@@ -55,6 +55,8 @@ font-size: calc( var(--FONT-SIZE-BASE) * 1)!important;
     margin-bottom: 10px;
     display: inline-block;
     margin-top: 4px;
+  text-transform:none;
+  letter-spacing:0px;
 }
 
 
