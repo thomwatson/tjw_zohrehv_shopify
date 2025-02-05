@@ -18,7 +18,7 @@
           "type": "message",
           "settings": {
             "show_wheel": false,
-            "message": "Free shipping over ||amount||",
+            "message": "Spend ||amount|| for",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
