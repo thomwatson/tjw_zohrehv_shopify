@@ -340,21 +340,24 @@
         "collection_8Vk9BK": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "gifts-under-150",
+            "collection_image": "shopify://shop_images/Gifts-Under-150.png",
             "title": ""
           }
         },
         "collection_JHemMd": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "earrings",
+            "collection_image": "shopify://shop_images/Earrings-Gifts.png",
             "title": ""
           }
         },
         "collection_wXNtxk": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "rings",
+            "collection_image": "shopify://shop_images/Ring-gifts.png",
             "title": ""
           }
         }
