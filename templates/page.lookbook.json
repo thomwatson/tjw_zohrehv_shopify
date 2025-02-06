@@ -76,7 +76,7 @@
         "reverse_blocks": false,
         "color_scheme": "scheme-3",
         "padding_top": 0,
-        "padding_bottom": 60,
+        "padding_bottom": 0,
         "show_placeholder": true
       }
     },
@@ -195,7 +195,7 @@
         "double-text": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Nothing says <em>forever</em> quite like diamonds. </p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -219,6 +219,7 @@
         "double-buttons"
       ],
       "settings": {
+        "image_1": "shopify://shop_images/Diamond-Jewellery-Gifts.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -226,9 +227,9 @@
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_bottom": 0,
         "show_placeholder": true
       }
     },
