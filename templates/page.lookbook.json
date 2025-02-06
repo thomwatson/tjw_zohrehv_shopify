@@ -41,13 +41,14 @@
         "double-text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>The Valentines Edit </strong>—because love, whether given or received, deserves something truly beautiful.</p>",
+            "text": "<p>The Valentines Edit<strong> </strong>—because love, whether given or received, deserves something truly beautiful.</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         },
         "double-buttons": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_text": "Discover the collection",
             "button_url": "shopify://collections/valentines-gift-guide",
@@ -82,14 +83,14 @@
     "collection-first": {
       "type": "section-collection",
       "settings": {
-        "featured_collection": "",
-        "heading": "",
-        "heading_font_size": "heading-medium",
+        "featured_collection": "valentines-gift-guide",
+        "heading": "Discover the collection",
+        "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
         "layout": "inline",
-        "link_text": "",
-        "link_url": "",
+        "link_text": "Shop now",
+        "link_url": "shopify://collections/valentines-gift-guide",
         "button_type": "btn--black",
         "button_size": "",
         "button_style": "btn--outline",
