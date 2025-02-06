@@ -41,7 +41,7 @@
         "double-text": {
           "type": "text",
           "settings": {
-            "text": "<p>The Valentines Edit —because love, whether given or received, deserves something truly beautiful.</p>",
+            "text": "<p><strong>The Valentines Edit </strong>—because love, whether given or received, deserves something truly beautiful.</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
