@@ -112,7 +112,7 @@
         "product-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "mini-diamond-coin-necklace-9k-gold",
             "show_product_card": true,
             "position_x": 14,
             "position_y": 37
@@ -121,7 +121,7 @@
         "product-2": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "pink-tourmaline-diamond-moonstone-necklace-9k-gold",
             "show_product_card": true,
             "position_x": 45,
             "position_y": 60
@@ -133,6 +133,7 @@
         "product-2"
       ],
       "settings": {
+        "image": "shopify://shop_images/Valentines_email.png",
         "layout": "",
         "title": "Shop the look",
         "heading": "",
@@ -153,13 +154,39 @@
         "heading_tag": "automatic"
       }
     },
+    "collection-second": {
+      "type": "section-collection",
+      "settings": {
+        "featured_collection": "bestsellers-1",
+        "heading": "MOST LOVED GIFTS",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "SHOP now",
+        "link_url": "shopify://collections/bestsellers-1",
+        "button_type": "btn--black",
+        "button_size": "",
+        "button_style": "btn--outline",
+        "show_arrow": false,
+        "layout_desktop": "grid",
+        "grid": 4,
+        "rows": 1,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
     "double-third": {
       "type": "section-double",
       "blocks": {
         "double-heading": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
+            "title": "Diamond gifts",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -176,7 +203,7 @@
         "double-buttons": {
           "type": "buttons",
           "settings": {
-            "button_text": "Learn more",
+            "button_text": "Shop Diamonds",
             "button_url": "",
             "button_type": "btn--black",
             "button_size": "",
@@ -195,84 +222,6 @@
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
-        "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_placeholder": true
-      }
-    },
-    "collection-second": {
-      "type": "section-collection",
-      "settings": {
-        "featured_collection": "",
-        "heading": "",
-        "heading_font_size": "heading-medium",
-        "description": "",
-        "text_font_size": "body-medium",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--black",
-        "button_size": "",
-        "button_style": "btn--outline",
-        "show_arrow": false,
-        "layout_desktop": "grid",
-        "grid": 4,
-        "rows": 1,
-        "width": "wrapper",
-        "layout_mobile": "slider",
-        "color_scheme": "",
-        "padding_top": 60,
-        "padding_bottom": 0,
-        "heading_tag": "automatic"
-      }
-    },
-    "double-fourth": {
-      "type": "section-double",
-      "blocks": {
-        "double-heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Image with text",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "double-text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "double-buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--black",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "double-heading",
-        "double-text",
-        "double-buttons"
-      ],
-      "settings": {
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
         "width": "wrapper--full",
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-one-half--mobile",
@@ -433,9 +382,8 @@
     "double-first",
     "collection-first",
     "look",
-    "double-third",
     "collection-second",
-    "double-fourth",
+    "double-third",
     "double-fifth",
     "collection-third",
     "custom-content"
