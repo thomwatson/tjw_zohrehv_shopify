@@ -75,7 +75,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); /* For Safari support */ background-color: #0000000f;}"
+        ".aos-initialized [data-aos^=\"fade\"][data-aos^=\"fade\"].aos-animate {backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); /* For Safari support */ background-color: #0000000f;}"
       ],
       "settings": {
         "header_sticky": true,
@@ -90,7 +90,7 @@
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 85,
         "main_menu_linklist": "new-main-menu",
-        "mobile_menu_linklist": "",
+        "mobile_menu_linklist": "mobile-menu",
         "enable_search": true,
         "show_social_icons": false,
         "button_text": "",
