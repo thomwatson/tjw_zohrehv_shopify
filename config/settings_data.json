@@ -83,6 +83,7 @@
     "sibling_style": "swatch",
     "collection_swatch_style": "limited",
     "swatch_color_list": "Black: #000000\nWhite: #fafafa\nBlank: blank.png\nBronze: #A07636\nSilver: #CECBC7",
+    "favicon": "shopify://shop_images/Zohreh_Logo_Icon_only_WHITE_WEB_51856cf4-9ac4-4bcc-bc2c-712c95b3de6e.png",
     "free_shipping_limit": "150",
     "show_lock_icon": true,
     "enable_accept_terms": false,
