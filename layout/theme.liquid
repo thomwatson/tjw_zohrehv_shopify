@@ -59,6 +59,19 @@
       location.reload();
     }
   });
+
+  function updateCart() {
+  fetch('/cart.js')
+    .then(response => response.json())
+    .then(data => {
+      if (data.item_count > 0) {
+        document.querySelector('.cart-count').textContent = data.item_count;
+      }
+    });
+}
+
+window.addEventListener('pageshow', updateCart);
+
 </script>
   <!-- And above this comment line ================================================== -->
 </body>
