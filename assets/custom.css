@@ -94,7 +94,11 @@ font-size: calc( var(--FONT-SIZE-BASE) * 1)!important;
 }
 
 
-
+@media only screen and (max-width: 749px) {
+    .grid--mobile-slider {
+       margin-left:0px;
+    }
+}
 
 .radio__legend__link {
     padding-bottom: 0px;
