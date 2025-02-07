@@ -22,6 +22,7 @@
         },
         "cart-message": {
           "type": "cart-message",
+          "disabled": true,
           "settings": {
             "cart_custom_message_text": "<p>Use code <strong>HELLOFRIEND</strong> for 10% off your first order at checkout.</p>",
             "cart_custom_message_color": "#000000",
