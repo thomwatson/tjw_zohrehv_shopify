@@ -517,7 +517,9 @@
         "image_VDGPKC",
         "products_YcepEn"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".brick__block.brick__block--products {overflow-x: hidden;}"
+      ],
       "settings": {
         "width": "wrapper--full",
         "reverse_blocks": false,
