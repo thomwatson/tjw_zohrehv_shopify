@@ -217,7 +217,8 @@
       ],
       "custom_css": [
         ".product-upsell__holder__title {text-transform: capitalize;}",
-        "#ptw-wrapin .ptw-app-wrapper {padding: 0px; border: 0px; font-weight: bold; margin: 10px 0px;}"
+        "#ptw-wrapin .ptw-app-wrapper {padding: 0px; border: 0px; font-weight: bold; margin: 10px 0px;}",
+        "button.btn.pplr-c-button {width: 100%;}"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -229,7 +230,7 @@
         "image_size": "normal",
         "mobile_image_style": "thumbs",
         "color_scheme": "scheme-1",
-        "padding_top": 50,
+        "padding_top": 51,
         "padding_bottom": 30
       }
     },
