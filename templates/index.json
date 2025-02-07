@@ -62,7 +62,7 @@
           "type": "button",
           "settings": {
             "link_text": "Discover Now",
-            "link": "shopify://collections/flat-back-earrings",
+            "link": "shopify://collections/new-in-jewellery",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--outline",
@@ -82,7 +82,7 @@
         "height": "sixty-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
         "mobile_image": "shopify://shop_images/IMG_2727.heic",
-        "mobile_height": "four-fifty-height-hero--mobile",
+        "mobile_height": "five-fifty-height-hero--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-2",
         "show_text_background": false,
