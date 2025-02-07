@@ -42,9 +42,9 @@
         "text_AzAbin": {
           "type": "text",
           "settings": {
-            "text": "<p>EU Customers - Taxes & Duties now included in final price. No additional charges after purchase.</p>",
+            "text": "<p>Extra 10% off Sale with code 'EXTRA10'</p>",
             "target_url_enabled": false,
-            "target_url": "",
+            "target_url": "shopify://collections/zohreh-v-sale",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
@@ -75,7 +75,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); /* For Safari support */ background-color: #0000000f;}"
+        ".aos-initialized [data-aos^=\"fade\"][data-aos^=\"fade\"].aos-animate {backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); /* For Safari support */ background-color: #0000000f;}"
       ],
       "settings": {
         "header_sticky": true,
