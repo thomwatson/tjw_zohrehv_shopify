@@ -75,7 +75,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".aos-initialized [data-aos^=\"fade\"][data-aos^=\"fade\"].aos-animate {backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); /* For Safari support */ background-color: #0000000f;}"
+        ".aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); /* For Safari support */ background-color: #0000000f;}"
       ],
       "settings": {
         "header_sticky": true,
