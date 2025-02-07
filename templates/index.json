@@ -81,6 +81,7 @@
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
+        "mobile_image": "shopify://shop_images/IMG_2727.heic",
         "mobile_height": "four-fifty-height-hero--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-2",
