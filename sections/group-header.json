@@ -41,6 +41,7 @@
         },
         "text_AzAbin": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Extra 10% off Sale with code 'EXTRA10'</p>",
             "target_url_enabled": false,
@@ -103,7 +104,7 @@
         "highlight_item": "",
         "highlight_item_color": "rgba(0,0,0,0)",
         "transparent_logo": "shopify://shop_images/Zohreh_Logo_font_only_WHITE_FOR_WEB_5f65fa53-7355-448c-803c-6f3ea556ae83.png",
-        "transparent_home": true,
+        "transparent_home": false,
         "transparent_collection": false,
         "transparent_article": false,
         "transparent_page": false,
@@ -113,10 +114,21 @@
         "padding_top": 15,
         "padding_bottom": 15
       }
+    },
+    "section_custom_code_dNFMNK": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<p style=\"text-align:center;font-size:11px;margin:0;padding:8px 8px 10px 8px;\"><a style=\"color:white;\" href=\"https://zohrehv.com/collections/zohreh-v-sale\">Get an extra 10% off Sale: code 'EXTRA10'</a></p>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "announcement",
-    "header"
+    "header",
+    "section_custom_code_dNFMNK"
   ]
 }
