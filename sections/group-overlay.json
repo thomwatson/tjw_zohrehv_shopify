@@ -81,9 +81,34 @@
       "settings": {
         "color_scheme": ""
       }
+    },
+    "overlay_text_promo_FwF74Y": {
+      "type": "overlay-text-promo",
+      "settings": {
+        "position": "popup-promo--right",
+        "title": "Free Gift Worth Up-To £80",
+        "text": "<p>Spend over £195 for your choice of one of two free gifts worth up to £80. Choose either  the <a href=\"/products/heart-stud-earring-9k-gold\" title=\"Heart Stud Earring 9k Gold\">Heart Stud Earring 9k Gold</a> or <a href=\"/products/heart-stud-earrings-pair-sterling-silver\" title=\"Heart Stud Earrings Pair Sterling Silver\">Heart Stud Earrings Pair Sterling Silver</a></p>",
+        "button_text": "",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "color_scheme": "scheme-7",
+        "color": "",
+        "bg_color": "",
+        "trigger": "always",
+        "target_url_enabled": false,
+        "target_url": "",
+        "target_referrer_enabled": false,
+        "target_referrer": "",
+        "target_device_enabled": false,
+        "target_device": "mobile"
+      }
     }
   },
   "order": [
-    "cart-drawer"
+    "cart-drawer",
+    "overlay_text_promo_FwF74Y"
   ]
 }
