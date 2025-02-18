@@ -80,7 +80,7 @@
       ],
       "settings": {
         "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners.jpg",
-        "link": "",
+        "link": "shopify://collections/zohreh-v-sale",
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
