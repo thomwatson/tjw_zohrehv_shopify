@@ -103,11 +103,6 @@
     "sale_background_color": "#be563f",
     "content_for_index": [],
     "blocks": {
-      "15685250022964305326": {
-        "type": "shopify://apps/elevar-conversion-tracking/blocks/dataLayerEmbed/bc30ab68-b15c-4311-811f-8ef485877ad6",
-        "disabled": false,
-        "settings": {}
-      },
       "1692329972272007824": {
         "type": "shopify://apps/zepto-product-personalizer/blocks/product_personalizer_main/7411210d-7b32-4c09-9455-e129e3be4729",
         "disabled": false,
@@ -140,6 +135,11 @@
       "6770548097779500122": {
         "type": "shopify://apps/koala-free-gift/blocks/gifts-embed/baf92dc5-8ffa-40c0-967e-57b74cddc9e3",
         "disabled": false,
+        "settings": {}
+      },
+      "15685250022964305326": {
+        "type": "shopify://apps/elevar-conversion-tracking/blocks/dataLayerEmbed/bc30ab68-b15c-4311-811f-8ef485877ad6",
+        "disabled": true,
         "settings": {}
       }
     },
