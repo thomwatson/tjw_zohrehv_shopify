@@ -399,10 +399,10 @@
       "scheme-41dcf479-01de-458c-8b90-61b7fdbc760c": {
         "settings": {
           "section_text": "#ffffff",
-          "section_bg": "#d8d6e7",
+          "section_bg": "#792f56",
           "section_bg_light": "#ffffff",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#d8d6e7",
+          "btn_primary_bg": "#792f56",
           "btn_primary_text": "#ffffff",
           "btn_primary_border": "#212121",
           "btn_secondary_bg": "#1b2144",
