@@ -11,6 +11,7 @@
   "sections": {
     "section_video_DkBX3e": {
       "type": "section-video",
+      "disabled": true,
       "settings": {
         "video": "shopify://files/videos/IMG_3599.MOV",
         "show_video_popup": false,
@@ -44,7 +45,6 @@
       "blocks": {
         "text_AnCbte": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>New in</p>",
             "text_font_size": "body-large"
@@ -52,7 +52,6 @@
         },
         "heading_T6QRCc": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "title": "Botanical Flat Backs",
             "heading_font_size": "heading-x-small",
@@ -61,7 +60,6 @@
         },
         "button_tYRCMX": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "link_text": "Discover Now",
             "link": "shopify://collections/zohreh-v-sale",
@@ -77,14 +75,13 @@
         "heading_T6QRCc",
         "button_tYRCMX"
       ],
-      "disabled": true,
       "settings": {
-        "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners_4_fdd6a880-cdd4-4cbf-b98a-92c486708c01.png",
-        "link": "shopify://collections/zohreh-v-sale",
+        "image_1": "shopify://shop_images/IMG_2743_copy.jpg",
+        "link": "shopify://collections/new-in-jewellery",
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
-        "mobile_image": "shopify://shop_images/Zohreh_V_Mobile_Banners_4c2e284f-2873-4dfb-aa0c-345925141f6b.jpg",
+        "mobile_image": "shopify://shop_images/IMG_2727.jpg",
         "mobile_height": "five-fifty-height-hero--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-2",
