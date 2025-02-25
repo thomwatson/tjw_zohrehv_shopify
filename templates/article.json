@@ -90,7 +90,7 @@
         "recent-articles"
       ],
       "custom_css": [
-        ".article__title {display: none !important;}"
+        ".article__title, .article__hero {display: none !important;}"
       ],
       "settings": {
         "show_image": false,
