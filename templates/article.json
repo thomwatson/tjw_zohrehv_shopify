@@ -90,7 +90,8 @@
         "recent-articles"
       ],
       "custom_css": [
-        ".article__title, .article__hero {display: none !important;}"
+        ".article__title,.article__hero {display: none !important;}",
+        "h1, h2, h3, h4, h5, h6, h7 {text-transform:inherit;letter-spacing:0px!important;}"
       ],
       "settings": {
         "show_image": false,
