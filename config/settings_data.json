@@ -69,7 +69,7 @@
     "badge_text_color": "#212121",
     "show_sold_out_badge": true,
     "show_automatic_new_badge": true,
-    "badge_new_date_limit": 20,
+    "badge_new_date_limit": 100,
     "quick_add_bg_color": "{{ shop.brand.colors.primary[0].background }}",
     "quick_add_text_color": "{{ shop.brand.colors.primary[0].foreground }}",
     "form_style": "modern",
