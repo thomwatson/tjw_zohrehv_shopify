@@ -92,7 +92,7 @@
         "recent-articles"
       ],
       "custom_css": [
-        "h1 {display:none!important}"
+        ".article__title{display: none !important;}"
       ],
       "settings": {
         "show_image": false,
