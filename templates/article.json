@@ -15,15 +15,15 @@
         "subheading_VMCpg9": {
           "type": "subheading",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "By {{ article.author }}",
             "padding_bottom": 16
           }
         },
         "heading_hNaEme": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
-            "heading_font_size": "heading-large",
+            "title": "{{ article.title }}",
+            "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -31,20 +31,8 @@
         "text_P4PFgf": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "{{ article.excerpt }}",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_rBMBxb": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
             "padding_bottom": 16
           }
         }
@@ -52,8 +40,10 @@
       "block_order": [
         "subheading_VMCpg9",
         "heading_hNaEme",
-        "text_P4PFgf",
-        "buttons_rBMBxb"
+        "text_P4PFgf"
+      ],
+      "custom_css": [
+        "h2 {text-transform: inherit; letter-spacing: 0px !important;}"
       ],
       "settings": {
         "image_1": "{{ article.image }}",
@@ -61,8 +51,8 @@
         "text_alignment": "text-left",
         "layout": "",
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
@@ -92,7 +82,7 @@
         "recent-articles"
       ],
       "custom_css": [
-        ".article__title{display: none !important;}"
+        ".article__title {display: none !important;}"
       ],
       "settings": {
         "show_image": false,
