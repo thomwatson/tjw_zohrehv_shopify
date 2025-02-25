@@ -12,10 +12,10 @@
     "section_double_b4gykz": {
       "type": "section-double",
       "blocks": {
-        "subheading_VMCpg9": {
-          "type": "subheading",
+        "code_6jEgJE": {
+          "type": "code",
           "settings": {
-            "subheading": "By {{ article.author }}",
+            "code": "<p>{{ article.published_at | date: \"%B %d, %Y\" }}</p>",
             "padding_bottom": 16
           }
         },
@@ -28,6 +28,13 @@
             "heading_tag": "automatic"
           }
         },
+        "subheading_VMCpg9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "By {{ article.author }}",
+            "padding_bottom": 16
+          }
+        },
         "text_P4PFgf": {
           "type": "text",
           "settings": {
@@ -38,8 +45,9 @@
         }
       },
       "block_order": [
-        "subheading_VMCpg9",
+        "code_6jEgJE",
         "heading_hNaEme",
+        "subheading_VMCpg9",
         "text_P4PFgf"
       ],
       "custom_css": [
@@ -54,7 +62,7 @@
         "height": "four-fifty-height-hero",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -86,11 +94,11 @@
       ],
       "settings": {
         "show_image": false,
-        "show_date": true,
-        "show_author": true,
+        "show_date": false,
+        "show_author": false,
         "tags": false,
-        "show_sharing": true,
-        "arrows": false,
+        "show_sharing": false,
+        "arrows": true,
         "height": "screen-height-one-third",
         "mobile_height": "screen-height-one-third--mobile",
         "color_scheme": "",
