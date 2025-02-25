@@ -518,7 +518,8 @@
         "products_YcepEn"
       ],
       "custom_css": [
-        ".brick__block.brick__block--products {overflow-x: hidden;}"
+        ".brick__block.brick__block--products {overflow-x: hidden;}",
+        "@media only screen and (max-width: 749px){.brick__block--products {padding-left: var(--inner);}}"
       ],
       "settings": {
         "width": "wrapper--full",
