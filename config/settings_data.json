@@ -1875,6 +1875,9 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".product-item .sale-box,.product-item .preorder-box,.product-item .badge-box {position: absolute; left: var(--left-spacing); top: 5px; z-index: 3; display: inline-block; margin-right: 5px; /* Space between badges */}",
+      "/* New positioning for the sale badge when new badge is present */.product-item .badge-box.new-badge + .sale-box {left: calc(var(--left-spacing) + 60px); /* Adjust the 60px based on your new badge width */}"
+    ]
   }
 }
