@@ -79,12 +79,12 @@
         "button_tYRCMX"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners_0955dace-1d63-4f4c-b170-7982b8a81fd4.jpg",
+        "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners_1.jpg",
         "link": "shopify://collections/new-in-jewellery",
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
-        "mobile_image": "shopify://shop_images/Zohreh_V_Mobile_Banners_1.jpg",
+        "mobile_image": "shopify://shop_images/Zohreh_V_Mobile_Banners_1_A.jpg",
         "mobile_height": "sixty-fifty-height-hero--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-2",
