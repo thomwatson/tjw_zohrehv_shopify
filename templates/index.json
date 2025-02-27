@@ -85,7 +85,7 @@
         "height": "sixty-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
         "mobile_image": "shopify://shop_images/Zohreh_V_Mobile_Banners_1.jpg",
-        "mobile_height": "five-fifty-height-hero--mobile",
+        "mobile_height": "sixty-fifty-height-hero--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-2",
         "show_text_background": false,
