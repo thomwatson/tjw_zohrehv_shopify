@@ -49,6 +49,130 @@
         "show_placeholder": true
       }
     },
+    "section_tab_collections_9yMyVn": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_eKYC9A": {
+          "type": "collection",
+          "settings": {
+            "title": "Pick Your Earring Charm",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_h3rVXm": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_7kAGge": {
+          "type": "collection",
+          "settings": {
+            "title": "Second collection",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_iqFNeR": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_mfBnDX": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_eKYC9A",
+        "collection_h3rVXm",
+        "collection_7kAGge",
+        "collection_iqFNeR",
+        "collection_mfBnDX"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "title": "How to shop our charms",
+        "heading_font_size": "heading-medium",
+        "text": "<p>From everything to silver and solid gold earring charms, this is we're all about.</p>",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
     "hero": {
       "type": "collection-image-with-title",
       "disabled": true,
@@ -103,6 +227,7 @@
   },
   "order": [
     "section_double_ThRhfx",
+    "section_tab_collections_9yMyVn",
     "hero",
     "subcollections",
     "main"
