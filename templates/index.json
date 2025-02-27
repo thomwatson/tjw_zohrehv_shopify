@@ -99,9 +99,9 @@
         "collection_VBWF3q": {
           "type": "collection",
           "settings": {
-            "collection": "new-in-jewellery",
-            "collection_image": "shopify://shop_images/Free_Gift_Email.png",
-            "title": "Free Gift Over £195"
+            "collection": "necklaces",
+            "collection_image": "shopify://shop_images/Zohreh_V._Jewellery_Test_18197_v2_01fe8647-cc48-401b-8e67-dce90551e9fc.jpg",
+            "title": "Necklaces"
           }
         },
         "collection_QF9NNy": {
@@ -132,9 +132,9 @@
         "collection_jm9gt8": {
           "type": "collection",
           "settings": {
-            "collection": "zohreh-v-sale",
-            "collection_image": "shopify://shop_images/Zohreh_V_Mobile_Banners_4c2e284f-2873-4dfb-aa0c-345925141f6b.jpg",
-            "title": "Sale"
+            "collection": "personalised-gifting",
+            "collection_image": "shopify://shop_images/Zorhreh_V_-_Winter_Collection26066_1.jpg",
+            "title": "Personalised Jewellery"
           }
         }
       },
