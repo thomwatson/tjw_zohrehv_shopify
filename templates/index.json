@@ -45,6 +45,7 @@
       "blocks": {
         "text_AnCbte": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>New in</p>",
             "text_font_size": "body-large"
@@ -52,6 +53,7 @@
         },
         "heading_T6QRCc": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Botanical Flat Backs",
             "heading_font_size": "heading-x-small",
@@ -60,9 +62,10 @@
         },
         "button_tYRCMX": {
           "type": "button",
+          "disabled": true,
           "settings": {
-            "link_text": "Discover Now",
-            "link": "shopify://collections/zohreh-v-sale",
+            "link_text": "",
+            "link": "shopify://collections/new-in-jewellery",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--outline",
