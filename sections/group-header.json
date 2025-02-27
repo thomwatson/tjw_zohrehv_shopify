@@ -117,6 +117,7 @@
     },
     "section_custom_code_dNFMNK": {
       "type": "section-custom-code",
+      "disabled": true,
       "settings": {
         "code": "<p style=\"text-align:center;font-size:11px;margin:0;padding:8px 8px 10px 8px;\"><a style=\"color:white;\" href=\"https://zohrehv.com/collections/zohreh-v-sale\">Shop SALE with an extra 10% off. Code 'EXTRA10'</a></p>",
         "width": "wrapper--full",
