@@ -84,6 +84,7 @@
     },
     "overlay_text_promo_FwF74Y": {
       "type": "overlay-text-promo",
+      "disabled": true,
       "settings": {
         "position": "popup-promo--right",
         "title": "Free Gift Worth Up-To £80",
