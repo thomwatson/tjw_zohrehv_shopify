@@ -29,6 +29,7 @@
         },
         "text_wfAVmj": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Sign up to our newsletter for 10% off</p>",
             "target_url_enabled": false,
@@ -43,9 +44,9 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Extra 10% off Sale with code 'EXTRA10'</p>",
+            "text": "<p>15% off plus an extra 5% over £195 this weekend only!</p>",
             "target_url_enabled": false,
-            "target_url": "shopify://collections/zohreh-v-sale",
+            "target_url": "shopify://collections/bestsellers-1",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
