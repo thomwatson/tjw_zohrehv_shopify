@@ -393,46 +393,46 @@
       data-aos-anchor="{{ aos_anchor }}">
       {{ badge_soldout }}
     </span>
-  {%- else -%}
-    {%- if badge_new != '' -%}
-      <span class="badge-box new-badge"
-        data-aos="fade"
-        data-aos-delay="{{ aos_delay }}"
-        data-aos-duration="{{ aos_duration }}"
-        data-aos-anchor="{{ aos_anchor }}">
-        {{ badge_new }}
-      </span>
-    {%- endif -%}
-    
-    {%- if on_sale and sold_out == false -%}
-      <span class="sale-box"
-        data-aos="fade"
-        data-aos-delay="{{ aos_delay }}"
-        data-aos-duration="{{ aos_duration }}"
-        data-aos-anchor="{{ aos_anchor }}">
-        {{ 'products.product.on_sale' | t }}
-      </span>
-    {%- endif -%}
-    
-    {%- if badge != '' and badge_new == '' -%}
-      <span class="badge-box"
-        data-aos="fade"
-        data-aos-delay="{{ aos_delay }}"
-        data-aos-duration="{{ aos_duration }}"
-        data-aos-anchor="{{ aos_anchor }}">
-        {{ badge }}
-      </span>
-    {%- endif -%}
-    
-    {%- if preorder and sold_out == false and on_sale == false -%}
-      <span class="preorder-box"
-        data-aos="fade"
-        data-aos-delay="{{ aos_delay }}"
-        data-aos-duration="{{ aos_duration }}"
-        data-aos-anchor="{{ aos_anchor }}">
-        {{ 'products.product.pre_order' | t }}
-      </span>
-    {%- endif -%}
+  {%- endif -%}
+
+  {%- if badge_new != '' -%}
+    <span class="badge-box new-badge"
+      data-aos="fade"
+      data-aos-delay="{{ aos_delay }}"
+      data-aos-duration="{{ aos_duration }}"
+      data-aos-anchor="{{ aos_anchor }}">
+      {{ badge_new }}
+    </span>
+  {%- endif -%}
+  
+  {%- if on_sale and sold_out == false -%}
+    <span class="sale-box"
+      data-aos="fade"
+      data-aos-delay="{{ aos_delay }}"
+      data-aos-duration="{{ aos_duration }}"
+      data-aos-anchor="{{ aos_anchor }}">
+      {{ 'products.product.on_sale' | t }}
+    </span>
+  {%- endif -%}
+  
+  {%- if badge != '' and badge_new == '' -%}
+    <span class="badge-box"
+      data-aos="fade"
+      data-aos-delay="{{ aos_delay }}"
+      data-aos-duration="{{ aos_duration }}"
+      data-aos-anchor="{{ aos_anchor }}">
+      {{ badge }}
+    </span>
+  {%- endif -%}
+  
+  {%- if preorder and sold_out == false and on_sale == false -%}
+    <span class="preorder-box"
+      data-aos="fade"
+      data-aos-delay="{{ aos_delay }}"
+      data-aos-duration="{{ aos_duration }}"
+      data-aos-anchor="{{ aos_anchor }}">
+      {{ 'products.product.pre_order' | t }}
+    </span>
   {%- endif -%}
 
   {%- if settings.quickview_enable and current_variant -%}
