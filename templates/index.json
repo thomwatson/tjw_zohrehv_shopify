@@ -45,7 +45,6 @@
       "blocks": {
         "text_AnCbte": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>New in</p>",
             "text_font_size": "body-large"
@@ -53,7 +52,6 @@
         },
         "heading_T6QRCc": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "title": "Botanical Flat Backs",
             "heading_font_size": "heading-x-small",
@@ -62,7 +60,6 @@
         },
         "button_tYRCMX": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "link_text": "",
             "link": "shopify://collections/new-in-jewellery",
@@ -79,12 +76,12 @@
         "button_tYRCMX"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/Zohreh_V_Desktop_Banners_6_1.png",
+        "image_1": "shopify://shop_images/IMG_2743_copy.jpg",
         "link": "shopify://collections/new-in-jewellery",
         "width": "wrapper--full",
         "height": "image-height",
         "flex_align_desktop": "align--middle-center-desktop",
-        "mobile_image": "shopify://shop_images/Zohreh_V_Mobile_Banners_6_A.png",
+        "mobile_image": "shopify://shop_images/IMG_2727.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-2",
