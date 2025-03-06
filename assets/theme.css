@@ -1,19 +1,4 @@
-/* CSS for styling out-of-stock items */
-.product-grid-item .oos {
-  opacity: 0.7;
-}
 
-.product-grid-item .oos::after {
-  content: "Out of Stock";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.9);
-  padding: 5px 10px;
-  border-radius: 3px;
-  font-weight: bold;
-}
 
 @charset "UTF-8";
 /*! ============================================================================
