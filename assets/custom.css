@@ -1,6 +1,6 @@
 /* Style for out of stock items */
 .oos .product-item__price .price {
-  text-decoration: line-through;
+
   opacity: 0.7;
 }
 
