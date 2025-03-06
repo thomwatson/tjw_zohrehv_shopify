@@ -5,10 +5,9 @@
 }
 
 .oos .product-item__price::after {
-  content: "Out of Stock";
+  content: "Sold Out";
  
 
-  font-weight: bold;
   margin-left: 5px;
   font-size: 0.9em;
 }
