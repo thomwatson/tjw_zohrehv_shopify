@@ -1,32 +1,94 @@
-/* Style for out of stock items */
+/* ===== OUT OF STOCK STYLING ===== */
+/* Style for out of stock items in product grid */
 .oos .product-item__price .price {
-
   opacity: 0.7;
 }
 
 .oos .product-item__price::after {
   content: "Sold Out";
- 
-
   margin-left: 5px;
   font-size: 0.9em;
 }
 
+/* Additional styling for sale prices when out of stock */
+.oos .price.sale {
+  opacity: 0.4 !important;
+}
+
+.oos .price.sale:after {
+  content: "Sold Out";
+}
+
+/* ===== TYPOGRAPHY SETTINGS ===== */
+/* Set site-wide font variables */
 :root {
-    --FONT-STACK-HEADING: "Futura", serif!important;
+  --FONT-STACK-HEADING: "Futura", serif !important;
 }
 
+/* Heading styles across the site */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, 
+.article__author-bio h3, .blog-section .article__image .article__tags {
+  letter-spacing: 0.1em !important;
+}
+
+/* Product title styling */
+.product-item__title, .cart__item__title {
+  margin-block: 5px;
+  letter-spacing: 0px !important;
+  font-size: calc(var(--FONT-SIZE-BASE) * 1) !important;
+  margin-top: 5px;
+  text-transform: none !important;
+}
+
+/* Product subtitle styling */
+.product-link subtitle {
+  opacity: 0.5;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-top: 4px;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+
+/* Product block subtitle opacity */
+.product__block subtitle {
+  opacity: 0.6;
+}
+
+/* Product page title styling */
+.product__title *, .product-upsell__title {
+  text-transform: none !important;
+  letter-spacing: 0px !important;
+}
+
+/* Navigation child link styling */
+.navlink--grandchild {
+  text-transform: none;
+  letter-spacing: 0px !important;
+}
+
+/* ===== HEADER STYLING ===== */
+/* Header blur effect */
 .header__wrapper .aos-initialized [data-aos^=fade][data-aos^=fade].aos-animate {
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px); /* For Safari support */
-    background-color: #0000000f;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+  background-color: #0000000f;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog-section .article__image .article__tags {
-
-    letter-spacing: 0.1em!important;
+/* Transparent header with blur effect */
+body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):not(:has([data-prevent-transparent-header])) 
+[data-header-transparent]:not(.meganav--visible):not(.js__header__stuck) .theme__header.has-border {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
+/* Cart icon status color */
+.navlink--cart--icon .header__cart__status {
+  color: white !important;
+}
+
+/* ===== PRODUCT GRID STYLING ===== */
+/* Badge positioning for product items */
 .product-item .sale-box,
 .product-item .preorder-box,
 .product-item .badge-box {
@@ -36,109 +98,67 @@
   z-index: 3;
   display: inline-block;
   margin-right: 5px; /* Space between badges */
-} /* New positioning for the sale badge when new badge is present */
+}
+
+/* New positioning for sale badge when new badge is present */
 .product-item .badge-box.new-badge + .sale-box {
-  left: calc(
-    var(--left-spacing) + 60px
-  ); /* Adjust the 60px based on your new badge width */
+  left: calc(var(--left-spacing) + 60px); /* Adjust based on new badge width */
 }
 
-.oos .price.sale {
-    opacity: 0.4!important;
-}
-
-.oos .price.sale:after {
-    content: "Sold Out";
-}
-
-.product__block subtitle {
-    opacity: 0.6;
-}
-
-
-.sold-as-count {
-    display: inline-block;
-  margin-right:5px;
-  margin-bottom:5px;
-    font-size: var(--font-body-x-small);
-    color: var(--BTN-PRIMARY-TEXT);
-    background-color: var(--BTN-SECONDARY-BG);
-    width: fit-content;
-    padding: 10px 15px;
-}
-  
-.navlink--grandchild {
-    text-transform: none;
-    letter-spacing: 0px!important;
-}
-
-body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):not(:has([data-prevent-transparent-header])) [data-header-transparent]:not(.meganav--visible):not(.js__header__stuck) .theme__header.has-border {
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
-@media only screen and (min-width: 990px) {
-    .grid--slider {
-        --item-width: calc((70vw - var(--scrollbar-width) - var(--outer)* 2)* .28)!important;
-    }
-}
-
-.navlink--cart--icon .header__cart__status {
-    color: white!important;
-}
-
-.product-item__title, .cart__item__title {
-margin-block: 5px;
-  letter-spacing:0px!important;
-font-size: calc( var(--FONT-SIZE-BASE) * 1)!important;
-    margin-top:5px;
-  text-transform:none!important;
-}
-
-.product-link subtitle {
-    opacity: 0.5;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-top: 4px;
-  text-transform:none;
-  letter-spacing:0px;
-}
-
-.product__title *, .product-upsell__title {
-    text-transform: none!important;
-    letter-spacing: 0px!important;
-}
-
-
+/* Product info padding */
 .product-item__info.body-small {
   padding-left: 0px;
   padding-right: 0;
 }
-@media only screen and (max-width: 749px) {
-  .grid--mobile-slider .grid-item {
-    width: calc(75% - 50px);
-  }
+
+/* ===== COMPONENT STYLING ===== */
+/* Sold as count badge styling */
+.sold-as-count {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: var(--font-body-x-small);
+  color: var(--BTN-PRIMARY-TEXT);
+  background-color: var(--BTN-SECONDARY-BG);
+  width: fit-content;
+  padding: 10px 15px;
 }
+
+/* Radio legend link positioning */
+.radio__legend__link {
+  padding-bottom: 0px;
+  bottom: -2px;
+  display: block;
+  position: relative;
+}
+
+/* ===== TOUCH DEVICE ADJUSTMENTS ===== */
 @media only screen and (min-width: 750px) {
   .supports-touch .quick-add__holder,
   .supports-touch hover-images:after {
     display: none;
   }
 }
+
 .supports-touch hover-images:after {
   bottom: -1px !important;
 }
 
-
-@media only screen and (max-width: 749px) {
-    .grid--mobile-slider {
-       margin-left:0px;
-    }
+/* ===== RESPONSIVE GRID ADJUSTMENTS ===== */
+/* Desktop slider grid width */
+@media only screen and (min-width: 990px) {
+  .grid--slider {
+    --item-width: calc((70vw - var(--scrollbar-width) - var(--outer)* 2)* .28) !important;
+  }
 }
 
-.radio__legend__link {
-    padding-bottom: 0px;
-    bottom: -2px;
-    display: block;
-    position: relative;
+/* Mobile slider adjustments */
+@media only screen and (max-width: 749px) {
+  .grid--mobile-slider .grid-item {
+    width: calc(75% - 50px);
+  }
+  
+  .grid--mobile-slider {
+    margin-left: 0px;
+  }
 }
