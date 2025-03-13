@@ -70,7 +70,7 @@
             "bg_color": "",
             "color": "#ffffff",
             "overlay_opacity": 30,
-            "overlay_color": "",
+            "overlay_color": "#e45824",
             "show_overlay_text": true,
             "heading_tag": "automatic"
           }
