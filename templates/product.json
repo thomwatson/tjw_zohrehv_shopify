@@ -113,7 +113,7 @@
         "code_VN6EL3": {
           "type": "code",
           "settings": {
-            "code": "<a class=\"klaviyo-bis-trigger\" style=\"width: 100%; display: block; background-color: black; text-align: center; padding: 12px; color: white; /* text-transform: uppercase; */ /* font-size: 13px; */ /* letter-spacing: 1px; */\" href=\"#\">Notify Me When Available</a>",
+            "code": "",
             "padding_bottom": 16
           }
         },
