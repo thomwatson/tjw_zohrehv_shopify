@@ -67,10 +67,10 @@
             "mobile_image": "shopify://shop_images/ZVJ_-_March47852ab.jpg",
             "flex_align_mobile": "align--middle-center-mobile",
             "show_text_background": false,
-            "bg_color": "",
+            "bg_color": "#000000",
             "color": "#ffffff",
-            "overlay_opacity": 30,
-            "overlay_color": "#e2d7cd",
+            "overlay_opacity": 80,
+            "overlay_color": "#c4a691",
             "show_overlay_text": true,
             "heading_tag": "automatic"
           }
