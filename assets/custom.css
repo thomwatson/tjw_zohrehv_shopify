@@ -88,6 +88,12 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 }
 
 /* ===== PRODUCT GRID STYLING ===== */
+
+.collection__nav--filter.collection__nav--sort {
+    z-index: 999;
+}
+
+
 /* Badge positioning for product items */
 .product-item .sale-box,
 .product-item .preorder-box,
