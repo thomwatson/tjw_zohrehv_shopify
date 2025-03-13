@@ -79,7 +79,7 @@
         "image_1": "shopify://shop_images/IMG_2743_copy.jpg",
         "link": "shopify://collections/new-in-jewellery",
         "width": "wrapper--full",
-        "height": "image-height",
+        "height": "five-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
         "mobile_image": "shopify://shop_images/IMG_2727.jpg",
         "mobile_height": "image-height--mobile",
@@ -104,12 +104,18 @@
             "title": "Mother's Day Edit"
           }
         },
-        "collection_QF9NNy": {
+        "collection_GwMjcn": {
           "type": "collection",
           "settings": {
-            "collection": "rings",
-            "collection_image": "shopify://shop_images/0a.jpg",
-            "title": "Vintage"
+            "collection": "new-in-jewellery",
+            "title": ""
+          }
+        },
+        "collection_YwcY7U": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracelets",
+            "title": ""
           }
         },
         "collection_c66YXA": {
@@ -136,14 +142,24 @@
             "collection_image": "shopify://shop_images/Zorhreh_V_-_Winter_Collection26066_1.jpg",
             "title": "Personalised Jewellery"
           }
+        },
+        "collection_QF9NNy": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "collection_image": "shopify://shop_images/0a.jpg",
+            "title": "Vintage"
+          }
         }
       },
       "block_order": [
         "collection_VBWF3q",
-        "collection_QF9NNy",
+        "collection_GwMjcn",
+        "collection_YwcY7U",
         "collection_c66YXA",
         "collection_9FcPQp",
-        "collection_jm9gt8"
+        "collection_jm9gt8",
+        "collection_QF9NNy"
       ],
       "settings": {
         "title": "",
