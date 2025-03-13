@@ -89,6 +89,8 @@ body:has(.main-content>.shopify-section.section-overlay-header:first-of-type):no
 
 /* ===== PRODUCT GRID STYLING ===== */
 
+/* Prevnt mobile quick add floating above other elements */
+
 .collection__nav--filter.collection__nav--sort {
     z-index: 999;
 }
