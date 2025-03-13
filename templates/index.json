@@ -158,7 +158,7 @@
         "show_arrow": true,
         "aspect_ratio": 1,
         "layout": "grid",
-        "grid": 4,
+        "grid": 5,
         "layout_mobile": "2",
         "color_scheme": "scheme-1",
         "padding_top": 50,
