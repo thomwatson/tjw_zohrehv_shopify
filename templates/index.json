@@ -47,7 +47,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_2743_copy.jpg",
-            "title": "<small>New In</small><br>Botanical Flat Backs",
+            "title": "<p><small>New In</small></p>Botanical Flat Backs",
             "heading_font_size": "heading-medium",
             "description": "",
             "text_font_size": "body-large",
