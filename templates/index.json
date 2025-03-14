@@ -115,8 +115,8 @@
       "settings": {
         "transition": "slide",
         "show_arrows": true,
-        "autoplay": false,
-        "autoplay_speed": 8,
+        "autoplay": true,
+        "autoplay_speed": 4,
         "width": "wrapper--full",
         "height": "five-fifty-height-hero",
         "mobile_height": "image-height--mobile",
