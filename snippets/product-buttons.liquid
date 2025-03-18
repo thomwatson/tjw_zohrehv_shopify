@@ -150,25 +150,10 @@
               {%- assign button_text = 'products.product.sold_out' | t | append: ' - ' | append: newsletter_text -%}
 
               <product-modal class="product-soldout-notification">
-                <button type="button" class="btn {{ button_style }} {{ button_type }}" data-popup-open>
-                  <span class="btn__text">{{ button_text }}</span>
-                </button>
+                <a class="klaviyo-bis-trigger" style="display: none;" href="#">Notify Me When Available</a>
 
-                <dialog class="product-modal" aria-hidden="true" inert data-scroll-lock-required>
-                  <form method="dialog">
-                    <button class="visually-hidden no-js" aria-label="{{ 'general.accessibility.close' | t }}"></button>
-                  </form>
 
-                  <div class="drawer__inner product-modal__notification">
-                    <div class="product-modal__content small" data-scroll-lock-scrollable>
-                      <button type="button" class="product-modal__close" data-popup-close aria-label="{{ 'general.accessibility.close' | t }}">
-                        {%- render 'icon-cancel' -%}
-                      </button>
-
-                      {%- render 'notification-form' product_title: product.title, current_variant: current_variant -%}
-                    </div>
-                  </div>
-                </dialog>
+  
               </product-modal>
             {%- endif -%}
           </div>
