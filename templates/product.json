@@ -113,7 +113,7 @@
         "code_VN6EL3": {
           "type": "code",
           "settings": {
-            "code": "<a class=\"klaviyo-bis-trigger\" style=\"display:none;\" href=\"#\">Notify Me When Available</a>",
+            "code": "{% for variant in product.variants %}\n  <script>\n    window.variantAvailability = window.variantAvailability || {};\n    window.variantAvailability['{{ variant.id }}'] = {{ variant.available }};\n  </script>\n{% endfor %}",
             "padding_bottom": 16
           }
         },
