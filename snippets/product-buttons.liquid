@@ -150,10 +150,12 @@
               {%- assign button_text = 'products.product.sold_out' | t | append: ' - ' | append: newsletter_text -%}
 
               <product-modal class="product-soldout-notification">
-                <a class="klaviyo-bis-trigger" style="display: none;" href="#">Notify Me When Available</a>
+             
+                  
+
+                  <a class="klaviyo-bis-trigger btn {{ button_style }} {{ button_type }}" style="display: none;" href="#"><span class="btn__text">{{ button_text }}</span></a>
 
 
-  
               </product-modal>
             {%- endif -%}
           </div>
