@@ -113,7 +113,7 @@
         "code_VN6EL3": {
           "type": "code",
           "settings": {
-            "code": "",
+            "code": "<a class=\"klaviyo-bis-trigger\" style=\"display:none;\" href=\"#\">Notify Me When Available</a>",
             "padding_bottom": 16
           }
         },
