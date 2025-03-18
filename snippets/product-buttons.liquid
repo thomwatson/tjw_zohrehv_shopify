@@ -16,7 +16,7 @@
   endif
 
   unless current_variant.available
-    assign button_text =  'products.product.sold_out' | t
+    assign button_text =  "Notify Me When Available"
   endunless
 
   if block.settings.show_gift_card_recipient and product.gift_card? and is_quickview != true
