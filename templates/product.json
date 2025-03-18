@@ -110,13 +110,6 @@
             "product": "{{product}}"
           }
         },
-        "code_VN6EL3": {
-          "type": "code",
-          "settings": {
-            "code": "<a class=\"klaviyo-bis-trigger\" style=\"display: none;\" href=\"#\">Notify Me When Available</a>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  // Initial check\n  updateKlaviyoButton();\n  \n  // Watch for class changes on the form wrapper\n  const formWrapper = document.querySelector('.form__wrapper--modern');\n  if (formWrapper && window.MutationObserver) {\n    const observer = new MutationObserver(function(mutations) {\n      updateKlaviyoButton();\n    });\n    \n    observer.observe(formWrapper, { \n      attributes: true, \n      attributeFilter: ['class'] \n    });\n  }\n  \n  function updateKlaviyoButton() {\n    const formWrapper = document.querySelector('.form__wrapper--modern');\n    const isSoldOut = formWrapper && formWrapper.classList.contains('variant--soldout');\n    const klaviyoButton = document.querySelector('.klaviyo-bis-trigger');\n    \n    if (klaviyoButton) {\n      klaviyoButton.style.display = isSoldOut ? 'block' : 'none';\n    }\n  }\n});\n</script>",
-            "padding_bottom": 16
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -212,7 +205,6 @@
         "price",
         "code_B9wwne",
         "zepto_product_personalizer_product_personalizer_page_ByG7wQ",
-        "code_VN6EL3",
         "buttons",
         "klarna_on_site_messaging_app_block_Kb6J8B",
         "wrapin_gift_wrap_options_app_block_wgVyzi",
