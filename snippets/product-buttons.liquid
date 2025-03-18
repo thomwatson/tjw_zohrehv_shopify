@@ -16,7 +16,7 @@
   endif
 
   unless current_variant.available
-    assign button_text =  "Notify Me When Available"
+    assign button_text =  'products.product.sold_out' | t
   endunless
 
   if block.settings.show_gift_card_recipient and product.gift_card? and is_quickview != true
@@ -153,7 +153,7 @@
              
                   
 
-                  <a class="klaviyo-bis-trigger btn {{ button_style }} {{ button_type }}" style="display: none;" href="#"><span class="btn__text">{{ button_text }}</span></a>
+                  <a class="klaviyo-bis-trigger btn {{ button_style }} {{ button_type }}" style="display: none;" href="#"><span class="btn__text">Notify When In-Stock</span></a>
 
 
               </product-modal>
