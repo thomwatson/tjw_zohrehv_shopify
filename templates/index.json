@@ -472,7 +472,7 @@
         "heading_PiEAFU": {
           "type": "heading",
           "settings": {
-            "title": "Meaningful Moments",
+            "title": "get personal",
             "heading_font_size": "heading-small",
             "heading_tag": "automatic"
           }
@@ -502,16 +502,16 @@
         "button_x66DAK"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/Zohreh_V._February_0743_low_res.jpg",
+        "image_1": "shopify://shop_images/ZVJ_-_March48008_1.jpg",
         "link": "",
         "width": "wrapper--full",
         "height": "five-fifty-height-hero",
-        "flex_align_desktop": "align--middle-right-desktop",
+        "flex_align_desktop": "align--bottom-right-desktop",
         "mobile_height": "screen-height-one-half--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-db01ebd7-4dc2-43f6-a386-73809c488a92",
         "show_text_background": false,
-        "overlay_opacity": 50,
+        "overlay_opacity": 0,
         "show_overlay_text": true,
         "padding_top": 0,
         "padding_bottom": 0,
