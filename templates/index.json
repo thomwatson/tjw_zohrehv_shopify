@@ -116,7 +116,7 @@
             "description": "",
             "text_font_size": "body-large",
             "first_button_text": "shop now",
-            "first_button_link": "",
+            "first_button_link": "shopify://collections/bracelets",
             "first_button_type": "btn--white",
             "first_button_size": "",
             "first_button_style": "btn--outline",
