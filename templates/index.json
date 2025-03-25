@@ -119,7 +119,7 @@
             "first_button_link": "",
             "first_button_type": "btn--primary",
             "first_button_size": "",
-            "first_button_style": "btn--solid",
+            "first_button_style": "btn--outline",
             "first_button_show_arrow": false,
             "second_button_text": "",
             "second_button_link": "",
