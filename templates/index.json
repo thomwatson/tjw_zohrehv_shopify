@@ -214,14 +214,6 @@
     "section_collections_list_hpLcXN": {
       "type": "section-collections-list",
       "blocks": {
-        "collection_VBWF3q": {
-          "type": "collection",
-          "settings": {
-            "collection": "mothers-day-gift-ideas",
-            "collection_image": "shopify://shop_images/New_FP_Ads_Valentines_Ad_11.jpg",
-            "title": "Mother's Day Edit"
-          }
-        },
         "collection_GwMjcn": {
           "type": "collection",
           "settings": {
@@ -274,6 +266,7 @@
           "type": "collection",
           "settings": {
             "collection": "bracelets",
+            "collection_image": "shopify://shop_images/ZVJ_March_Model_Shoot49623_1.jpg",
             "title": ""
           }
         },
@@ -290,7 +283,16 @@
           "type": "collection",
           "settings": {
             "collection": "rings",
+            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48604_1.jpg",
             "title": ""
+          }
+        },
+        "collection_VBWF3q": {
+          "type": "collection",
+          "settings": {
+            "collection": "mothers-day-gift-ideas",
+            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48342.jpg",
+            "title": "Mother's Day Edit"
           }
         },
         "collection_QF9NNy": {
@@ -303,7 +305,6 @@
         }
       },
       "block_order": [
-        "collection_VBWF3q",
         "collection_GwMjcn",
         "collection_g3ibfh",
         "collection_gFipeQ",
@@ -313,6 +314,7 @@
         "collection_YwcY7U",
         "collection_9FcPQp",
         "collection_jURWCj",
+        "collection_VBWF3q",
         "collection_QF9NNy"
       ],
       "settings": {
