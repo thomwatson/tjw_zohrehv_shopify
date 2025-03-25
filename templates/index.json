@@ -236,7 +236,7 @@
           "type": "collection",
           "settings": {
             "collection": "necklaces",
-            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48734_1.jpg",
+            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48734_1_sq_1.jpg",
             "title": "Pendants"
           }
         },
@@ -268,7 +268,7 @@
           "type": "collection",
           "settings": {
             "collection": "rhodolite-garnet",
-            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48342.jpg",
+            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48334editedsq.jpg",
             "title": "Rhodolite Garnet"
           }
         },
@@ -276,7 +276,7 @@
           "type": "collection",
           "settings": {
             "collection": "personalised-gifting",
-            "collection_image": "shopify://shop_images/ZVJ_-_March48008_1_97964fd5-48d6-48be-9e06-e90ede2ab892.jpg",
+            "collection_image": "shopify://shop_images/ZVJ_-_March48010_1_asq.jpg",
             "title": "Personalised"
           }
         },
@@ -284,7 +284,7 @@
           "type": "collection",
           "settings": {
             "collection": "earrings",
-            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48366.jpg",
+            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48366sq.jpg",
             "title": "Earrings"
           }
         },
