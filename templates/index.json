@@ -78,8 +78,8 @@
         "image_RgyYJg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ZVJ_-_March47856ac.jpg",
-            "title": "<p><small>30th march</small></p>mothers day",
+            "image": "shopify://shop_images/ZVJ_-_March_Product48334edited.jpg",
+            "title": "<p><small>new in</small></p>rhodolite garnet",
             "heading_font_size": "heading-medium",
             "description": "",
             "text_font_size": "body-large",
@@ -95,13 +95,13 @@
             "second_button_size": "",
             "second_button_style": "btn--outline",
             "second_button_show_arrow": false,
-            "flex_align_desktop": "align--bottom-left-desktop",
-            "mobile_image": "shopify://shop_images/ZVJ_-_March47852ab.jpg",
-            "flex_align_mobile": "align--middle-center-mobile",
+            "flex_align_desktop": "align--bottom-right-desktop",
+            "mobile_image": "shopify://shop_images/ZVJ_-_March_Product48342.jpg",
+            "flex_align_mobile": "align--bottom-right-mobile",
             "show_text_background": false,
             "bg_color": "#000000",
             "color": "#ffffff",
-            "overlay_opacity": 80,
+            "overlay_opacity": 0,
             "overlay_color": "#c4a691",
             "show_overlay_text": true,
             "heading_tag": "automatic"
