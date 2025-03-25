@@ -38,7 +38,7 @@
             "show_text_background": false,
             "bg_color": "#000000",
             "color": "#ffffff",
-            "overlay_opacity": 80,
+            "overlay_opacity": 40,
             "overlay_color": "#c4a691",
             "show_overlay_text": true,
             "heading_tag": "automatic"
