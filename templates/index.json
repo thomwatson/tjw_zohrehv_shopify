@@ -11,12 +11,10 @@
   "sections": {
     "section_video_DkBX3e": {
       "type": "section-video",
-      "disabled": true,
       "settings": {
-        "video": "shopify://files/videos/IMG_3599.MOV",
         "show_video_popup": false,
-        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "title": "order by sunday 23rd february",
+        "video_popup_social": "https://youtu.be/fM5VFcytwS8",
+        "title": "Meet Founder Luisa Vasseghi",
         "heading_font_size": "heading-x-small",
         "text": "<p>To receive personalised orders by Mother's Day </p>",
         "text_font_size": "body-large",
