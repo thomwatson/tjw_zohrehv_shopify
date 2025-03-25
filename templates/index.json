@@ -230,20 +230,12 @@
             "title": "Huggies"
           }
         },
-        "collection_gFipeQ": {
+        "collection_748RX6": {
           "type": "collection",
           "settings": {
-            "collection": "flat-back-earrings",
-            "collection_image": "shopify://shop_images/diamond_leaf_flat_back_gold.jpg",
-            "title": ""
-          }
-        },
-        "collection_jm9gt8": {
-          "type": "collection",
-          "settings": {
-            "collection": "personalised-gifting",
-            "collection_image": "shopify://shop_images/ZVJ_-_March48008_1_97964fd5-48d6-48be-9e06-e90ede2ab892.jpg",
-            "title": "Personalised"
+            "collection": "necklaces",
+            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48734_1.jpg",
+            "title": "Pendants"
           }
         },
         "collection_jURWCj": {
@@ -254,12 +246,36 @@
             "title": ""
           }
         },
-        "collection_748RX6": {
+        "collection_YwcY7U": {
           "type": "collection",
           "settings": {
-            "collection": "necklaces",
-            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48734_1.jpg",
-            "title": "Pendants"
+            "collection": "bracelets",
+            "collection_image": "shopify://shop_images/ZVJ_March_Model_Shoot49623_1.jpg",
+            "title": ""
+          }
+        },
+        "collection_gFipeQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "flat-back-earrings",
+            "collection_image": "shopify://shop_images/diamond_leaf_flat_back_gold.jpg",
+            "title": ""
+          }
+        },
+        "collection_VBWF3q": {
+          "type": "collection",
+          "settings": {
+            "collection": "mothers-day-gift-ideas",
+            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48342.jpg",
+            "title": "Mother's Day Edit"
+          }
+        },
+        "collection_jm9gt8": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalised-gifting",
+            "collection_image": "shopify://shop_images/ZVJ_-_March48008_1_97964fd5-48d6-48be-9e06-e90ede2ab892.jpg",
+            "title": "Personalised"
           }
         },
         "collection_c66YXA": {
@@ -270,14 +286,6 @@
             "title": "Earrings"
           }
         },
-        "collection_YwcY7U": {
-          "type": "collection",
-          "settings": {
-            "collection": "bracelets",
-            "collection_image": "shopify://shop_images/ZVJ_March_Model_Shoot49623_1.jpg",
-            "title": ""
-          }
-        },
         "collection_9FcPQp": {
           "type": "collection",
           "disabled": true,
@@ -285,14 +293,6 @@
             "collection": "earrings",
             "collection_image": "shopify://shop_images/ZVJ_-_Dec_Sale35591_1.jpg",
             "title": "Personalised"
-          }
-        },
-        "collection_VBWF3q": {
-          "type": "collection",
-          "settings": {
-            "collection": "mothers-day-gift-ideas",
-            "collection_image": "shopify://shop_images/ZVJ_-_March_Product48342.jpg",
-            "title": "Mother's Day Edit"
           }
         },
         "collection_QF9NNy": {
@@ -307,14 +307,14 @@
       "block_order": [
         "collection_GwMjcn",
         "collection_g3ibfh",
-        "collection_gFipeQ",
-        "collection_jm9gt8",
-        "collection_jURWCj",
         "collection_748RX6",
-        "collection_c66YXA",
+        "collection_jURWCj",
         "collection_YwcY7U",
-        "collection_9FcPQp",
+        "collection_gFipeQ",
         "collection_VBWF3q",
+        "collection_jm9gt8",
+        "collection_c66YXA",
+        "collection_9FcPQp",
         "collection_QF9NNy"
       ],
       "settings": {
@@ -374,7 +374,7 @@
             "featured_collection": "huggie-earrings",
             "show_image": true,
             "align_with_product_images": false,
-            "image": "shopify://shop_images/ZVJ_-_Dec_Sale37405_1.jpg",
+            "image": "shopify://shop_images/ZVJ_-_March48000_5fbaad0f-6905-46f1-950b-cc5b9a2e1ab5.jpg",
             "overlay_opacity": 10,
             "overlay_color": "#000000",
             "description": "<h5>{{ block.settings.featured_collection.title }}</h5>",
@@ -510,7 +510,7 @@
         "width": "wrapper--full",
         "height": "five-fifty-height-hero",
         "flex_align_desktop": "align--bottom-right-desktop",
-        "mobile_image": "shopify://shop_images/ZVJ_-_March48010_1_a.jpg",
+        "mobile_image": "shopify://shop_images/ZVJ_-_March48008a.jpg",
         "mobile_height": "four-fifty-height-hero--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-db01ebd7-4dc2-43f6-a386-73809c488a92",
