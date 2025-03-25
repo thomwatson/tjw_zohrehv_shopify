@@ -394,6 +394,7 @@
             "featured_collection": "earring-charms",
             "show_image": true,
             "align_with_product_images": false,
+            "image": "shopify://shop_images/ZVJ_-_March_Product48472_1.jpg",
             "overlay_opacity": 0,
             "overlay_color": "",
             "description": "<h5>{{ block.settings.featured_collection.title }}</h5>",
