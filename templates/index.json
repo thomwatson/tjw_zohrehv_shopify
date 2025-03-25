@@ -492,7 +492,7 @@
             "link": "shopify://collections/personalised-gifting",
             "button_type": "btn--white",
             "button_size": "",
-            "button_style": "btn--solid",
+            "button_style": "btn--outline",
             "show_arrow": true
           }
         }
@@ -508,7 +508,8 @@
         "width": "wrapper--full",
         "height": "five-fifty-height-hero",
         "flex_align_desktop": "align--bottom-right-desktop",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_image": "shopify://shop_images/ZVJ_-_March48010_1_a.jpg",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "flex_align_mobile": "align--bottom-left-mobile",
         "color_scheme": "scheme-db01ebd7-4dc2-43f6-a386-73809c488a92",
         "show_text_background": false,
