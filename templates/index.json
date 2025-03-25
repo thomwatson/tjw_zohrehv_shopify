@@ -46,8 +46,8 @@
         "image_LL4e7T": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Zohreh_V_Desktop_Banners_1_7586cd90-fb25-496f-8fd4-60ba4879b856.png",
-            "title": "<p><small>New In</small></p>Emerald Jewellery",
+            "image": "shopify://shop_images/ZVJ_March_Model_Shoot49386.jpg",
+            "title": "<p><small>New In</small></p>Spring Collection",
             "heading_font_size": "heading-medium",
             "description": "",
             "text_font_size": "body-large",
@@ -64,8 +64,8 @@
             "second_button_style": "btn--outline",
             "second_button_show_arrow": false,
             "flex_align_desktop": "align--bottom-left-desktop",
-            "mobile_image": "shopify://shop_images/Zohreh_V_Mobile_Banners_4_1069ca8a-e9dc-48f0-96ba-d4360351a0f7.png",
-            "flex_align_mobile": "align--middle-center-mobile",
+            "mobile_image": "shopify://shop_images/ZVJ_March_Model_Shoot49395.jpg",
+            "flex_align_mobile": "align--bottom-center-mobile",
             "show_text_background": false,
             "bg_color": "#000000",
             "color": "#ffffff",
@@ -106,11 +106,42 @@
             "show_overlay_text": true,
             "heading_tag": "automatic"
           }
+        },
+        "image_NFMnLa": {
+          "type": "image",
+          "settings": {
+            "title": "Image slide",
+            "heading_font_size": "heading-x-large",
+            "description": "Tell your brand's story through images.",
+            "text_font_size": "body-large",
+            "first_button_text": "View products",
+            "first_button_link": "",
+            "first_button_type": "btn--primary",
+            "first_button_size": "",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": false,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--primary",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "heading_tag": "automatic"
+          }
         }
       },
       "block_order": [
         "image_LL4e7T",
-        "image_RgyYJg"
+        "image_RgyYJg",
+        "image_NFMnLa"
       ],
       "settings": {
         "transition": "fade",
@@ -118,8 +149,8 @@
         "autoplay": true,
         "autoplay_speed": 6,
         "width": "wrapper--full",
-        "height": "five-fifty-height-hero",
-        "mobile_height": "screen-height-two-thirds--mobile",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "color_scheme": "scheme-5",
         "padding_top": 0,
         "padding_bottom": 0
