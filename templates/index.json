@@ -110,9 +110,10 @@
         "image_NFMnLa": {
           "type": "image",
           "settings": {
-            "title": "Image slide",
+            "image": "shopify://shop_images/ZVJ_-_March_Product48671_1.jpg",
+            "title": "<p><small>new in</small></p>rhodolite garnet",
             "heading_font_size": "heading-x-large",
-            "description": "Tell your brand's story through images.",
+            "description": "",
             "text_font_size": "body-large",
             "first_button_text": "View products",
             "first_button_link": "",
