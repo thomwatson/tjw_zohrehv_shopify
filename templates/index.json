@@ -44,7 +44,7 @@
         "image_LL4e7T": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ZVJ_March_Model_Shoot49386.jpg",
+            "image": "shopify://shop_images/ZVJ_March_Model_Shoot49386adesk.jpg",
             "title": "<p><small>New In</small></p>Spring Collection",
             "heading_font_size": "heading-medium",
             "description": "",
@@ -76,7 +76,7 @@
         "image_RgyYJg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ZVJ_-_March_Product48334edited.jpg",
+            "image": "shopify://shop_images/ZVJ_-_March_Product48334editedadesk.jpg",
             "title": "<p><small>new in</small></p>rhodolite garnet",
             "heading_font_size": "heading-medium",
             "description": "",
@@ -108,7 +108,7 @@
         "image_RejNMX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ZVJ_-_March_Product48496.jpg",
+            "image": "shopify://shop_images/ZVJ_-_March_Product48496_1_desk.jpg",
             "title": "<p><small>new in</small></p>earring charms",
             "heading_font_size": "heading-small",
             "description": "",
@@ -140,7 +140,7 @@
         "image_NFMnLa": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ZVJ_-_March_Product48671_1.jpg",
+            "image": "shopify://shop_images/ZVJ_-_March_Product48671_1_desk.jpg",
             "title": "<p><small>new in</small></p>bracelets",
             "heading_font_size": "heading-medium",
             "description": "",
@@ -898,11 +898,11 @@
     }
   },
   "order": [
-    "section_video_DkBX3e",
     "section_slideshow_BQXjhd",
     "hero",
     "section_collections_list_hpLcXN",
     "section_collection_k9R3Bx",
+    "section_video_DkBX3e",
     "section-tab-collections",
     "section_hero_wGTkP6",
     "section_collection_cgF7UT",
