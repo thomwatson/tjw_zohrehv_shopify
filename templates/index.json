@@ -112,7 +112,7 @@
           "settings": {
             "image": "shopify://shop_images/ZVJ_-_March_Product48671_1.jpg",
             "title": "<p><small>new in</small></p>rhodolite garnet",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-medium",
             "description": "",
             "text_font_size": "body-large",
             "first_button_text": "View products",
@@ -127,7 +127,7 @@
             "second_button_size": "",
             "second_button_style": "btn--solid",
             "second_button_show_arrow": false,
-            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_desktop": "align--bottom-left-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "show_text_background": false,
             "bg_color": "",
