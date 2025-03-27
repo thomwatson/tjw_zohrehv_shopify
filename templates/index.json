@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "section_video_AKer76": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video": "shopify://files/videos/Zohreh V  Desktop Banners_dd590a70-c545-43f5-ac84-db1020146d80.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "",
+        "title": "New Spring Collection",
+        "heading_font_size": "heading-large",
+        "text": "<p>Tell your brand's story through images.</p>",
+        "text_font_size": "body-medium",
+        "flex_align": "align--bottom-left",
+        "link_text": "Shop Now",
+        "link": "shopify://collections/new-in-jewellery",
+        "button_type": "btn--white",
+        "button_size": "",
+        "button_style": "btn--outline",
+        "show_arrow": false,
+        "desktop_height": "sixty-fifty-height-hero",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "color": "",
+        "overlay_opacity": 20,
+        "show_overlay_text": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
     "section_slideshow_BQXjhd": {
       "type": "section-slideshow",
       "blocks": {
@@ -898,6 +929,7 @@
     }
   },
   "order": [
+    "section_video_AKer76",
     "section_slideshow_BQXjhd",
     "hero",
     "section_collections_list_hpLcXN",
