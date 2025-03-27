@@ -2,7 +2,9 @@
 <html class="no-js no-touch supports-no-cookies" lang="{{ request.locale.iso_code }}">
 
 <head>
-	{% render 'pandectes-rules' %}
+	<script src="{{ 'pandectes-rules.js' | file_url }}"></script>
+	
+	
   {%- render 'head' -%}
 
   {{ content_for_header }}

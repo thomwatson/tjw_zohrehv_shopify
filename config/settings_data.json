@@ -128,11 +128,6 @@
         "disabled": false,
         "settings": {}
       },
-      "15351435345818755577": {
-        "type": "shopify://apps/pandectes-gdpr-compliance/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
-        "disabled": false,
-        "settings": {}
-      },
       "6628239160433917566": {
         "type": "shopify://apps/littledata-revenue-tracking/blocks/LittledataLayer/45a35ed8-a2b2-46c3-84fa-6f58497c5345",
         "disabled": false,
@@ -141,6 +136,11 @@
       "6770548097779500122": {
         "type": "shopify://apps/koala-free-gift/blocks/gifts-embed/baf92dc5-8ffa-40c0-967e-57b74cddc9e3",
         "disabled": true,
+        "settings": {}
+      },
+      "57498326022912790000": {
+        "type": "shopify://apps/gdpr-cookie-consent/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
         "settings": {}
       }
     },
